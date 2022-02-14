@@ -11,7 +11,7 @@
 ## Integrantes: <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
 <br><br>
 <p align="center">
-<img src="https://instagram.frao1-2.fna.fbcdn.net/v/t51.2885-15/e35/273633009_4881276031933516_7669658658903034540_n.jpg?_nc_ht=instagram.frao1-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=fGpQnCkRqioAX_Ji_x3&tn=70PNMsWLbI0PxRV1&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3MDY5OTM0NjgyODAxMjQwNQ%3D%3D.2-ccb7-4&oh=00_AT-lksn1qyJaQabiC8D2VQyc-dr86P2qbPzCofiRP3G9rg&oe=620B5719&_nc_sid=30a2ef" width="600" height="600" margin="20"</p>
+<img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/Grupo.jpg?raw=true" width="600" height="600" margin="20"</p>
      
 <p align="center" margin="20"> Grupo High Five </p>
 📜 O nosso projeto é um jogo digital que busca orientar alunos do Inteli e pessoas que pretendem se inserir no mercado da tecnologia através dos bacharéis de tecnologia oferecidos pelo MEC, entretanto não sabem qual dos cursos escolher para seguir sua carreira.
