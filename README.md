@@ -4,30 +4,28 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do Projeto
+# My Career
 
-## Nome do Grupo
+## High Five
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
-
-## Descrição
-
-📜 Descrição curta sobre o que seu projeto faz.
-<br><br>
-Meu projeto é um exemplo de como utilizar o github.
+## Integrantes: <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
 <br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://instagram.frao1-2.fna.fbcdn.net/v/t51.2885-15/e35/273633009_4881276031933516_7669658658903034540_n.jpg?_nc_ht=instagram.frao1-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=fGpQnCkRqioAX_Ji_x3&tn=70PNMsWLbI0PxRV1&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3MDY5OTM0NjgyODAxMjQwNQ%3D%3D.2-ccb7-4&oh=00_AT-lksn1qyJaQabiC8D2VQyc-dr86P2qbPzCofiRP3G9rg&oe=620B5719&_nc_sid=30a2ef" width="600" height="600" margin="20"</p>
+     
+<p align="center" margin="20"> Grupo High Five </p>
+📜 O nosso projeto é um jogo digital que busca orientar alunos do Inteli e pessoas que pretendem se inserir no mercado da tecnologia através dos bacharéis de tecnologia oferecidos pelo MEC, entretanto não sabem qual dos cursos escolher para seguir sua carreira.
+<br><br>
+<p align="center">
+<img src="https://scontent-gig2-1.cdninstagram.com/v/t51.2885-15/e35/273696503_316045217236905_8582995898139153955_n.jpg?_nc_ht=scontent-gig2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=-KDvS8vEvxYAX9YGl2T&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3MDcwMDE3OTMzODY1NTUzNA%3D%3D.2-ccb7-4&oh=00_AT-EY6mq9T296pgm78XiubR_6TIxIBvT3LXTd6-VU2AywA&oe=620B903C&_nc_sid=30a2ef" alt="MY CAREER" border="0">
 </p>
 
 
-💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+💡 O My Career é um jogo mobile para sistema operacional android em 2D do gênero RPG e simulação. O My Carrer é um jogo de mundo aberto e multi escolha, onde as decisões do jogador mudam a linearidade da história e desse modo muda o seu fim e sua experiência com o jogo.
+
+O jogo se trata basicamente de uma simulação de um jovem que inicia sua carreira na área da tecnologia em uma megalópole cheia de oportunidades, o mesmo personagem não sabe qual área da tecnologia deve seguir e por isso através do tempo ele testa as profissões e vai descobrindo qual o melhor caminho quer seguir, desse modo o jogador passa pela mesma experiência e descobre junto ao seu personagem baseado em suas escolhas qual curso ele deve seguir para melhor atender suas expectativas laborais.
 <br><br>
-Meu projeto ajuda estudantes inteli a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
