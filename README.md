@@ -17,7 +17,7 @@
 📜 O nosso projeto é um jogo digital que busca orientar alunos do Inteli e pessoas que pretendem se inserir no mercado da tecnologia através dos bacharéis de tecnologia oferecidos pelo MEC, entretanto não sabem qual dos cursos escolher para seguir sua carreira.
 <br><br>
 <p align="center">
-<img src="https://drive.google.com/file/d/1i8S_OVHt115Q8Uq1chFCZyfNWctxxgfr/view" width="700" height="700" alt="MY CAREER" border="0">
+<img src="//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2" width="700" height="700" alt="MY CAREER" border="0">
 </p>
 
 
