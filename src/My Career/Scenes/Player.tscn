@@ -1,9 +1,13 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/CharacterSheet.png" type="Texture" id=2]
+[ext_resource path="res://6e2129b1e3ee52aeec19a2de37e72827.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/kisspng-dialog-box-video-game-dialogue-clip-art-game-box-5b487bcd031d52.7402623515314769410128.png" type="Texture" id=5]
+[ext_resource path="res://Louis George Cafe.ttf" type="DynamicFontData" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 6, 4 )
 
 [sub_resource type="Animation" id=2]
 resource_name = "Idle"
@@ -75,10 +79,15 @@ graph_offset = Vector2( -24, -10 )
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=10]
 
+[sub_resource type="DynamicFont" id=11]
+size = 82
+font_data = ExtResource( 6 )
+
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 8 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -99,3 +108,36 @@ parameters/playback = SubResource( 10 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+
+[node name="InstruçãoComando" type="Sprite" parent="Camera2D"]
+position = Vector2( -27, 57 )
+scale = Vector2( 0.08875, 0.0894322 )
+texture = ExtResource( 5 )
+
+[node name="Rosto" type="Sprite" parent="Camera2D/InstruçãoComando"]
+position = Vector2( -1200, -15.0953 )
+scale = Vector2( 1.128, 1.128 )
+texture = ExtResource( 3 )
+
+[node name="Nome" type="RichTextLabel" parent="Camera2D/InstruçãoComando"]
+margin_left = -755.0
+margin_top = -257.0
+margin_right = -203.0
+margin_bottom = -156.0
+rect_pivot_offset = Vector2( -251, 31 )
+custom_fonts/normal_font = SubResource( 11 )
+text = "ELON MUSGO"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Texto" type="RichTextLabel" parent="Camera2D/InstruçãoComando"]
+margin_left = -27.0
+margin_top = 25.0
+margin_right = 137.0
+margin_bottom = 138.0
+rect_pivot_offset = Vector2( -251, 31 )
+text = "Olá Jogador, bem vindo ao meu escritório. Sei que você está precisando de ajuda nesses ultimos dias, e sempre que necessário pode me pedir ajuda."
+__meta__ = {
+"_edit_use_anchors_": false
+}
