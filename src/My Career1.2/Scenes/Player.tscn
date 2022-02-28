@@ -110,6 +110,7 @@ parameters/playback = SubResource( 10 )
 current = true
 
 [node name="InstruçãoComando" type="Sprite" parent="Camera2D"]
+visible = false
 position = Vector2( -27, 57 )
 scale = Vector2( 0.08875, 0.0894322 )
 texture = ExtResource( 5 )
