@@ -112,8 +112,9 @@ parameters/playback = SubResource( 10 )
 current = true
 
 [node name="InstruçãoComando" type="Sprite" parent="Camera2D"]
-position = Vector2( -35, 54 )
-scale = Vector2( 0.0852083, 0.0841483 )
+visible = false
+position = Vector2( -71, 62 )
+scale = Vector2( 0.067, 0.067 )
 texture = ExtResource( 5 )
 
 [node name="Rosto" type="Sprite" parent="Camera2D/InstruçãoComando"]
