@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/14-shading.png-d787f8f01daec0aa73b785c7fdc9755d.stex"
+path="res://.import/14-shading.png-740c64a67b0d9ded895be2eebc6b7e3f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://14-shading.png"
-dest_files=[ "res://.import/14-shading.png-d787f8f01daec0aa73b785c7fdc9755d.stex" ]
+source_file="res://Sprites/14-shading.png"
+dest_files=[ "res://.import/14-shading.png-740c64a67b0d9ded895be2eebc6b7e3f.stex" ]
 
 [params]
 
