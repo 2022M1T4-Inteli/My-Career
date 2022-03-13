@@ -13,12 +13,12 @@
 			"text": "To de olho em você ein ;)!"
 		},
 		{
-			"emit_signal": "msend0",
-			"event_id": "dialogic_040"
-		},
-		{
-			"emit_signal": "emend0",
-			"event_id": "dialogic_040"
+			"definition": "1647181102-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
 		}
 	],
 	"metadata": {

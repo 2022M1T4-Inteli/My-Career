@@ -1,10 +1,38 @@
 {
 	"events": [
 		{
-			"character": "character-1647117958.json",
+			"condition": ">=",
+			"definition": "1647181102-787",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá jogador, antes de mais nada você precisa de mais conhecimento para começar seu estágio, va até tal lugar y e z"
+			"text": ""
+		},
+		{
+			"emit_signal": "emend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1647181102-787",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "vai la e faz o quiz "
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

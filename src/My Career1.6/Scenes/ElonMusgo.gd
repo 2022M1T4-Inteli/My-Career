@@ -23,6 +23,9 @@ func _input(event):
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 			dialog.connect("timeline_end", self, "unpause") #Faz com que ao fim do timeline, o jogo despause
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
+			Dialogic.set_variable("ccxppoints", 0)
+			Dialogic.set_variable("ccqzpoints", 0)
+			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
 			
 

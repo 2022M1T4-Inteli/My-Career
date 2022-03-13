@@ -5,6 +5,9 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Agora você precisa ir até a empresa paar sua primeira experiência"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
