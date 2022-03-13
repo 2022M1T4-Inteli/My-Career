@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá jogador, antes de mais nada você precisa de mais conhecimento para começar seu estágio, va até tal lugar y e z"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647118043.json",
+		"name": "Microsoft-0"
+	}
+}

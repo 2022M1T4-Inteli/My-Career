@@ -7,10 +7,10 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 83, 77.75 )
 
-[node name="MundoAberto" type="Node2D"]
+[node name="OpenWorld" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="Mapa" type="Sprite" parent="."]
+[node name="Map" type="Sprite" parent="."]
 position = Vector2( 276, 563 )
 scale = Vector2( 7, 7 )
 texture = ExtResource( 3 )
@@ -18,11 +18,21 @@ texture = ExtResource( 3 )
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 79, -64 )
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="ElonMusgo" type="Area2D" parent="."]
 position = Vector2( 79, -64 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElonMusgo"]
 position = Vector2( 1372, 2143 )
 shape = SubResource( 1 )
 
-[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[node name="Microsoft" type="Area2D" parent="."]
+position = Vector2( 79, -64 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Microsoft"]
+position = Vector2( -3162, -380 )
+shape = SubResource( 1 )
+
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="Microsoft" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="Microsoft" to="." method="_on_Microsoft_body_entered"]

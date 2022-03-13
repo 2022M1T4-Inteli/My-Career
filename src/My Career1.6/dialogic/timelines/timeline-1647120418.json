@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "você quer iniciar novamente o minigame?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647120418.json",
+		"name": "Microsoft-2"
+	}
+}

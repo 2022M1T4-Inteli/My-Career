@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Em que você precisa de ajuda?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647120381.json",
+		"name": "ElonMusgo-2"
+	}
+}

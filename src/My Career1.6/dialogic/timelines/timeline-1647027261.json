@@ -4,18 +4,26 @@
 			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Olá \"Jogador\", eu sou o Elon Musgo e vou lhe ajudar nessa jornada, sempre que necessário você poderá vir até aqui e consultar mas sobre o curso de Engenharia da Computação."
+			"text": "Olá \"Jogador\", eu sou o Elon Musgo e vou lhe ajudar nessa jornada, sempre que necessário você poderá vir até aqui e consultar mas sobre o curso de Engenharia da Computação. "
 		},
 		{
-			"character": "",
+			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "To de olho em você ein ;)!"
+		},
+		{
+			"emit_signal": "msend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "emend0",
+			"event_id": "dialogic_040"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1647027261.json",
-		"name": "timeline-1"
+		"name": "ElonMusgo-0"
 	}
 }

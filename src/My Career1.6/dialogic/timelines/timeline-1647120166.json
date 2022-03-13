@@ -1,0 +1,29 @@
+{
+	"events": [
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agora sim você pode começar"
+		},
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se necessário agora você pode pedir mais ajuda ao mentor"
+		},
+		{
+			"emit_signal": "msend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "emend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647120166.json",
+		"name": "Microsoft-1"
+	}
+}

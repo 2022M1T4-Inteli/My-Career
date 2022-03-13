@@ -3,9 +3,9 @@
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1647027241.json",
+	"id": "character-1647117958.json",
 	"mirror_portraits": false,
-	"name": "Elon Musgo",
+	"name": "Recepcionista",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -14,10 +14,6 @@
 		{
 			"name": "Default",
 			"path": ""
-		},
-		{
-			"name": "6e2129b1e3ee52aeec19a2de37e72827",
-			"path": "res://Sprites/6e2129b1e3ee52aeec19a2de37e72827.png"
 		}
 	],
 	"scale": 100

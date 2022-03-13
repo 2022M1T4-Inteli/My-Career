@@ -53,6 +53,10 @@ _global_script_class_icons={
 config/name="Mt Career"
 run/main_scene="res://Scenes/Menu.tscn"
 
+[autoload]
+
+GameManager="*res://Scenes/GameManager.gd"
+
 [display]
 
 window/size/width=1920
