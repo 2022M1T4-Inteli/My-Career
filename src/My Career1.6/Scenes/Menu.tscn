@@ -2,9 +2,9 @@
 
 [ext_resource path="res://Scenes/Menu.gd" type="Script" id=1]
 [ext_resource path="res://Audios/MenuSound.mp3" type="AudioStream" id=2]
-[ext_resource path="res://Sprites/full volume.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/mute volume.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/menu.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Interface/Menu/full volume.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Interface/Menu/mute volume.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Interface/Menu/menu.png" type="Texture" id=5]
 
 [node name="Menu" type="Node2D"]
 script = ExtResource( 1 )
