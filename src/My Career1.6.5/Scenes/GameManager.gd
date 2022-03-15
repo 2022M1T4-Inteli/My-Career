@@ -12,3 +12,6 @@ var msdialogcount = 0 #terreo microsoft
 var rmdialogcount = 0 #recrutadora microsoft
 var nsdialogcount = 0 #terreo nasa
 var rndialogcount = 0 #recrutadora nasa
+var goddialogcount = 0 #god
+
+var tutorial = false

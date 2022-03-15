@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Área externa mapa 2.0.png-4b21f6db6b0eab44d93c61e91f6f8d78.stex"
+path="res://.import/CaixaEscolhas.png-59171b26cda04b8373d923815f22b8de.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Mapa/Exterior/Área externa mapa 2.0.png"
-dest_files=[ "res://.import/Área externa mapa 2.0.png-4b21f6db6b0eab44d93c61e91f6f8d78.stex" ]
+source_file="res://Sprites/Interface/Dialogo/CaixaEscolhas.png"
+dest_files=[ "res://.import/CaixaEscolhas.png-59171b26cda04b8373d923815f22b8de.stex" ]
 
 [params]
 

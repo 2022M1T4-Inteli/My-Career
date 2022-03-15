@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209348.cfg"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá Jogador seja bem vindo a simulação que vai lhe ajudar a descobrir o caminho que você deve trilhar na sua vida acadêmica e laboral! Aperte a barra de espaço para pular para a próxima fala.\nViu como é fácil, aliás meu nome é Alan Turing e eu serei seu mentor nessa aventura, estarei aqui sempre que precisar para que eu lhe ajude assim como ajudei a salvar milhões de vidas na segunda guerra mundial com a minha máquina Victoria que descriptografava mensagens nazistas.\nOnde estão meus modos, qual é seu nome mesmo?\n"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_getcharactersName",
+				"target_node_path": "Camera2D"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Inclusive [playername] sempre que quiser interagir pode apertar a letra E do seu teclado para interagir com um NPC.\nCaso seja necessário você pode pedir ajudar para mim, clicando no botão de interrogação no canto superior direito da sua tela. Estarei aqui sempre que precisar para lhe ajudar.\nPara se movimentar dentro do jogo utilize as teclas W, A, S e D do seu telcado.\nEntão [playername] vamos agora começar sua jornada, procure um mentor em uma das casas na parte superior do mapa e inicie sua aventura!"
+		},
+		{
+			"emit_signal": "mentorend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647287726.json",
+		"name": "AlanTuring-0"
+	}
+}

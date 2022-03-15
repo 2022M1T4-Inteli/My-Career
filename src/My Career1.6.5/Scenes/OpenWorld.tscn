@@ -1,20 +1,28 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/OpenWorld.gd" type="Script" id=2]
-[ext_resource path="res://Sprites/Mapa/Exterior/Área externa mapa 2.0.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Mapa/Exterior/MapaExterno.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoNasa.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoEC.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoTesla.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoMicrosoft.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoCC.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoES.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoSI.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoApple.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 141.5, 81.375 )
+extents = Vector2( 163.5, 78.8438 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 91.5, 87.25 )
+extents = Vector2( 84.75, 80.125 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 90, 93.25 )
+extents = Vector2( 78.5, 73.5 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 164, 67 )
+extents = Vector2( 164, 75 )
 
 [node name="OpenWorld" type="Node2D"]
 script = ExtResource( 2 )
@@ -23,6 +31,43 @@ script = ExtResource( 2 )
 position = Vector2( 276, 563 )
 scale = Vector2( 7, 7 )
 texture = ExtResource( 3 )
+
+[node name="LogoNasa" type="Sprite" parent="Map"]
+position = Vector2( -442.572, 211.572 )
+scale = Vector2( 0.0150151, 0.0150151 )
+texture = ExtResource( 4 )
+
+[node name="LogoApple" type="Sprite" parent="Map"]
+position = Vector2( 455, 311.286 )
+scale = Vector2( 0.057967, 0.057967 )
+texture = ExtResource( 11 )
+
+[node name="LogoTesla" type="Sprite" parent="Map"]
+position = Vector2( 167.144, 189.43 )
+scale = Vector2( 0.0189918, 0.0189918 )
+texture = ExtResource( 6 )
+
+[node name="LogoMicrosoft" type="Sprite" parent="Map"]
+position = Vector2( -213.857, 168.715 )
+scale = Vector2( 0.0499303, 0.0499303 )
+texture = ExtResource( 7 )
+
+[node name="LogoEc" type="Sprite" parent="Map"]
+position = Vector2( -479.428, -174.429 )
+scale = Vector2( 0.0117886, 0.0117886 )
+texture = ExtResource( 5 )
+
+[node name="LogoEs" type="Sprite" parent="Map/LogoEc"]
+position = Vector2( 63099.8, -23364 )
+texture = ExtResource( 9 )
+
+[node name="LogoCc" type="Sprite" parent="Map/LogoEc"]
+position = Vector2( 54932, -23303.4 )
+texture = ExtResource( 8 )
+
+[node name="LogoSi" type="Sprite" parent="Map/LogoEc"]
+position = Vector2( 31519.5, -23291.3 )
+texture = ExtResource( 10 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 125, -144 )
@@ -45,43 +90,43 @@ shape = SubResource( 1 )
 position = Vector2( 261, -161 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SteveTrabalho"]
-position = Vector2( -738.5, -2288 )
+position = Vector2( -733, -2297 )
 shape = SubResource( 1 )
 
 [node name="DorothyVan" type="Area2D" parent="."]
 position = Vector2( 261, -161 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DorothyVan"]
-position = Vector2( 1192, -2310 )
+position = Vector2( 1188, -2305.31 )
 shape = SubResource( 1 )
 
 [node name="BillPortas" type="Area2D" parent="."]
 position = Vector2( 261, -161 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BillPortas"]
-position = Vector2( 1874, -2305 )
+position = Vector2( 1866, -2302.84 )
 shape = SubResource( 1 )
 
 [node name="Apple" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Apple"]
-position = Vector2( 3471, 2917 )
+position = Vector2( 3464.25, 2909.88 )
 shape = SubResource( 2 )
 
 [node name="Microsoft" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Microsoft"]
-position = Vector2( -1238, 2071 )
+position = Vector2( -1231.5, 2085.5 )
 shape = SubResource( 3 )
 
 [node name="Nasa" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Nasa"]
-position = Vector2( -2831, 2239 )
+position = Vector2( -2831, 2247 )
 shape = SubResource( 4 )
 
-[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="Tesla" to="." method="_on_Tesla_body_entered"]
 [connection signal="body_entered" from="SteveTrabalho" to="." method="_on_SteveTrabalho_body_entered"]
 [connection signal="body_entered" from="DorothyVan" to="." method="_on_DorothyVan_body_entered"]

@@ -34,14 +34,14 @@ __meta__ = {
 [node name="MentorInterectionArea" type="Area2D" parent="Interior"]
 script = ExtResource( 2 )
 
-[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
-position = Vector2( 113.799, -43.3834 )
-polygon = PoolVector2Array( -222.272, -90.6958, -200.549, -101.992, -224.794, -94.6249, -266.558, -93.3152, -299.912, -34.0519, -297.81, 0.654816, -186.674, -11.7872, -189.898, -95.7709 )
-
 [node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
 position = Vector2( -129.624, -146.069 )
 scale = Vector2( 0.0242761, 0.0288865 )
 texture = ExtResource( 3 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 125.851, -52.5512 )
+polygon = PoolVector2Array( -222.272, -90.6958, -221.711, -18.8268, -300.333, -19.809, -300.333, 1.80083, -200.969, 0.818558, -200.128, -90.3684 )
 
 [node name="OpenWorld" type="Area2D" parent="Interior"]
 

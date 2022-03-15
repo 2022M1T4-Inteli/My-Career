@@ -51,6 +51,3 @@ func _physics_process(delta):
 	
 	move_and_slide(velocity)
 # A função de movimento de objetos recebe o vetor de velocidade.
-
-
-

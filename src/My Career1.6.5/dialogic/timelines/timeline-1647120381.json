@@ -17,6 +17,10 @@
 			"text": " Muito bem! Agora que você completou o QUIZ, pode ir até o prédio da TESLA para ter a experiência do curso."
 		},
 		{
+			"emit_signal": "tsend0",
+			"event_id": "dialogic_040"
+		},
+		{
 			"emit_signal": "emend0",
 			"event_id": "dialogic_040"
 		},

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Map014.png-bf3ab1f3379c240d4e5944491f7a949a.stex"
+path="res://.import/BotãoInterogação.png-a04b5a6f341f4affa54344975c46aae6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Mapa/Interiores/MapaMinigameEngenhariaSoftware/Map014.png"
-dest_files=[ "res://.import/Map014.png-bf3ab1f3379c240d4e5944491f7a949a.stex" ]
+source_file="res://Sprites/Interface/Dialogo/BotãoInterogação.png"
+dest_files=[ "res://.import/BotãoInterogação.png-a04b5a6f341f4affa54344975c46aae6.stex" ]
 
 [params]
 

@@ -36,6 +36,18 @@
 			"text": "Parabéns! Você passou no teste de conhecimento! Agora, basta seguir para o prédio da APPLE e continuar sua trilha no curso de CIÊNCIA DA COMPUTAÇÃO."
 		},
 		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "32"
+		},
+		{
+			"emit_signal": "nsend0",
+			"event_id": "dialogic_040"
+		},
+		{
 			"emit_signal": "dvend0",
 			"event_id": "dialogic_040"
 		},

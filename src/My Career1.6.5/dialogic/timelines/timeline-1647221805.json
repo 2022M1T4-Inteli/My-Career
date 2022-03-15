@@ -233,6 +233,14 @@
 		{
 			"emit_signal": "stend0",
 			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "24"
 		}
 	],
 	"metadata": {

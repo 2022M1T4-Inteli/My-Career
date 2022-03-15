@@ -32,6 +32,14 @@
 			"text": "Parabéns! Você conseguiu passar no QUIZ e foi contratado pela Apple!\nSe dirija ao elevador à sua direita para prosseguir na empresa."
 		},
 		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "44"
+		},
+		{
 			"emit_signal": "apend0",
 			"event_id": "dialogic_040"
 		},

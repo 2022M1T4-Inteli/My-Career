@@ -4,12 +4,6 @@
 	],
 	"variables": [
 		{
-			"id": "1647182325-146",
-			"name": "siqzpoints",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1647182352-483",
 			"name": "esqzpoints",
 			"type": 0,
@@ -50,6 +44,24 @@
 			"name": "ecxppoints",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1647182325-146",
+			"name": "siqzpoints",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647344999-648",
+			"name": "playername",
+			"type": 0,
+			"value": "\"\""
+		},
+		{
+			"id": "1647366069-648",
+			"name": "godindice",
+			"type": 0,
+			"value": "10"
 		}
 	]
 }

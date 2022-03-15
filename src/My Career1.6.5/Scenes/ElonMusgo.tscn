@@ -22,19 +22,12 @@ script = ExtResource( 6 )
 position = Vector2( -47.8437, 164.311 )
 scale = Vector2( 1.77199, 2.00379 )
 
-[node name="MentorColision" type="CollisionPolygon2D" parent="Interior/MentorColisionBody"]
-position = Vector2( 70.1124, -28.7434 )
-polygon = PoolVector2Array( -97.961, -126.951, -97.6447, -103.993, -97.4865, -90.022, -151.188, -89.9403, -151.347, -101.378, -110.774, -101.378, -110.536, -126.869 )
-__meta__ = {
-"_editor_description_": "llide"
-}
-
 [node name="MentorInterectionArea" type="Area2D" parent="Interior"]
 script = ExtResource( 2 )
 
 [node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
 position = Vector2( 125.22, -56.8076 )
-polygon = PoolVector2Array( -222.272, -90.6958, -221.431, -16.5348, -309.723, -17.0259, -317.291, -17.0259, -316.519, 6.71207, -200.235, 4.0076, -201.109, -90.6958 )
+polygon = PoolVector2Array( -314.978, -59.5908, -314.277, -12.1147, -197.956, -12.9332, -199.497, -60.4094 )
 
 [node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
 position = Vector2( -130.476, -147.013 )

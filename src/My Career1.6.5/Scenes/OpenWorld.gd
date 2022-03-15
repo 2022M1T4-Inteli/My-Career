@@ -1,7 +1,11 @@
 extends Node2D
 
 func _ready():
-	pass # Replace with function body.
+	if GameManager.tutorial == false:
+		get_node("Player").get_node("Camera2D")._on_Button_pressed()
+		GameManager.tutorial = true
+	else:
+		pass
 
 
 func _on_ElonMusgo_body_entered(body):
@@ -21,24 +25,24 @@ func _on_SteveTrabalho_body_entered(body):
 
 func _on_DorothyVan_body_entered(body):
 	get_tree().change_scene("res://Scenes/DorothyVan.tscn")
-	pass # Replace with function body.
+	
 
 
 func _on_BillPortas_body_entered(body):
 	get_tree().change_scene("res://Scenes/BillPortas.tscn")
-	pass # Replace with function body.
+
 
 
 func _on_Apple_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoApple.tscn")
-	pass # Replace with function body.
+
 
 
 func _on_Microsoft_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoMicrosoft.tscn")
-	pass # Replace with function body.
+
 
 
 func _on_Nasa_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoNasa.tscn")
-	pass # Replace with function body.
+

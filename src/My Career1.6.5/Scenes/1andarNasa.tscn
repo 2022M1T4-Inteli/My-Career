@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://InteriorTesla.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/1andarNasa.gd" type="Script" id=2]
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameCienciaComputacao/Map020.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
@@ -12,14 +12,14 @@ extents = Vector2( 12.7786, 13.3497 )
 
 [node name="1andarTesla" type="Node2D"]
 
-[node name="InteriorTesla" type="Sprite" parent="."]
+[node name="InteriorNasa" type="Sprite" parent="."]
 scale = Vector2( 7.135, 6.108 )
 texture = ExtResource( 3 )
 script = ExtResource( 2 )
 
-[node name="TerreoNasa" type="Area2D" parent="InteriorTesla"]
+[node name="TerreoNasa" type="Area2D" parent="InteriorNasa"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorTesla/TerreoNasa"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorNasa/TerreoNasa"]
 position = Vector2( 263.069, -132.777 )
 shape = SubResource( 1 )
 
@@ -30,18 +30,18 @@ position = Vector2( 1560, -818 )
 script = ExtResource( 6 )
 
 [node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
-position = Vector2( 209.802, -794.198 )
+position = Vector2( 348, -561 )
 scale = Vector2( 3.10644, 3.25947 )
-polygon = PoolVector2Array( -129.023, -146.896, -261.973, -152.111, -263.582, 52.8301, -119.044, 47.6146 )
+polygon = PoolVector2Array( -129.023, -146.896, -283.926, -142.048, -283.926, -62.8937, -128.443, -62.8937 )
 
 [node name="EButton" type="Sprite" parent="MentorInterectionArea"]
-position = Vector2( -415.698, -1169.92 )
-scale = Vector2( 0.279244, 0.252296 )
+position = Vector2( -258, -1304 )
+scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 5 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -417.698, -977.918 )
+position = Vector2( -262, -1118 )
 scale = Vector2( 0.319444, 0.23374 )
 texture = ExtResource( 4 )
 
-[connection signal="body_entered" from="InteriorTesla/TerreoNasa" to="InteriorTesla" method="_on_TerreoNasa_body_entered"]
+[connection signal="body_entered" from="InteriorNasa/TerreoNasa" to="InteriorNasa" method="_on_TerreoNasa_body_entered"]

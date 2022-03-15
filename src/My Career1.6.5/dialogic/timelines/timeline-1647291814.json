@@ -27,8 +27,20 @@
 			"value": ""
 		},
 		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "63"
+		},
+		{
 			"change_scene": "res://Scenes/MinigameApple.tscn",
 			"event_id": "dialogic_041"
+		},
+		{
+			"emit_signal": "raend0",
+			"event_id": "dialogic_040"
 		},
 		{
 			"choice": "Não",
@@ -39,10 +51,6 @@
 		},
 		{
 			"event_id": "dialogic_013"
-		},
-		{
-			"emit_signal": "raend0",
-			"event_id": "dialogic_040"
 		}
 	],
 	"metadata": {

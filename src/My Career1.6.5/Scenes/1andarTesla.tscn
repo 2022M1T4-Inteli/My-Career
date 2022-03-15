@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://InteriorTesla.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/1andarTesla.gd" type="Script" id=2]
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameEnhenhariaComputacao/Map018.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
@@ -30,13 +30,13 @@ position = Vector2( 6, -668 )
 script = ExtResource( 6 )
 
 [node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
-position = Vector2( -778, -401 )
+position = Vector2( -939, -279 )
 scale = Vector2( 3.10644, 3.25947 )
-polygon = PoolVector2Array( -118.785, -151.252, -290.043, -146.65, -277.81, 13.8059, -107.84, 28.5323 )
+polygon = PoolVector2Array( -115.566, -103.084, -253.345, -104.005, -250.769, 7.66994, -12.5545, 5.21556, -13.5203, -45.0994, -113.635, -46.0198 )
 
 [node name="EButton" type="Sprite" parent="MentorInterectionArea"]
-position = Vector2( -1403.5, -776.72 )
-scale = Vector2( 0.279244, 0.252296 )
+position = Vector2( -1400, -785 )
+scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 5 )
 
 [node name="Sprite" type="Sprite" parent="."]

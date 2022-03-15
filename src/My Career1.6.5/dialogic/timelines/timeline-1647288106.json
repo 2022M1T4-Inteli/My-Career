@@ -13,6 +13,14 @@
 			"text": "Parabéns! Você passou no minigame final!\nSua jornada da ENGENHARIA DA COMPUTAÇÃO está completa.\nSua pontuação atual no minigame é de [ecxppoints] pontos."
 		},
 		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
 			"event_id": "dialogic_013"
 		},
 		{
@@ -48,11 +56,27 @@
 			"event_id": "dialogic_041"
 		},
 		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "61"
+		},
+		{
 			"choice": "não",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "71"
 		},
 		{
 			"event_id": "dialogic_013"
