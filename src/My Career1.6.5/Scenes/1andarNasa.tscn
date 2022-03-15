@@ -20,7 +20,7 @@ script = ExtResource( 2 )
 [node name="TerreoNasa" type="Area2D" parent="InteriorNasa"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorNasa/TerreoNasa"]
-position = Vector2( 263.069, -132.777 )
+position = Vector2( 252.558, -133.595 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]

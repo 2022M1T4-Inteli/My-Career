@@ -6,9 +6,9 @@ func _goddialog():
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
-			dialog.set_variable("godindice", 52)
+			Dialogic.set_variable("godindice", 52)
 			
 
 
-func _on_TerreoNasa_body_entered():
+func _on_TerreoNasa_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoNasa.tscn")
