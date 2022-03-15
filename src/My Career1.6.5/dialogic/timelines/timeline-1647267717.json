@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647208439.cfg"
+		},
+		{
+			"character": "character-1647267811.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá, eu sou Dorothy Van uma das primeiras mulheres negras a ser supervisora na área de computação da NASA.\nDepois de te passar algumas informações sobre a área de ciência da computação, farei algumas perguntas para saber mesmo se entendeu sobre o assunto.\nPrimeiro, um cientista da computação é responsável por desenvolver a parte cientifica, como as teorias, métodos, linguagens e modelos e também o tecnológico da computação. Esse profissional junta dois mundos, ele faz ferramentas para área de computação e software.\nA programação funcional é um dos assuntos tratados em ciência da computação dentro da concepção de algoritmos de alta performance. A programação funcional é um pouco diferente das outras como a imperativa que segue linha embaixo de linha, essa funcional segue um jeito diferente de pensar, sendo a principal forma de estruturar o programa a definição e aplicação de funções.\nO sistema digital também está relacionado a área de ciência da computação na parte de desenvolvimento de algoritmos em restrição de recursos, esse sistema é uma combinação de dispositivos projetados para manipular informação lógica ou quantidades físicas que são representadas no formato digital, ou seja, as quantidades só podem assumir valores discretos. Exemplos de sistemas digitais são os computadores digitais e calculadoras, o sistema de telefonia (maior do mundo), etc.\nTemos também os sistemas distribuídos, que é algo que está espalhado por todos os lugares, ou seja, acessível a todos. O sistema distribuído é um conjunto de computadores independentes entre si (e até diferentes), ligados através de uma rede de dados, que se apresentam aos utilizadores como um sistema único e coerente. Exemplos de sistemas distribuídos são: Sistemas de pesquisas, Sistemas financeiros, Jogos Online e Redes Sociais."
+		},
+		{
+			"emit_signal": "dvend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647267717.json",
+		"name": "DorothyVan-0"
+	}
+}

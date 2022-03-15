@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209342.cfg"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá, seja bem vindo à minha residência. Sou Steve Trabalhos e estou aqui para te mostrar como funciona o curso de SISTEMAS DE INFORMAÇÃO.\nPrimeiramente, estes são os principais cargos de um profissional formado em SI: Analista de Sistemas, Analista de Negócios, Programador e Gerente de Segurança da Informação.\nSabendo disso, é possível entender que nesse curso há um foco grande em dados, seja coletando-os ou analisando-os, principalmente administrando um grande fluxo de informações. \nUm profissional que cursou Sistemas de Informação deve saber como sua solução afeta o hardware e também como desenvolver sistemas computacionais, sendo assim, no curso, hardware é abordado, mas de forma rasa, somente o suficiente para o profissional poder identificar se o hardware é capaz de suportar o fluxo de informações e assim otimizar o sistema o máximo possível.\n É um curso muito importante no mercado atual, uma vez que as maiores empresas sempre terão um fluxo muito grande de dados, e é de extrema importância que esses dados sejam eficientemente aproveitados.\nUma outra função muito importante do profissional da área é a criação de sistemas matemáticos para prever e prevenir problemas, como previsão de problemas ambientais. \nPortanto, pode-se concluir que é um curso característico de gestão de dados e até de criação de sistemas corporativos.\nQuando estiver pronto, volte até mim para que possamos testar se você absorveu o conteúdo passado."
+		},
+		{
+			"emit_signal": "stend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647221788.json",
+		"name": "SteveTrabalho-0"
+	}
+}

@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://InteriorTesla.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameEnhenhariaComputacao/Map018.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
+[ext_resource path="res://Scenes/RecrutadoraT.gd" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 12.7786, 13.3497 )
+
+[node name="1andarTesla" type="Node2D"]
+
+[node name="InteriorTesla" type="Sprite" parent="."]
+scale = Vector2( 7.135, 6.108 )
+texture = ExtResource( 3 )
+script = ExtResource( 2 )
+
+[node name="TerreoTesla" type="Area2D" parent="InteriorTesla"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorTesla/TerreoTesla"]
+position = Vector2( 0.420462, -143.255 )
+shape = SubResource( 1 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 6, -668 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
+position = Vector2( -778, -401 )
+scale = Vector2( 3.10644, 3.25947 )
+polygon = PoolVector2Array( -118.785, -151.252, -290.043, -146.65, -277.81, 13.8059, -107.84, 28.5323 )
+
+[node name="EButton" type="Sprite" parent="MentorInterectionArea"]
+position = Vector2( -1403.5, -776.72 )
+scale = Vector2( 0.279244, 0.252296 )
+texture = ExtResource( 5 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -1405.5, -584.72 )
+scale = Vector2( 0.319444, 0.23374 )
+texture = ExtResource( 4 )
+
+[connection signal="body_entered" from="InteriorTesla/TerreoTesla" to="InteriorTesla" method="_on_TerreoTesla_body_entered"]

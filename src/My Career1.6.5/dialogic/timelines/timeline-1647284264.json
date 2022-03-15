@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209346.cfg"
+		},
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bem vindo à Tesla! Aqui você terá uma ideia melhor de como um engenheiro da computação trabalha na prática. Atinja a nota mínima no QUIZ e depois volte aqui para prosseguir."
+		},
+		{
+			"emit_signal": "tsend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647284264.json",
+		"name": "RecepcionistaT-0"
+	}
+}

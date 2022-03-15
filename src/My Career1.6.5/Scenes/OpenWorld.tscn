@@ -1,0 +1,91 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/OpenWorld.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Exterior/Área externa mapa 2.0.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 141.5, 81.375 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 91.5, 87.25 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 90, 93.25 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 164, 67 )
+
+[node name="OpenWorld" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Map" type="Sprite" parent="."]
+position = Vector2( 276, 563 )
+scale = Vector2( 7, 7 )
+texture = ExtResource( 3 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 125, -144 )
+
+[node name="ElonMusgo" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElonMusgo"]
+position = Vector2( -3341, -286 )
+shape = SubResource( 1 )
+
+[node name="Tesla" type="Area2D" parent="."]
+position = Vector2( 16, -30 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tesla"]
+position = Vector2( 1438, 2104 )
+shape = SubResource( 1 )
+
+[node name="SteveTrabalho" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SteveTrabalho"]
+position = Vector2( -738.5, -2288 )
+shape = SubResource( 1 )
+
+[node name="DorothyVan" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DorothyVan"]
+position = Vector2( 1192, -2310 )
+shape = SubResource( 1 )
+
+[node name="BillPortas" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BillPortas"]
+position = Vector2( 1874, -2305 )
+shape = SubResource( 1 )
+
+[node name="Apple" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Apple"]
+position = Vector2( 3471, 2917 )
+shape = SubResource( 2 )
+
+[node name="Microsoft" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Microsoft"]
+position = Vector2( -1238, 2071 )
+shape = SubResource( 3 )
+
+[node name="Nasa" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nasa"]
+position = Vector2( -2831, 2239 )
+shape = SubResource( 4 )
+
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="Tesla" to="." method="_on_Tesla_body_entered"]
+[connection signal="body_entered" from="SteveTrabalho" to="." method="_on_SteveTrabalho_body_entered"]
+[connection signal="body_entered" from="DorothyVan" to="." method="_on_DorothyVan_body_entered"]
+[connection signal="body_entered" from="BillPortas" to="." method="_on_BillPortas_body_entered"]
+[connection signal="body_entered" from="Apple" to="." method="_on_Apple_body_entered"]
+[connection signal="body_entered" from="Microsoft" to="." method="_on_Microsoft_body_entered"]
+[connection signal="body_entered" from="Nasa" to="." method="_on_Nasa_body_entered"]

@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647208252.cfg"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parabéns! Você completou toda a trila do curso de ENGENHARIA DE SOFTWARE."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647269356.json",
+		"name": "BillPortas-4"
+	}
+}

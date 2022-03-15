@@ -1,0 +1,73 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"condition": ">=",
+			"definition": "1647181086-648",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parabéns! Você passou no minigame final!\nSua jornada de CIÊNCIA DA COMPUTAÇÃO está completa.\nSua pontuação atual no minigame é de [ccxppoints] pontos."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1647181086-648",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Infelizmente você não passou, tente novamente.\nSua pontuação atual no minigame é de [ccxppoints] pontos e o mínimo necessário para passar são 10 pontos."
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quer tentar novamente"
+		},
+		{
+			"choice": "sim",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://Scenes/MinigameNasa.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "não",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647302874.json",
+		"name": "RecrutadoraNasa-1"
+	}
+}

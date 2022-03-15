@@ -1,0 +1,70 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/TerreoTesla.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recepcionista Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaRecepcaoEngenhariaComputacao/Prédio teórico EC recepção.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 12.564 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 16.2961 )
+
+[node name="ElonMusgo" type="Node2D"]
+
+[node name="Interior" type="Sprite" parent="."]
+position = Vector2( 944, -1000 )
+scale = Vector2( 7.13542, 6.10833 )
+texture = ExtResource( 5 )
+script = ExtResource( 6 )
+
+[node name="MentorColisionBody" type="StaticBody2D" parent="Interior"]
+position = Vector2( -47.8437, 164.311 )
+scale = Vector2( 1.77199, 2.00379 )
+
+[node name="MentorColision" type="CollisionPolygon2D" parent="Interior/MentorColisionBody"]
+position = Vector2( 70.5783, -27.0973 )
+polygon = PoolVector2Array( -97.961, -126.951, -97.6447, -103.993, -97.4865, -90.022, -151.188, -89.9403, -151.347, -101.378, -111.683, -103.666, -110.536, -126.869 )
+__meta__ = {
+"_editor_description_": "llide"
+}
+
+[node name="MentorInterectionArea" type="Area2D" parent="Interior"]
+script = ExtResource( 2 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 113.799, -43.3834 )
+polygon = PoolVector2Array( -222.272, -90.6958, -200.549, -101.992, -224.794, -94.6249, -266.558, -93.3152, -299.912, -34.0519, -297.81, 0.654816, -186.674, -11.7872, -189.898, -95.7709 )
+
+[node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
+position = Vector2( -129.624, -146.069 )
+scale = Vector2( 0.0242761, 0.0288865 )
+texture = ExtResource( 3 )
+
+[node name="OpenWorld" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/OpenWorld"]
+position = Vector2( -133.279, 190.396 )
+shape = SubResource( 1 )
+
+[node name="1andarTesla" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/1andarTesla"]
+position = Vector2( 191.579, -108.54 )
+shape = SubResource( 2 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4, -75 )
+
+[node name="NPC" type="Sprite" parent="."]
+position = Vector2( 8.72146, -1715 )
+scale = Vector2( 0.2145, 0.248808 )
+texture = ExtResource( 4 )
+
+[connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
+[connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
+[connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]
+[connection signal="body_entered" from="Interior/1andarTesla" to="Interior" method="_on_1andarTesla_body_entered"]

@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647134832.cfg"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você precisa voltar ao prédio da TESLA para realizar os minigames."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647214112.json",
+		"name": "ElonMusgo-3"
+	}
+}
