@@ -14,7 +14,7 @@
 			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Muito bem! Agora que você completou o QUIZ, pode ir até o prédio da TESLA para ter a experiência do curso."
+			"text": " Muito bem [playername]! Agora que você completou o QUIZ, pode ir até o prédio da TESLA para ter a experiência do curso."
 		},
 		{
 			"definition": "1647366069-648",
@@ -45,7 +45,7 @@
 			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parece que você ainda não atingiu o nota mínima para passar. Por favor, volte ao QUIZ e acerte mais questões para continuar."
+			"text": "[playername], parece que você ainda não atingiu o nota mínima para passar. Por favor, volte ao QUIZ e acerte mais questões para continuar."
 		},
 		{
 			"emit_signal": "emend-1",

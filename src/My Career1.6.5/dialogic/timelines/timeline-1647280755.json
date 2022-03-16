@@ -8,7 +8,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bem vindo à Nasa! Aqui você terá uma ideia melhor de como um profissional formado em CIÊNCIA DA COMPUTAÇÃO trabalha na prática. Atinja a nota mínima no QUIZ e depois volte aqui para prosseguir."
+			"text": "[playername] bem vindo à Nasa! Aqui você terá uma ideia melhor de como um profissional formado em CIÊNCIA DA COMPUTAÇÃO trabalha na prática. Atinja a nota mínima no QUIZ e depois volte aqui para prosseguir."
 		},
 		{
 			"emit_signal": "nsend0",

@@ -8,7 +8,7 @@
 			"character": "character-1647269471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns! Você completou toda a trila do curso de ENGENHARIA DE SOFTWARE."
+			"text": "Parabéns [playername]! Você completou toda a trila do curso de ENGENHARIA DE SOFTWARE."
 		}
 	],
 	"metadata": {

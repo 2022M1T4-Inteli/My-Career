@@ -21,23 +21,8 @@
 			"event_id": "dialogic_042"
 		},
 		{
-			"condition": "!=",
-			"definition": "1647344999-648",
-			"event_id": "dialogic_012",
-			"value": "\"\""
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Inclusive [playername] sempre que quiser interagir pode apertar a letra E do seu teclado para interagir com um NPC.\nCaso seja necessário você pode pedir ajudar para mim, clicando no botão de interrogação no canto superior direito da sua tela. Estarei aqui sempre que precisar para lhe ajudar.\nPara se movimentar dentro do jogo utilize as teclas W, A, S e D do seu telcado.\nEntão [playername] vamos agora começar sua jornada, procure um mentor em uma das casas na parte superior do mapa e inicie sua aventura!"
-		},
-		{
-			"emit_signal": "mentorend0",
+			"emit_signal": "godend0",
 			"event_id": "dialogic_040"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

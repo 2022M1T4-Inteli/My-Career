@@ -10,7 +10,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns! Você passou no minigame final!\nSua jornada de ENGENHARIA DE SOFTWARE está completa.\nSua pontuação atual no minigame é de [esxppoints] pontos."
+			"text": "Parabéns [playername]! Você passou no minigame final!\nSua jornada de ENGENHARIA DE SOFTWARE está completa.\nSua pontuação atual no minigame é de [esxppoints] pontos."
 		},
 		{
 			"definition": "1647366069-648",
@@ -33,7 +33,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Infelizmente você não passou, tente novamente.\nSua pontuação atual no minigame é de [esxppoints] pontos e o mínimo necessário para passar são 10 pontos."
+			"text": "Infelizmente você não passou [playername], tente novamente.\nSua pontuação atual no minigame é de [esxppoints] pontos e o mínimo necessário para passar são 10 pontos."
 		},
 		{
 			"character": "character-1647288409.json",

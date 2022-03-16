@@ -14,7 +14,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parece que você não atingiu a nota mínima no QUIZ! Por favor, volte à casa do mentor e refaça o QUIZ para aumentar sua nota."
+			"text": "[playername] parece que você não atingiu a nota mínima no QUIZ! Por favor, volte à casa do mentor e refaça o QUIZ para aumentar sua nota."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -29,7 +29,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parece que você passou no QUIZ, então....\nParabéns! Você foi contratado pela Tesla!\nSe dirija ao elevador à sua direita para prosseguir na empresa."
+			"text": "Parece que você passou no QUIZ, então....\nParabéns [playername]! Você foi contratado pela Tesla!\nSe dirija ao elevador à sua direita para prosseguir na empresa."
 		},
 		{
 			"definition": "1647366069-648",

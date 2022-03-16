@@ -14,7 +14,7 @@
 			"character": "character-1647223667.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ops! Parece que você ainda não atingiu o nota mínima para passar. Por favor, volte ao QUIZ e acerte mais questões para continuar."
+			"text": "Ops [playername]! Parece que você ainda não atingiu o nota mínima para passar. Por favor, volte ao QUIZ e acerte mais questões para continuar."
 		},
 		{
 			"emit_signal": "stend-1",
@@ -33,7 +33,7 @@
 			"character": "character-1647223667.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns! Agora que você completou o QUIZ, pode ir até o prédio da APPLE para ter a experiência do curso."
+			"text": "Parabéns [playername]! Agora que você completou o QUIZ, pode ir até o prédio da APPLE para ter a experiência do curso."
 		},
 		{
 			"definition": "1647366069-648",

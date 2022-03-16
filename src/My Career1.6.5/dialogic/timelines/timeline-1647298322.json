@@ -14,7 +14,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você ainda não alcançou a nota mínima no minigame, volte e tente novamente para completar a trilha deste curso."
+			"text": "[playername] você ainda não alcançou a nota mínima no minigame, volte e tente novamente para completar a trilha deste curso."
 		},
 		{
 			"emit_signal": "tsend-1",
@@ -33,7 +33,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns! Sua jornada nesse curso está completa, foi um prazer ter te guiado!"
+			"text": "Parabéns [playername]! Sua jornada nesse curso está completa, foi um prazer ter te guiado!"
 		},
 		{
 			"event_id": "dialogic_013"

@@ -8,7 +8,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá, seja bem vindo à área de experimento da Nasa.\nAqui você passará por um minigame, o qual será seu último desafio da sua jornada de CIÊNCIA DA COMPUTAÇÃO."
+			"text": "Olá [playername], seja bem vindo à área de experimento da Nasa.\nAqui você passará por um minigame, o qual será seu último desafio da sua jornada de CIÊNCIA DA COMPUTAÇÃO."
 		},
 		{
 			"character": "character-1647288409.json",

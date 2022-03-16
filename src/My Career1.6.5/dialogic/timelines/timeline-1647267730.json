@@ -8,7 +8,7 @@
 			"character": "character-1647267811.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns! Você completou toda a trila do curso de CIÊNCIA DA COMPUTAÇÃO."
+			"text": "Parabéns [playername]! Você completou toda a trila do curso de CIÊNCIA DA COMPUTAÇÃO."
 		},
 		{
 			"definition": "1647366069-648",

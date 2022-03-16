@@ -1,10 +1,11 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Personagens/CharacterSheet.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Interface/Dialogo/BotãoInterogação.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/Camera2D.gd" type="Script" id=4]
 [ext_resource path="res://Sprites/Interface/Dialogo/CaixaNome.png" type="Texture" id=5]
+[ext_resource path="res://Fonts/noto-sans-regular.ttf" type="DynamicFontData" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 43, 28 )
@@ -79,6 +80,32 @@ graph_offset = Vector2( -24, -10 )
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=10]
 
+[sub_resource type="DynamicFont" id=13]
+size = 300
+outline_size = 10
+outline_color = Color( 1, 0.388235, 0.807843, 0.537255 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.596078, 0.290196, 0.847059, 0.509804 )
+corner_radius_top_left = 200
+corner_radius_top_right = 200
+corner_radius_bottom_right = 200
+corner_radius_bottom_left = 200
+
+[sub_resource type="DynamicFont" id=14]
+size = 184
+outline_size = 13
+outline_color = Color( 0.482353, 0.113725, 0.784314, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=15]
+size = 432
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 1 )
 
@@ -132,33 +159,57 @@ scale = Vector2( 0.156991, 0.156991 )
 texture = ExtResource( 5 )
 
 [node name="TextEdit" type="TextEdit" parent="CaixaNome"]
-margin_left = -1338.0
-margin_top = -223.0
-margin_right = 4815.0
-margin_bottom = 229.0
+margin_left = -1401.0
+margin_top = -242.0
+margin_right = 3421.0
+margin_bottom = 255.0
+grow_horizontal = 2
+custom_fonts/font = SubResource( 13 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/normal = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label2" type="Label" parent="CaixaNome"]
-margin_left = -4854.0
-margin_top = -312.0
-margin_right = -1357.0
-margin_bottom = -108.0
+margin_left = -4860.15
+margin_top = -337.599
+margin_right = -1458.15
+margin_bottom = -86.5991
+custom_fonts/font = SubResource( 14 )
 text = "NOME"
+align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="CaixaNome"]
-margin_left = -4847.0
-margin_top = -89.0
-margin_right = -1350.0
-margin_bottom = 274.0
-text = "Digite seu Nome: "
+[node name="Button2" type="Button" parent="CaixaNome"]
+margin_left = 3395.1
+margin_top = -312.12
+margin_right = 4867.1
+margin_bottom = 282.88
+custom_fonts/font = SubResource( 15 )
+text = "OK"
+flat = true
+clip_text = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="CaixaNome"]
+margin_left = -4873.0
+margin_top = -102.0
+margin_right = -1440.0
+margin_bottom = 312.0
+custom_fonts/font = SubResource( 14 )
+text = "Digite seu Nome:"
+align = 1
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [connection signal="pressed" from="BotãoInterogação/Button" to="Camera2D" method="_on_Button_pressed"]
 [connection signal="text_changed" from="CaixaNome/TextEdit" to="Camera2D" method="_on_TextEdit_text_changed"]
+[connection signal="pressed" from="CaixaNome/Button2" to="Camera2D" method="_on_Button2_pressed"]
