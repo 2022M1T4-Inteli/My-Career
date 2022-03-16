@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/kisspng-pixel-dodgers-pixel-art-8-bit-character-5b441daa6a9820.8348973415311906984366.jpg-e7628d4e83e6d971fb180e706e15e341.stex"
+path="res://.import/Molduras.png-03fdf002c511476415cc27309fa41448.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/kisspng-pixel-dodgers-pixel-art-8-bit-character-5b441daa6a9820.8348973415311906984366.jpg"
-dest_files=[ "res://.import/kisspng-pixel-dodgers-pixel-art-8-bit-character-5b441daa6a9820.8348973415311906984366.jpg-e7628d4e83e6d971fb180e706e15e341.stex" ]
+source_file="res://Moldura/Molduras.png"
+dest_files=[ "res://.import/Molduras.png-03fdf002c511476415cc27309fa41448.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

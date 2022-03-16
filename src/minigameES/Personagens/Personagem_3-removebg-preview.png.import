@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CharacterSheet.png-c940197ed9fcabdd39fdf7bad558a140.stex"
+path="res://.import/Personagem_3-removebg-preview.png-82ffaa46b2204f61d146666e3c93c8ad.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/CharacterSheet.png"
-dest_files=[ "res://.import/CharacterSheet.png-c940197ed9fcabdd39fdf7bad558a140.stex" ]
+source_file="res://Personagens/Personagem_3-removebg-preview.png"
+dest_files=[ "res://.import/Personagem_3-removebg-preview.png-82ffaa46b2204f61d146666e3c93c8ad.stex" ]
 
 [params]
 

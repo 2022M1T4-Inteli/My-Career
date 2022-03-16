@@ -1,0 +1,314 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Personagens/Personagem_1-removebg-preview (1).png" type="Texture" id=1]
+[ext_resource path="res://Personagens/Personagem_4-removebg-preview.png" type="Texture" id=2]
+[ext_resource path="res://Personagens/Personagem_2-removebg-preview.png" type="Texture" id=3]
+[ext_resource path="res://Personagens/Personagem_5-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://Personagens/Personagem_6-removebg-preview.png" type="Texture" id=5]
+[ext_resource path="res://Personagens/Personagem_3-removebg-preview.png" type="Texture" id=6]
+[ext_resource path="res://cenas/minigame.gd" type="Script" id=7]
+[ext_resource path="res://fonte/Louis George Cafe.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 22
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+outline_size = 1
+outline_color = Color( 1, 1, 0, 1 )
+font_data = ExtResource( 8 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+margin_left = -1472.0
+margin_top = -496.0
+margin_right = 3032.0
+margin_bottom = 2107.0
+rect_pivot_offset = Vector2( 1568, 1156 )
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "s"
+}
+
+[node name="personagem4" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 1480.0
+margin_top = 872.0
+margin_right = 1800.0
+margin_bottom = 1048.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem4-removebg-preview" type="Sprite" parent="Control/ColorRect/personagem4"]
+position = Vector2( 48, 88 )
+texture = ExtResource( 4 )
+
+[node name="habilidade4" type="Label" parent="Control/ColorRect/personagem4"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "                Marina
+
+Habilidades:
+Java: 10
+Python: 30
+Arte 2D: 10
+Arte 3D: 20
+Marketing Digital: 80
+E-commerce: 20"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="personagem3" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 2152.0
+margin_top = 656.0
+margin_right = 2472.0
+margin_bottom = 832.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem3-removebg-preview" type="Sprite" parent="Control/ColorRect/personagem3"]
+position = Vector2( 30.5, 88 )
+scale = Vector2( 0.944444, 0.911917 )
+texture = ExtResource( 6 )
+
+[node name="habilidade3" type="Label" parent="Control/ColorRect/personagem3"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "                Raphael
+
+Habilidades:
+Java: 20
+Python: 10
+Arte 2D: 30
+Arte 3D: 20
+Marketing Digital: 40
+E-commerce: 95"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="personagem5" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 1816.0
+margin_top = 872.0
+margin_right = 2136.0
+margin_bottom = 1048.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem5-removebg-preview" type="Sprite" parent="Control/ColorRect/personagem5"]
+position = Vector2( 48, 88 )
+texture = ExtResource( 2 )
+
+[node name="habilidade5" type="Label" parent="Control/ColorRect/personagem5"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "                Ana
+
+Habilidades:
+Java: 10
+Python: 30
+Arte 2D: 80
+Arte 3D: 50
+Marketing Digital: 10
+E-commerce: 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="personagem1" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 1480.0
+margin_top = 656.0
+margin_right = 1800.0
+margin_bottom = 832.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem1-removebg-preview(1)" type="Sprite" parent="Control/ColorRect/personagem1"]
+position = Vector2( 32, 96 )
+texture = ExtResource( 1 )
+
+[node name="habilidade1" type="Label" parent="Control/ColorRect/personagem1"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "                João
+
+Habilidades:
+Java: 20
+Python: 90
+Arte 2D: 10
+Arte 3D: 0
+Marketing Digital: 30
+E-commerce: 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="personagem2" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 1816.0
+margin_top = 656.0
+margin_right = 2136.0
+margin_bottom = 832.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem2-removebg-preview" type="Sprite" parent="Control/ColorRect/personagem2"]
+position = Vector2( 32, 88 )
+texture = ExtResource( 3 )
+
+[node name="habilidade2" type="Label" parent="Control/ColorRect/personagem2"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "               Fernanda
+
+Habilidades:
+Java: 95
+Python: 10
+Arte 2D: 20
+Arte 3D: 10
+Marketing Digital: 10
+E-commerce: 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="personagem6" type="ColorRect" parent="Control/ColorRect"]
+margin_left = 2152.0
+margin_top = 872.0
+margin_right = 2472.0
+margin_bottom = 1048.0
+color = Color( 0.454902, 0.454902, 0.454902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem6-removebg-preview" type="Sprite" parent="Control/ColorRect/personagem6"]
+position = Vector2( 40, 88 )
+texture = ExtResource( 5 )
+
+[node name="habilidade1" type="Label" parent="Control/ColorRect/personagem6"]
+margin_left = 88.0
+margin_top = 13.0
+margin_right = 280.0
+margin_bottom = 181.0
+text = "                Leandro
+
+Habilidades:
+Java: 5
+Python: 10
+Arte 2D: 20
+Arte 3D: 90
+Marketing Digital: 20
+E-commerce: 15"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="explicação" type="Label" parent="Control/ColorRect"]
+margin_left = 1504.0
+margin_top = 560.0
+margin_right = 2054.0
+margin_bottom = 669.0
+custom_fonts/font = SubResource( 1 )
+text = "Selecione os 3 programadores mais adequados para 
+a montagem da equipe que irá trabalhar pra o hospital:
+
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 8.0
+margin_top = 160.0
+margin_right = 328.0
+margin_bottom = 336.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 344.0
+margin_top = 160.0
+margin_right = 664.0
+margin_bottom = 336.0
+
+[node name="Button3" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 680.0
+margin_top = 160.0
+margin_right = 1000.0
+margin_bottom = 336.0
+
+[node name="Button4" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 8.0
+margin_top = 375.0
+margin_right = 328.0
+margin_bottom = 552.0
+
+[node name="Button5" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 344.0
+margin_top = 376.0
+margin_right = 664.0
+margin_bottom = 553.0
+
+[node name="Button6" type="Button" parent="Control"]
+show_behind_parent = true
+margin_left = 680.0
+margin_top = 376.0
+margin_right = 1000.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontos" type="Label" parent="."]
+margin_left = 720.0
+margin_top = 64.0
+margin_right = 976.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Control/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Control/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Control/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Control/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="Control/Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Control/Button6" to="." method="_on_Button6_pressed"]
