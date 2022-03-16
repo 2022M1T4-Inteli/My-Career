@@ -8,29 +8,13 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Colocar Fala explicando minigame aqui* pode suar a variavel [playername] para puchar o nome do personagem"
-		},
-		{
-			"character": "character-1647288409.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Vamos iniciar então? *colocar a frase para iniciar o minigame"
-		},
-		{
-			"choice": "Sim",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
+			"text": "esse texto não precisa é só pra explicar, aqui no change scnece coloca a cena no minigame"
 		},
 		{
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "esse texto não precisa é só pra explicar, aqui no change scnece coloca a cena no minigame"
+			"text": "Colocar Fala explicando minigame aqui* pode suar a variavel [playername] para puchar o nome do personagem"
 		},
 		{
 			"emit_signal": "rtend0",
@@ -39,20 +23,6 @@
 		{
 			"change_scene": "",
 			"event_id": "dialogic_041"
-		},
-		{
-			"choice": "Não",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_scene": "res://Scenes/1andarTesla.tscn",
-			"event_id": "dialogic_041"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
