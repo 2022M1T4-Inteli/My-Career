@@ -8,7 +8,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá [playername], seja bem vindo à área de experimento da Tesla.\nAqui você passará por um minigame, o qual será seu último desafio nessa sua jornada de ENGENHARIA DA COMPUTAÇÃO."
+			"text": "Colocar Fala explicando minigame aqui* pode suar a variavel [playername] para puchar o nome do personagem"
 		},
 		{
 			"character": "character-1647288409.json",
@@ -17,7 +17,7 @@
 
 			],
 			"portrait": "",
-			"question": "Você está pronto para começar o minigame?"
+			"question": "Vamos iniciar então? *colocar a frase para iniciar o minigame"
 		},
 		{
 			"choice": "Sim",
@@ -27,26 +27,18 @@
 			"value": ""
 		},
 		{
-			"definition": "1647366069-648",
-			"event_id": "dialogic_014",
-			"operation": "=",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "61"
-		},
-		{
-			"character": "",
+			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "não é pra digitar aqui, exclui o texto , coloca a cena do minigame aqui no change scene de baixo"
-		},
-		{
-			"change_scene": "res://Scenes/MinigameTesla.tscn",
-			"event_id": "dialogic_041"
+			"text": "esse texto não precisa é só pra explicar, aqui no change scnece coloca a cena no minigame"
 		},
 		{
 			"emit_signal": "rtend0",
 			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "",
+			"event_id": "dialogic_041"
 		},
 		{
 			"choice": "Não",
@@ -56,12 +48,16 @@
 			"value": ""
 		},
 		{
+			"change_scene": "res://Scenes/1andarTesla.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
 			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
-		"file": "timeline-1647288050.json",
-		"name": "RecrutadoraTesla-0"
+		"file": "timeline-1647451912.json",
+		"name": "RecrutadoraMicrosoft-1"
 	}
 }
