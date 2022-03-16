@@ -125,8 +125,8 @@ shape = SubResource( 3 )
 position = Vector2( -2831, 2247 )
 shape = SubResource( 4 )
 
-[connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
 [connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
 [connection signal="body_entered" from="Tesla" to="." method="_on_Tesla_body_entered"]
 [connection signal="body_entered" from="SteveTrabalho" to="." method="_on_SteveTrabalho_body_entered"]
 [connection signal="body_entered" from="DorothyVan" to="." method="_on_DorothyVan_body_entered"]

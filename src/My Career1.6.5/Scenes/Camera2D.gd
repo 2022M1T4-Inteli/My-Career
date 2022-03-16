@@ -1,15 +1,14 @@
 extends Camera2D
 
-onready var Box = get_node("/root/Player/CaixaNome")
-onready var PlayerName = get_node("/root/Player/CaixaNome/TextEdit")
+onready var Box = get_node("/root/OpenWorld/Player/CaixaNome")
+onready var PlayerName = get_node("/root/OpenWorld/Player/CaixaNome/TextEdit")
 
 func _ready():
 	pass 
 
 func _getcharactersName():
-	Box.visible = true
-	if Box.TextEdit != null:
-		Box.visible = false
+	while PlayerName.text != "":
+		Box.visible = true
 
 func _on_Button_pressed():
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
