@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Personagens/CharacterSheet.png" type="Texture" id=2]
@@ -13,11 +13,7 @@
 [ext_resource path="res://Audios/Track 4.mp3" type="AudioStream" id=11]
 [ext_resource path="res://Audios/Track 5.mp3" type="AudioStream" id=12]
 [ext_resource path="res://Audios/Track 2.mp3" type="AudioStream" id=13]
-[ext_resource path="res://Scenes/BackgroundMusic5.gd" type="Script" id=14]
-[ext_resource path="res://Scenes/BackgroundMusic1.gd" type="Script" id=15]
-[ext_resource path="res://Scenes/BackgroundMusic4.gd" type="Script" id=16]
-[ext_resource path="res://Scenes/BackgroundMusic2.gd" type="Script" id=17]
-[ext_resource path="res://Scenes/BackgroundMusic3.gd" type="Script" id=18]
+[ext_resource path="res://Audios/Beep.wav-8a40c87ada5a0fb3b17e7da786a6259a.sample" type="AudioStream" id=14]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 43, 28 )
@@ -250,30 +246,31 @@ __meta__ = {
 [node name="BackgroundMusic1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
 volume_db = -10.0
-script = ExtResource( 15 )
 
 [node name="BackgroundMusic2" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 13 )
 volume_db = -10.0
-script = ExtResource( 17 )
 
 [node name="BackgroundMusic3" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 10 )
 volume_db = -10.0
-script = ExtResource( 18 )
 
 [node name="BackgroundMusic4" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 11 )
 volume_db = -10.0
-script = ExtResource( 16 )
 
 [node name="BackgroundMusic5" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
 volume_db = -10.0
-script = ExtResource( 14 )
 
+[node name="Buttom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+
+[connection signal="mouse_entered" from="CaixaNome/Button2" to="." method="_on_Button2_mouse_entered"]
 [connection signal="pressed" from="CaixaNome/Button2" to="Camera2D" method="_on_Button2_pressed"]
 [connection signal="text_entered" from="CaixaNome/LineEdit" to="Camera2D" method="_on_LineEdit_text_entered"]
+[connection signal="mouse_entered" from="CanvasLayer/Mute" to="." method="_on_Mute_mouse_entered"]
 [connection signal="pressed" from="CanvasLayer/Mute" to="." method="_on_Mute_pressed"]
+[connection signal="mouse_entered" from="CanvasLayer/BotãoInterogação/Button" to="." method="_on_Button_mouse_entered"]
 [connection signal="pressed" from="CanvasLayer/BotãoInterogação/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="CanvasLayer/BotãoInterogação/Button" to="Camera2D" method="_on_Button_pressed"]

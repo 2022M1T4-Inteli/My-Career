@@ -32,6 +32,16 @@
 			"text": "Parabéns [playername]! Você conseguiu passar no QUIZ e foi contratado pela Nasa!\nSe dirija ao elevador à sua direita para prosseguir na empresa."
 		},
 		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_hideElevator",
+				"target_node_path": "/root/ElonMusgo/Interior"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
 			"definition": "1647366069-648",
 			"event_id": "dialogic_014",
 			"operation": "=",

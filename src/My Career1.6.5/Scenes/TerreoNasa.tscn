@@ -51,9 +51,10 @@ polygon = PoolVector2Array( -222.272, -90.6958, -221.711, -18.8268, -300.333, -1
 position = Vector2( -133.279, 190.396 )
 shape = SubResource( 1 )
 
-[node name="1andarNasa" type="Area2D" parent="Interior"]
+[node name="Area2D" type="Area2D" parent="Interior"]
+visible = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/1andarNasa"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/Area2D"]
 position = Vector2( 185.693, -108.868 )
 shape = SubResource( 2 )
 
@@ -79,4 +80,4 @@ position = Vector2( 4, -75 )
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
 [connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]
-[connection signal="body_entered" from="Interior/1andarNasa" to="Interior" method="_on_1andarNasa_body_entered"]
+[connection signal="body_entered" from="Interior/Area2D" to="Interior" method="_on_1andarNasa_body_entered"]

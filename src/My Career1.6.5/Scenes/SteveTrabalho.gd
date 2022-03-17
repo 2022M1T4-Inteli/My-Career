@@ -42,6 +42,11 @@ func dialog_listener(string):
 			GameManager.stdialogcount +=1
 		"stend-1":
 			GameManager.stdialogcount -=1
+		"apend0":
+			GameManager.dvdialogcount += 1
+		"apend-1":
+			GameManager.dvdialogcount -= 1
+			pass
 #Nessa função caso uma das strings seja detectada então é executada uma série de instruções para mudança de dialogo e outros.
 
 func unpause(timeline_name):

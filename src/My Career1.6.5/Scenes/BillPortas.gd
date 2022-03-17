@@ -47,6 +47,11 @@ func dialog_listener(string):
 		"bpend-1":
 			GameManager.bpdialogcount -= 1
 			pass
+		"msend0":
+			GameManager.bpdialogcount += 1
+		"msend-1":
+			GameManager.bpdialogcount -= 1
+			pass
 #Nessa função caso uma das strings seja detectada então é executada uma série de instruções para mudança de dialogo e outros.
 
 func unpause(timeline_name):

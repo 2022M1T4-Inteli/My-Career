@@ -32,6 +32,16 @@
 			"text": "Parece que você passou no QUIZ, então....\nParabéns [playername]! Você foi contratado pela Tesla!\nSe dirija ao elevador à sua direita para prosseguir na empresa."
 		},
 		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_hideElevator",
+				"target_node_path": "/root/ElonMusgo/Interior"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
 			"definition": "1647366069-648",
 			"event_id": "dialogic_014",
 			"operation": "=",

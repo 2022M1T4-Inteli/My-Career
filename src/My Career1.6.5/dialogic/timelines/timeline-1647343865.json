@@ -89,7 +89,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pelo mentor Elon Musgo do curso de Engenharia de Computação para verificar sua pontuação no quiz do curos."
+			"text": "Fale novamente com o mentor Elon Musgo do curso de Engenharia de Computação para verificar sua pontuação no quiz do curso."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -104,7 +104,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela mentora Dorothy Van do curso de Ciência da Computação para verificar sua pontuação no quiz do curs."
+			"text": "Fale novamente com a mentora Dorothy Van do curso de Ciência da Computação para verificar sua pontuação no quiz do curso."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -119,7 +119,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pelo mentor Bill Portas do curso de Engenharia de Software para verificar sua pontuação no quiz do curso."
+			"text": "Fale novamente com o mentor Bill Portas do curso de Engenharia de Software para verificar sua pontuação no quiz do curso."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -134,7 +134,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pelo mentor Steve Trabalhos do curso de Sistemas de Informação para verificar sua pontuação no quiz do curso."
+			"text": "Fale novamente com o mentor Steve Trabalhos do curso de Sistemas de Informação para verificar sua pontuação no quiz do curso."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -329,7 +329,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Tesla para ver sua pontuação seu estágio."
+			"text": "Fale novamente com a recrutadora da Tesla para ver sua pontuação seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -344,7 +344,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Nasa para ver sua pontuação seu estágio."
+			"text": "Fale novamente com a recrutadora da Nasa para ver sua pontuação seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -359,7 +359,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Microsoft para ver sua pontuação seu estágio."
+			"text": "Fale novamente com a recrutadora da Microsoft para ver sua pontuação seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -374,7 +374,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Apple para ver sua pontuação seu estágio."
+			"text": "Fale novamente com a recrutadora da Apple para ver sua pontuação seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"

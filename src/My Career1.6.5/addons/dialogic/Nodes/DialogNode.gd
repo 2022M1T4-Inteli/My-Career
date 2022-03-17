@@ -31,7 +31,7 @@ var last_mouse_mode = null
 
 
 ### SETTINGS
-var input_next: String = 'ui_accept'
+var input_next: String = 'ui_space'
 var settings: ConfigFile
 var custom_events = {}
 
@@ -320,7 +320,7 @@ func load_theme(filename):
 	var settings_input = settings.get_value('input', 'default_action_key', '[Default]')
 	var theme_input = theme.get_value('settings', 'action_key', '[Default]')
 	
-	input_next = 'ui_accept'
+	input_next = 'ui_space'
 	if settings_input != '[Default]':
 		input_next = settings_input
 	if theme_input != '[Default]':
@@ -1192,6 +1192,7 @@ func get_custom_choice_button(label: String):
 
 # instances a normal dialogic button
 func get_classic_choice_button(label: String):
+	input_next = 'ui_select'
 	var theme = current_theme
 	var button : Button = ChoiceButton.instance()
 	button.text = label

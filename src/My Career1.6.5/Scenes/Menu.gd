@@ -44,3 +44,15 @@ func _on_Mute_pressed():
 #variável "playing" vervadeira.
 	
 
+
+
+func _on_Play_mouse_entered():
+	$Buttom.playing = true
+
+
+func _on_Quit_mouse_entered():
+	$Buttom.playing = true
+
+
+func _on_Mute_mouse_entered():
+	$Buttom.playing = true

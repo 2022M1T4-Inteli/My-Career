@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Menu.gd" type="Script" id=1]
 [ext_resource path="res://Audios/Track 1.mp3" type="AudioStream" id=2]
 [ext_resource path="res://Sprites/Interface/Menu/full volume.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Interface/Menu/mute volume.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Menu/menu2.png" type="Texture" id=5]
+[ext_resource path="res://Audios/Beep.wav-8a40c87ada5a0fb3b17e7da786a6259a.sample" type="AudioStream" id=6]
 
 [node name="Menu" type="Node2D"]
 script = ExtResource( 1 )
@@ -66,6 +67,12 @@ position = Vector2( 61.5, 52 )
 scale = Vector2( 3.27586, 3.17241 )
 texture = ExtResource( 3 )
 
+[node name="Buttom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[connection signal="mouse_entered" from="Play" to="." method="_on_Play_mouse_entered"]
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="mouse_entered" from="Quit" to="." method="_on_Quit_mouse_entered"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+[connection signal="mouse_entered" from="Mute" to="." method="_on_Mute_mouse_entered"]
 [connection signal="pressed" from="Mute" to="." method="_on_Mute_pressed"]

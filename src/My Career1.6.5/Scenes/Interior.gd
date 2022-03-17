@@ -24,3 +24,6 @@ func _on_Area2D_body_entered(body):
 func _on_1andarNasa_body_entered(body):
 	get_tree().change_scene("res://Scenes/1andarNasa.tscn")
 	pass # Replace with function body.
+
+func _hideElevator():
+	$Area2D.show()

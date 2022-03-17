@@ -136,3 +136,15 @@ func _on_Mute_pressed():
 		iconUnmuted.show()
 		iconMuted.hide()
 		
+
+
+func _on_Button2_mouse_entered():
+	$Buttom.playing = true
+
+
+func _on_Mute_mouse_entered():
+	$Buttom.playing = true
+
+
+func _on_Button_mouse_entered():
+	$Buttom.playing = true
