@@ -4,7 +4,7 @@
 [ext_resource path="res://Sprites/Personagens/CharacterSheet.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Interface/Dialogo/BotãoInterogação.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/Camera2D.gd" type="Script" id=4]
-[ext_resource path="res://Sprites/Interface/Dialogo/CaixaNome.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Interface/Dialogo/CaixaDialogo.png" type="Texture" id=5]
 [ext_resource path="res://Fonts/noto-sans-regular.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://Sprites/Interface/Menu/full volume.png" type="Texture" id=7]
 [ext_resource path="res://Sprites/Interface/Menu/mute volume.png" type="Texture" id=8]
