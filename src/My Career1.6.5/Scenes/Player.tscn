@@ -139,8 +139,8 @@ parameters/playback = SubResource( 10 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
-limit_left = -3216
-limit_top = -3504
+limit_left = -3504
+limit_top = -3216
 limit_right = 4056
 limit_bottom = 4344
 script = ExtResource( 4 )
@@ -206,12 +206,36 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BotãoInterogação" type="Sprite" parent="."]
-position = Vector2( 907.5, -496.5 )
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Mute" type="Button" parent="CanvasLayer"]
+margin_left = 35.0
+margin_top = 9.0
+margin_right = 108.0
+margin_bottom = 85.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SoundMuted" type="Sprite" parent="CanvasLayer"]
+position = Vector2( 70, 50 )
+scale = Vector2( 3.3, 3.12121 )
+texture = ExtResource( 8 )
+
+[node name="SoundUnmuted" type="Sprite" parent="CanvasLayer"]
+position = Vector2( 67.5, 49.9999 )
+scale = Vector2( 3.27586, 3.17241 )
+texture = ExtResource( 7 )
+
+[node name="BotãoInterogação" type="Sprite" parent="CanvasLayer"]
+position = Vector2( 1877, 42.5 )
 scale = Vector2( 0.0602041, 0.0602041 )
 texture = ExtResource( 3 )
 
-[node name="Button" type="Button" parent="BotãoInterogação"]
+[node name="Button" type="Button" parent="CanvasLayer/BotãoInterogação"]
 margin_left = -556.0
 margin_top = -499.0
 margin_right = 527.0
@@ -222,29 +246,6 @@ flat = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Mute" type="Button" parent="."]
-margin_left = -939.0
-margin_top = -529.0
-margin_right = -866.0
-margin_bottom = -453.0
-focus_mode = 0
-enabled_focus_mode = 0
-flat = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="SoundMuted" type="Sprite" parent="."]
-visible = false
-position = Vector2( 65.5, 53.5 )
-scale = Vector2( 3.3, 3.12121 )
-texture = ExtResource( 8 )
-
-[node name="SoundUnmuted" type="Sprite" parent="."]
-position = Vector2( -902, -489 )
-scale = Vector2( 3.27586, 3.17241 )
-texture = ExtResource( 7 )
 
 [node name="BackgroundMusic1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
@@ -269,14 +270,9 @@ script = ExtResource( 16 )
 [node name="BackgroundMusic5" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
 volume_db = -10.0
-autoplay = true
 script = ExtResource( 14 )
 
 [connection signal="pressed" from="CaixaNome/Button2" to="Camera2D" method="_on_Button2_pressed"]
 [connection signal="text_entered" from="CaixaNome/LineEdit" to="Camera2D" method="_on_LineEdit_text_entered"]
-[connection signal="pressed" from="BotãoInterogação/Button" to="Camera2D" method="_on_Button_pressed"]
-[connection signal="pressed" from="Mute" to="BackgroundMusic1" method="_on_Mute_pressed"]
-[connection signal="pressed" from="Mute" to="BackgroundMusic2" method="_on_Mute_pressed"]
-[connection signal="pressed" from="Mute" to="BackgroundMusic3" method="_on_Mute_pressed"]
-[connection signal="pressed" from="Mute" to="BackgroundMusic4" method="_on_Mute_pressed"]
-[connection signal="pressed" from="Mute" to="BackgroundMusic5" method="_on_Mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/Mute" to="." method="_on_Mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/BotãoInterogação/Button" to="." method="_on_Button_pressed"]

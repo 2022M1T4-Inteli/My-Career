@@ -149,7 +149,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Tesla para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Tesla na parte inferior do mapa para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -164,7 +164,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Nasa para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Nasa na parte inferior do mapa para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -179,7 +179,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Microsoft para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Microsoft na parte inferior do mapa para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -194,7 +194,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Apple para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Apple na parte inferior do mapa para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"

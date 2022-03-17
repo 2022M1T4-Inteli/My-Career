@@ -26,6 +26,10 @@ extents = Vector2( 164, 75 )
 
 [node name="OpenWorld" type="Node2D"]
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 4344.0, -3224.0 ],
+"_edit_vertical_guides_": [ 4056.0, 4048.0, -3504.0 ]
+}
 
 [node name="Map" type="Sprite" parent="."]
 position = Vector2( 276, 563 )

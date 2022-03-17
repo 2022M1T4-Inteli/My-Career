@@ -14,4 +14,7 @@ var nsdialogcount = 0 #terreo nasa
 var rndialogcount = 0 #recrutadora nasa
 var goddialogcount = 0 #god
 
+var velocidadevertical = 500
+var velocidadehorizontal = 500
+
 var tutorial = false

@@ -8,6 +8,8 @@ func _ready():
 	
 
 func _getcharactersName():
+		GameManager.velocidadevertical = 0
+		GameManager.velocidadehorizontal = 0
 		PlayerName.grab_focus()
 		PlayerName.set_cursor_position(len(PlayerName.text))
 		Box.visible = true
@@ -18,6 +20,7 @@ func _on_Button_pressed():
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
+
 
 func dialog_listener(string):
 	match string:
@@ -46,3 +49,5 @@ func _on_LineEdit_text_entered(new_text):
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog)
+			GameManager.velocidadevertical = 500
+			GameManager.velocidadehorizontal = 500
