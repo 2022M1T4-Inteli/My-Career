@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scenes/Menu.gd" type="Script" id=1]
-[ext_resource path="res://Audios/MenuSound.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Audios/Track 1.mp3" type="AudioStream" id=2]
 [ext_resource path="res://Sprites/Interface/Menu/full volume.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Interface/Menu/mute volume.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Menu/menu2.png" type="Texture" id=5]
@@ -16,6 +16,7 @@ texture = ExtResource( 5 )
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
+volume_db = -10.0
 autoplay = true
 
 [node name="Play" type="Button" parent="."]

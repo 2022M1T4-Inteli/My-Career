@@ -37,7 +37,7 @@ position = Vector2( 90.1138, 83.4925 )
 polygon = PoolVector2Array( -278.61, -56.9713, -277.909, -33.2333, -212.741, -33.2333, -212.041, -12.442, -189.898, -12.442, -190.879, -56.3165 )
 
 [node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
-position = Vector2( -151.498, -3.11035 )
+position = Vector2( -151.498, -3.27393 )
 scale = Vector2( 0.0242761, 0.0288865 )
 texture = ExtResource( 3 )
 

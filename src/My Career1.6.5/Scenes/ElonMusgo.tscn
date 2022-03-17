@@ -30,7 +30,7 @@ position = Vector2( 125.22, -56.8076 )
 polygon = PoolVector2Array( -314.978, -59.5908, -314.277, -12.1147, -197.956, -12.9332, -199.497, -60.4094 )
 
 [node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
-position = Vector2( -130.476, -147.013 )
+position = Vector2( -133.139, -151.76 )
 scale = Vector2( 0.0242761, 0.0288865 )
 texture = ExtResource( 3 )
 
@@ -40,13 +40,13 @@ texture = ExtResource( 3 )
 position = Vector2( 188.356, -108.788 )
 shape = SubResource( 1 )
 
-[node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 2031, -1664 )
-
 [node name="NPC" type="Sprite" parent="."]
 position = Vector2( 14, -1741 )
 scale = Vector2( 1.98917, 1.1015 )
 texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2031, -1664 )
 
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]

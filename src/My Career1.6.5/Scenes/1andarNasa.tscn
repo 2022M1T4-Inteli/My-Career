@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/1andarNasa.gd" type="Script" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
 [ext_resource path="res://Scenes/RecrutadoraN.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 12.7786, 13.3497 )
@@ -23,6 +25,22 @@ script = ExtResource( 2 )
 position = Vector2( 252.558, -133.595 )
 shape = SubResource( 1 )
 
+[node name="ElevadorHorizontal" type="Sprite" parent="InteriorNasa"]
+position = Vector2( 251.717, -132.94 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="ElevadorVertical" type="Sprite" parent="InteriorNasa"]
+visible = false
+position = Vector2( 251.717, -131.467 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 8 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -262, -1118 )
+scale = Vector2( 0.319444, 0.23374 )
+texture = ExtResource( 4 )
+
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1560, -818 )
 
@@ -35,13 +53,8 @@ scale = Vector2( 3.10644, 3.25947 )
 polygon = PoolVector2Array( -129.023, -146.896, -283.926, -142.048, -283.926, -62.8937, -128.443, -62.8937 )
 
 [node name="EButton" type="Sprite" parent="MentorInterectionArea"]
-position = Vector2( -258, -1304 )
+position = Vector2( -257, -1315 )
 scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 5 )
-
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -262, -1118 )
-scale = Vector2( 0.319444, 0.23374 )
-texture = ExtResource( 4 )
 
 [connection signal="body_entered" from="InteriorNasa/TerreoNasa" to="InteriorNasa" method="_on_TerreoNasa_body_entered"]

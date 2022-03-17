@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/TerreoApple.gd" type="Script" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://Sprites/Personagens/Recepcionista Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaRecepcaoSistemasInformacao/Map012.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 12.564 )
@@ -40,7 +42,7 @@ position = Vector2( 125.851, -52.5512 )
 polygon = PoolVector2Array( -222.272, -90.6958, -221.711, -18.8268, -300.333, -19.809, -300.333, 1.80083, -200.969, 0.818558, -200.128, -90.3684 )
 
 [node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
-position = Vector2( -129.624, -146.069 )
+position = Vector2( -129.215, -146.193 )
 scale = Vector2( 0.0242761, 0.0288865 )
 texture = ExtResource( 3 )
 
@@ -56,13 +58,24 @@ shape = SubResource( 1 )
 position = Vector2( 189.477, -108.54 )
 shape = SubResource( 2 )
 
-[node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 4, -75 )
+[node name="ElevadorHorizontal" type="Sprite" parent="Interior"]
+position = Vector2( 180.087, -108.376 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="ElevadorVertical" type="Sprite" parent="Interior"]
+visible = false
+position = Vector2( 180.089, -107.721 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 8 )
 
 [node name="NPC" type="Sprite" parent="."]
 position = Vector2( 8.72146, -1715 )
 scale = Vector2( 0.2145, 0.248808 )
 texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4, -75 )
 
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]

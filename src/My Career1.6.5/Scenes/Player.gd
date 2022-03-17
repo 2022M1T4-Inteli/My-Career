@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
-var speed = 500
+var speedvertcl = 500
+var speedhorizontal = 500
 # Declaração da variavel velocidade 
 
 onready var animationTree = $AnimationTree
@@ -18,28 +19,28 @@ func _physics_process(delta):
 # Delcarando a variavel vetor
 
 	if Input.is_action_pressed("ui_up"):
-		velocity.y -= speed
+		velocity.y -= speedvertcl
 		stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo y decrementa a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
 	elif Input.is_action_pressed("ui_down"):
-		velocity.y += speed
+		velocity.y += speedvertcl
 		stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo y acrescenta a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
 	elif Input.is_action_pressed("ui_right"):
-		velocity.x += speed
+		velocity.x += speedhorizontal
 		stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo x acrescenta a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
 	elif Input.is_action_pressed("ui_left"):
-		velocity.x -= speed
+		velocity.x -= speedhorizontal
 		stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo x decrementa a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
@@ -51,3 +52,7 @@ func _physics_process(delta):
 	
 	move_and_slide(velocity)
 # A função de movimento de objetos recebe o vetor de velocidade.
+
+
+func _on_Mute_pressed():
+	pass # Replace with function body.
