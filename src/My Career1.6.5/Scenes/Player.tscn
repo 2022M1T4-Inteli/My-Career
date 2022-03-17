@@ -269,6 +269,7 @@ script = ExtResource( 16 )
 [node name="BackgroundMusic5" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
 volume_db = -10.0
+autoplay = true
 script = ExtResource( 14 )
 
 [connection signal="pressed" from="CaixaNome/Button2" to="Camera2D" method="_on_Button2_pressed"]
