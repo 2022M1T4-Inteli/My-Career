@@ -9,6 +9,5 @@ func _goddialog():
 			add_child(dialog) 
 			
 
-
 func _on_TerreoNasa_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoNasa.tscn")

@@ -8,31 +8,29 @@ onready var iconUnmuted =  get_node("CanvasLayer").get_node("SoundUnmuted")
 onready var iconMuted = get_node("CanvasLayer").get_node("SoundMuted")
 # Definir qual animação vai rodar 
 
-
 func _ready():
 	stateMachine.travel("Idle")
-	
-	if GameManager.goddialogcount >= 0 and GameManager.goddialogcount < 20:
-		$BackgroundMusic1.play()
-		$BackgroundMusic5.stop()
-	
-	elif GameManager.goddialogcount > 20 and GameManager.goddialogcount < 30:
-		$BackgroundMusic2.play()
-		$BackgroundMusic1.stop()
-	
-	elif GameManager.goddialogcount > 30 and GameManager.goddialogcount < 40:
-		$BackgroundMusic3.play()
-		$BackgroundMusic2.stop()
-	
-	elif GameManager.goddialogcount > 40 and GameManager.goddialogcount < 50:
-		$BackgroundMusic4.play()
-		$BackgroundMusic3.stop()
-	
-	elif GameManager.goddialogcount > 50 :
-		$BackgroundMusic5.play()
-		$BackgroundMusic4.stop()
 # Quando executado o estado da animação do player se mantem no Idle que siginifica parado
 
+	if int (Dialogic.get_variable("godindice")) >= 0 and int (Dialogic.get_variable("godindice")) < 20:
+		$BackgroundMusic.stream = load("res://Audios/Track 1.mp3")
+		$BackgroundMusic.play()
+	
+	elif int (Dialogic.get_variable("godindice")) > 20 and int (Dialogic.get_variable("godindice")) < 30:
+		$BackgroundMusic.stream = load("res://Audios/Track 2.mp3")
+		$BackgroundMusic.play()
+		
+	elif int (Dialogic.get_variable("godindice")) > 30 and int (Dialogic.get_variable("godindice")) < 40:
+		$BackgroundMusic.stream = load("res://Audios/Track 3.mp3")
+		$BackgroundMusic.play()
+
+	elif int (Dialogic.get_variable("godindice")) > 40 and int (Dialogic.get_variable("godindice")) < 50:
+		$BackgroundMusic.stream = load("res://Audios/Track 4.mp3")
+		$BackgroundMusic.play()
+
+	elif int (Dialogic.get_variable("godindice")) > 50 :
+		$BackgroundMusic.stream = load("res://Audios/Track 5.mp3")
+		$BackgroundMusic.play()
 
 func _physics_process(delta):
 	var velocity = Vector2.ZERO
@@ -73,70 +71,19 @@ func _physics_process(delta):
 	move_and_slide(velocity)
 # A função de movimento de objetos recebe o vetor de velocidade.
 
-
-
 func _on_Mute_pressed():
-	if $BackgroundMusic1.playing == true:
-		$BackgroundMusic1.volume_db = -1000.0
-		$BackgroundMusic1.playing = false
+	if $BackgroundMusic.playing == true:
+		$BackgroundMusic.volume_db = -1000.0
+		$BackgroundMusic.playing = false
 		iconUnmuted.hide()
 		iconMuted.show()
 		
-		if $BackgroundMusic2.playing == true:
-			$BackgroundMusic2.volume_db = -1000.0
-			$BackgroundMusic2.playing = false
-			iconUnmuted.hide()
-			iconMuted.show()
-			
-			if $BackgroundMusic3.playing == true:
-				$BackgroundMusic3.volume_db = -1000.0
-				$BackgroundMusic3.playing = false
-				iconUnmuted.hide()
-				iconMuted.show()
-				
-				if $BackgroundMusic4.playing == true:
-					$BackgroundMusic4.volume_db = -1000.0
-					$BackgroundMusic4.playing = false
-					iconUnmuted.hide()
-					iconMuted.show()
-					
-					if $BackgroundMusic5.playing == true:
-						$BackgroundMusic5.volume_db = -1000.0
-						$BackgroundMusic5.playing = false
-						iconUnmuted.hide()
-						iconMuted.show()
-						
-					else:
-						$BackgroundMusic5.volume_db = 0.0
-						$BackgroundMusic5.playing = true
-						iconUnmuted.show()
-						iconMuted.hide()
-				
-				else:
-					$BackgroundMusic4.volume_db = 0.0
-					$BackgroundMusic4.playing = true
-					iconUnmuted.show()
-					iconMuted.hide()
-		
-			else:
-				$BackgroundMusic3.volume_db = 0.0
-				$BackgroundMusic3.playing = true
-				iconUnmuted.show()
-				iconMuted.hide()
-			
-		else:
-			$BackgroundMusic2.volume_db = 0.0
-			$BackgroundMusic2.playing = true
-			iconUnmuted.show()
-			iconMuted.hide()
-		
 	else:
-		$BackgroundMusic1.volume_db = 0.0
-		$BackgroundMusic1.playing = true
+		$BackgroundMusic.volume_db = 0.0
+		$BackgroundMusic.playing = true
 		iconUnmuted.show()
 		iconMuted.hide()
 		
-
 
 func _on_Button2_mouse_entered():
 	$Buttom.playing = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/TerreoTesla.gd" type="Script" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
 [ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
 [ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/Area2DTesla.gd" type="Script" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 12.564 )
@@ -52,12 +53,13 @@ polygon = PoolVector2Array( -222.272, -90.6958, -221.711, -18.8268, -300.333, -1
 position = Vector2( -133.279, 190.396 )
 shape = SubResource( 1 )
 
-[node name="Area2D" type="Area2D" parent="Interior"]
-visible = false
+[node name="Area2DTesla" type="Area2D" parent="Interior"]
+script = ExtResource( 9 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/Area2DTesla"]
 position = Vector2( 191.579, -108.54 )
 shape = SubResource( 2 )
+disabled = true
 
 [node name="ElevadorHorizontal" type="Sprite" parent="Interior"]
 position = Vector2( 180.509, -109.194 )
@@ -81,4 +83,5 @@ texture = ExtResource( 4 )
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
 [connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]
-[connection signal="body_entered" from="Interior/Area2D" to="Interior" method="_on_1andarTesla_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DTesla" to="Interior" method="_on_Area2DTesla_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DTesla" to="Interior/Area2DTesla" method="_on_Area2DTesla_body_entered"]

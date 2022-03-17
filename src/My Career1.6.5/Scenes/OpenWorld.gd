@@ -27,7 +27,6 @@ func _on_DorothyVan_body_entered(body):
 	get_tree().change_scene("res://Scenes/DorothyVan.tscn")
 	
 
-
 func _on_BillPortas_body_entered(body):
 	get_tree().change_scene("res://Scenes/BillPortas.tscn")
 

@@ -36,8 +36,8 @@
 				"arguments": [
 
 				],
-				"method_name": "_hideElevator",
-				"target_node_path": "/root/ElonMusgo/Interior"
+				"method_name": "_ElevadorEnable",
+				"target_node_path": "/root/ElonMusgo/Interior/Area2DApple"
 			},
 			"event_id": "dialogic_042"
 		},
