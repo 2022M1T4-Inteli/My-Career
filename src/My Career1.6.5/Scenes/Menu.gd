@@ -33,7 +33,7 @@ func _on_Mute_pressed():
 		iconMuted.show()
 		
 	else:
-		music.volume_db = 0.0
+		music.volume_db = -10.0
 		playing = true
 		iconUnmuted.show()
 		iconMuted.hide()

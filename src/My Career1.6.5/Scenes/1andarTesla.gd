@@ -1,6 +1,6 @@
 extends Sprite
 
-func _goddialog():
+func _ready():
 		if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
 			Dialogic.set_variable("godindice", 51)
 			var dialog = Dialogic.start(str("AlanTuring-",GameManager.goddialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"

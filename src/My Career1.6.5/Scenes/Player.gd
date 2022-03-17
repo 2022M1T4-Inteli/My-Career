@@ -79,7 +79,7 @@ func _on_Mute_pressed():
 		iconMuted.show()
 		
 	else:
-		$BackgroundMusic.volume_db = 0.0
+		$BackgroundMusic.volume_db = -10.0
 		$BackgroundMusic.playing = true
 		iconUnmuted.show()
 		iconMuted.hide()
