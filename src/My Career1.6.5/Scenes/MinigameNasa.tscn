@@ -1,3 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
 
-[node name="Minigame Microsoft" type="Node2D"]
+[ext_resource path="res://Scenes/MinigameNasa.gd" type="Script" id=1]
+
+[node name="Minigame Nasa" type="Node2D"]
+script = ExtResource( 1 )
