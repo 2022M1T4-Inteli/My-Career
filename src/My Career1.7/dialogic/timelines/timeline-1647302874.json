@@ -56,10 +56,6 @@
 			"value": ""
 		},
 		{
-			"change_scene": "res://Scenes/MinigameNasa.tscn",
-			"event_id": "dialogic_041"
-		},
-		{
 			"definition": "1647366069-648",
 			"event_id": "dialogic_014",
 			"operation": "=",

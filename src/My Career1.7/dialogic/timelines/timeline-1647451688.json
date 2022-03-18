@@ -11,7 +11,7 @@
 			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, para teste vá para a trilha de engenharia de software para testar o minigame!"
 		},
 		{
-			"emit_signal": "rtend0",
+			"emit_signal": "rnend0",
 			"event_id": "dialogic_040"
 		}
 	],
