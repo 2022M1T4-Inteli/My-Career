@@ -73,6 +73,55 @@ texture = ExtResource( 8 )
 position = Vector2( 31519.5, -23291.3 )
 texture = ExtResource( 10 )
 
+[node name="StaticBody2D" type="StaticBody2D" parent="Map"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+scale = Vector2( 1, 1 )
+polygon = PoolVector2Array( -357.143, 299, -357.143, 277.286, -372, 277.286, -372, 56.7143, -514.857, 57.8571, -514.857, 276.143, -481.714, 276.143, -482.857, 369.857, -358.286, 369.857, -358.286, 348.143, -477.143, 348.143, -477.143, 276.143, -473.714, 276.143, -473.714, 251, -469.143, 251, -469.143, 225.857, -420, 225.857, -420, 251, -409.714, 251, -409.714, 297.857 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+scale = Vector2( 1, 1 )
+polygon = PoolVector2Array( -290.857, 323, -272.571, 323, -272.571, 348.143, -204, 348.143, -204, 323, -188, 323, -189.143, 227, -156, 227, -157.143, 37.2857, -276, 36.1429, -276, 228.143, -244, 228.143, -244, 251, -236, 251, -236, 228.143, -229.143, 228.143, -229.143, 204.143, -204, 204.143, -202.857, 227, -194.857, 227, -194.857, 302.429, -290.857, 302.429 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+scale = Vector2( 1, 1 )
+polygon = PoolVector2Array( -182.286, 368.714, -175.429, 371, -165.143, 371, -154.857, 369.857, -146.857, 365.286, -140, 359.571, -137.714, 352.714, -142.286, 343.571, -150.286, 336.714, -158.286, 332.143, -162.857, 326.429, -167.429, 323, -173.143, 323, -178.857, 326.429, -177.714, 328.714, -177.714, 332.143, -182.286, 334.429, -186.857, 336.714, -191.429, 342.429, -194.857, 350.429, -192.571, 359.571, -186.857, 365.286 )
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 226.857, 36.1429, 228, 228.143, 199.429, 228.143, 199.429, 251, 185.714, 251, 185.714, 228.143, 180, 228.143, 180, 203, 148, 203, 156, 228.143, 145.714, 228.143, 145.714, 275, 141.143, 275, 141.143, 228.143, 132, 228.143, 132, 252.143, 108, 252.143, 108, 36.1429 )
+
+[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 300, 365.286, 300, 353.857, 288.571, 339, 288.571, 333.286, 280.571, 332.143, 277.143, 336.714, 257.714, 352.714, 252, 351.571, 252, 367.571, 261.143, 367.571, 272.571, 364.143, 273.714, 364.143, 284, 364.143, 294.286, 365.286 )
+
+[node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+position = Vector2( 48.5714, -0.428574 )
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 181.143, 395, 277.143, 395, 277.143, 376.714, 181.143, 375.571 )
+
+[node name="CollisionPolygon2D9" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 485.143, 371, 485.143, 347, 516, 347, 516, 81.8571, 396, 81.8571, 396, 348.143, 424.571, 348.143, 424.571, 371, 438.286, 371, 438.286, 348.143, 444, 348.143, 444, 324.143, 468, 324.143, 468, 347, 473.714, 347, 473.714, 371 )
+
+[node name="CollisionPolygon2D10" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 20, -83.8571, 20, -109, -68, -109, -68, -83.8571, -348, -85, -348, -323.857, -345.714, -323.857, -337.714, -346.714, -334.286, -346.714, -325.143, -323.857, -321.714, -323.857, -312.571, -346.714, -309.143, -345.571, -302.286, -325, -296.571, -325, -290.857, -345.571, -287.429, -345.571, -284, -341, -278.286, -325, -273.714, -325, -268, -341, -265.714, -346.714, -262.286, -345.571, -257.714, -335.286, -253.143, -323.857, 346.857, -323.857, 348, -179.857, 366.286, -179.857, 366.286, -138.714, 348, -139.857, 348, -107.857, 341.143, -109, 341.143, -89.5714, 336.571, -83.8571, 329.714, -86.1429, 328.571, -107.857, 317.143, -107.857, 316, -85, 305.714, -83.8571 )
+
+[node name="CollisionPolygon2D11" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( -540, -85, -537.714, -543.286, 536.571, -543.286, 540, -106.714, 530.857, -85, 524, -85, 520.571, -95.2857, 520.571, -107.857, 509.143, -107.857, 510.286, -97.5714, 509.143, -86.1429, 503.429, -83.8571, 497.714, -88.4286, 496.571, -95.2857, 497.714, -107.857, 420, -107.857, 420, -395.857, 324, -395.857, 306.857, -395.857, 308, -421, 277.143, -421, 277.143, -442.714, 250.857, -442.714, 252, -397, 204, -397, 205.143, -421, 180, -421, 181.143, -443.857, 156, -443.857, 157.143, -395.857, 62.2857, -397, 61.1429, -491.857, -12, -493, -12, -421, -157.143, -421, -159.429, -409.571, -159.429, -398.143, -176.571, -397, -177.714, -409.571, -177.714, -415.286, -180, -419.857, -202.857, -421, -204, -397, -253.143, -397, -253.143, -421, -277.143, -419.857, -277.143, -402.714, -296.571, -401.571, -300, -395.857, -390.286, -395.857, -389.143, -419.857, -400.571, -418.714, -400.571, -398.143, -420, -399.286, -418.857, -83.8571, -468, -85, -468, -107.857, -462.286, -109, -461.143, -130.714, -468, -130.714, -468, -155.857, -492, -155.857, -492, -130.714, -522.857, -131.857, -524, -125, -524, -111.286, -521.714, -105.571, -493.143, -106.714, -492, -86.1429 )
+
+[node name="CollisionPolygon2D12" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+position = Vector2( -167.429, -792.429 )
+scale = Vector2( 1, 1 )
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionPolygon2D13" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 426.857, -85, 437.143, -85, 439.429, -90.7143, 439.429, -102.143, 436, -105.571, 429.143, -105.571, 425.714, -102.143, 424.571, -91.8571 )
+
+[node name="CollisionPolygon2D14" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 125, -144 )
 
@@ -129,8 +178,8 @@ shape = SubResource( 3 )
 position = Vector2( -2831, 2247 )
 shape = SubResource( 4 )
 
-[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="Tesla" to="." method="_on_Tesla_body_entered"]
 [connection signal="body_entered" from="SteveTrabalho" to="." method="_on_SteveTrabalho_body_entered"]
 [connection signal="body_entered" from="DorothyVan" to="." method="_on_DorothyVan_body_entered"]
