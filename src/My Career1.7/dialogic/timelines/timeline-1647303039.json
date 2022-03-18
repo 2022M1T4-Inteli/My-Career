@@ -14,7 +14,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[playername] parece que você não atingiu a nota mínima no QUIZ! Por favor, volte à casa do mentor e refaça o QUIZ para aumentar sua nota."
+			"text": "[playername], parece que você não atingiu a nota mínima no QUIZ! Por favor, volte à casa do mentor e refaça o QUIZ para aumentar sua nota."
 		},
 		{
 			"event_id": "dialogic_013"

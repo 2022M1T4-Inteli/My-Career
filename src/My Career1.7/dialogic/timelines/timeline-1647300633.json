@@ -49,7 +49,7 @@
 			"question": "Quer tentar novamente"
 		},
 		{
-			"choice": "sim",
+			"choice": "Sim",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -68,7 +68,7 @@
 			"set_value": "63"
 		},
 		{
-			"choice": "não",
+			"choice": "Não",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

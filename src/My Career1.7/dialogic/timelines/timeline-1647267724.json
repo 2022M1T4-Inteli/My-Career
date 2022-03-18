@@ -20,14 +20,14 @@
 			"question": "Qual das funções abaixo o profissional formado em ciência da computação atua preferencialmente?"
 		},
 		{
-			"choice": "Análise de dados",
+			"choice": "Análise de dados.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Desenvolvimento de teorias, métodos e linguagens",
+			"choice": "Desenvolvimento de teorias, métodos e linguagens.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -42,21 +42,21 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Arquitetura de softwares",
+			"choice": "Arquitetura de softwares.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": " Web designer",
+			"choice": " Web designer.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das alternativas anteriores",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -75,7 +75,7 @@
 			"question": "Quais das programações abaixo tem mais ênfase na área de ciência da computação?"
 		},
 		{
-			"choice": "Programação funcional",
+			"choice": "Programação funcional.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -90,28 +90,28 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Programação Orientada a objetos",
+			"choice": "Programação Orientada a objetos.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": " Programação Imperativa",
+			"choice": " Programação Imperativa.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Programação Lógica",
+			"choice": "Programação Lógica.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Programação Declarativo",
+			"choice": "Programação Declarativo.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -127,24 +127,24 @@
 
 			],
 			"portrait": "",
-			"question": "Qual das tecnologias abaixo não faz parte do sistema digital?"
+			"question": "Qual das tecnologias abaixo NÃO faz parte do sistema digital?"
 		},
 		{
-			"choice": " Computadores digitais",
+			"choice": " Computadores digitais.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Calculadoras Digitais",
+			"choice": "Calculadoras Digitais.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Alto-falante",
+			"choice": "Alto-falante.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -159,14 +159,14 @@
 			"set_value": "5"
 		},
 		{
-			"choice": " Sistema de Telefonia (maior do mundo)",
+			"choice": " Sistema de Telefonia (maior do mundo).",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Relógios digitais",
+			"choice": "Relógios Digitais.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -182,7 +182,7 @@
 
 			],
 			"portrait": "",
-			"question": "Qual das alternativas é a correta sobre sistema distribuído?\nI. É um conjunto de computadores independentes entre si.\nII. Se apresenta aos utilizadores como um sistema único e coerente.\nIII. Exemplo de sistemas distribuídos são sistemas financeiros, jogos Online e redes sociais."
+			"question": "Qual das alternativas é a correta sobre sistema distribuído?\nI. É um conjunto de computadores independentes entre si.\nII. Se apresenta aos utilizadores como um sistema único e coerente.\nIII. Exemplo de sistemas distribuídos: Sistemas Financeiros, Jogos Online e Redes Sociais."
 		},
 		{
 			"choice": "I,II",

@@ -17,24 +17,24 @@
 
 			],
 			"portrait": "",
-			"question": "Quais desses exemplos *NÃO* são de sistemas embarcados?"
+			"question": "Quais desses exemplos NÃO são de sistemas embarcados?"
 		},
 		{
-			"choice": "Roteadores",
+			"choice": "Roteadores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Calculadores",
+			"choice": "Calculadoras.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Smartphones",
+			"choice": "Smartphones.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -50,14 +50,14 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Impressoras",
+			"choice": "Impressoras.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Controle remoto",
+			"choice": "Controle remoto.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -183,17 +183,17 @@
 
 			],
 			"portrait": "",
-			"question": "Qual dessas opções é primordialmente vista em Engenharia da computação, diferentemente de outros cursos?"
+			"question": "Qual dessas opções é primordialmente vista em engenharia da computação, diferentemente de outros cursos?"
 		},
 		{
-			"choice": "Desenvolver um aplicativo mobile de entrega de comida",
+			"choice": "Desenvolver um aplicativo mobile de entrega de comida.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Aprimorar uma máquina industrial para que ela funcione de forma autônoma",
+			"choice": "Aprimorar uma máquina industrial para que ela funcione de forma autônoma.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

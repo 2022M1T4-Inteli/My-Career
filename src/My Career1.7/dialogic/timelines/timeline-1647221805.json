@@ -8,7 +8,7 @@
 			"character": "character-1647223667.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[playername] agora que você sabe o principal de Sistemas de Informação, vamos testar seu conhecimento com um QUIZ!"
+			"text": "[playername], agora que você sabe o principal de Sistemas de Informação, vamos testar seu conhecimento com um QUIZ!"
 		},
 		{
 			"character": "character-1647223667.json",
@@ -17,7 +17,7 @@
 
 			],
 			"portrait": "",
-			"question": "Qual vantagem um profissional dessa área *NÃO* oferece à uma empresa?"
+			"question": "Qual vantagem um profissional dessa área NÃO oferece à uma empresa?"
 		},
 		{
 			"choice": "Escolha inteligente de hardware para otimizar o sistema.",
@@ -72,7 +72,7 @@
 
 			],
 			"portrait": "",
-			"question": "Qual dessas opções é primordialmente vista em Sistemas de informação, diferentemente de outros cursos?"
+			"question": "Qual dessas opções é primordialmente vista em sistemas de informação, diferentemente de outros cursos?"
 		},
 		{
 			"choice": "Gestão de dados.",
@@ -127,10 +127,10 @@
 
 			],
 			"portrait": "",
-			"question": "Qual a importância dos dados coletados por um profissinal nessa área?"
+			"question": "Qual a importância dos dados coletados por um profissinal dessa área?"
 		},
 		{
-			"choice": "Ajudam a empresa a entender como competir em seu mercado, com eficiência operacional, e a criar vantagem competitiva para garantir seu lugar no mercado.",
+			"choice": "Ajudam a empresa a entender como competir em seu mercado e cria uma vantagem competitiva para garantir seu lugar no mercado.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -182,10 +182,10 @@
 
 			],
 			"portrait": "",
-			"question": "Quais desses não são competências de profissionais que cursaram sistemas de software?"
+			"question": "Quais das alternativas abaixo NÃO são competências de profissionais que cursaram sistemas de informação?"
 		},
 		{
-			"choice": "Administrar o fluxo de informação, planejar e organizar o processamento, o armazenamento e a recuperação de informações",
+			"choice": "Administrar o fluxo de informação, planejar e organizar o processamento, o armazenamento e a recuperação de informações.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

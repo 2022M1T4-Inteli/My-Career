@@ -8,7 +8,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá Jogador seja bem vindo a simulação que vai lhe ajudar a descobrir o caminho que você deve trilhar na sua vida acadêmica e laboral! Aperte a barra de espaço para pular para a próxima fala e a tecla enter para selecionar uma opção em respostas.\nViu como é fácil, aliás meu nome é Alan Turing e eu serei seu mentor nessa aventura, estarei aqui sempre que precisar para que eu lhe ajude assim como ajudei a salvar milhões de vidas na segunda guerra mundial com a minha máquina Enigma que descriptografava mensagens nazistas.\nOnde estão meus modos, qual é seu nome mesmo?"
+			"text": "Olá Jogador seja bem-vindo a simulação que vai lhe ajudar a descobrir o caminho que você deve trilhar na sua vida acadêmica e laboral! Aperte a barra de espaço para pular para a próxima fala e a tecla enter para selecionar uma opção em respostas.\nViu como é fácil?! Aliás meu nome é Alan Turing e eu serei seu mentor nessa aventura, estarei aqui sempre que precisar para te ajudar, assim como ajudei a salvar milhões de vidas na segunda guerra mundial com a minha máquina Enigma que descriptografava mensagens nazistas.\nOnde estão meus modos, qual é seu nome mesmo?"
 		},
 		{
 			"event_id": "dialogic_023",

@@ -45,7 +45,7 @@
 			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[playername], parece que você ainda não atingiu o nota mínima para passar. Por favor, volte ao QUIZ e acerte mais questões para continuar."
+			"text": "Que pena[playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
 		},
 		{
 			"emit_signal": "emend-1",

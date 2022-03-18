@@ -8,7 +8,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, para teste vá para a trilha de engenharia de software para testar o minigame!"
+			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, vá para a trilha de engenharia de software para testar o minigame!"
 		},
 		{
 			"emit_signal": "raend0",

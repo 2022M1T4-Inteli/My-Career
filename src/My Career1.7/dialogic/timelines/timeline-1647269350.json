@@ -14,7 +14,7 @@
 			"character": "character-1647269471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Poxa vida [playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
+			"text": "Que pena[playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
 		},
 		{
 			"emit_signal": "bpend-1",

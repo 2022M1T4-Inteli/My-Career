@@ -14,7 +14,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[playername] você ainda não alcançou a nota mínima no minigame, volte e tente novamente para completar a trilha deste curso."
+			"text": "[playername], você ainda não alcançou a nota mínima no minigame, volte e tente novamente para completar a trilha deste curso."
 		},
 		{
 			"emit_signal": "msend-1",

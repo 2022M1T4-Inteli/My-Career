@@ -8,7 +8,7 @@
 			"character": "character-1647269471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Certo [playername], agora vamos testar seu conhecimento sobre as bases do curso de ENGENHEIRO DE SOFTWARE com um QUIZ."
+			"text": "Certo [playername], agora vamos testar seu conhecimento sobre as bases do curso de ENGENHARIA DE SOFTWARE com um QUIZ."
 		},
 		{
 			"character": "character-1647269471.json",
@@ -20,7 +20,7 @@
 			"question": "Qual destas funções um engenheiro de software desempenha?"
 		},
 		{
-			"choice": "Construção de softwares de qualidade",
+			"choice": "Construção de softwares de qualidade.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -35,28 +35,28 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Desenvolvimento da parte cientifica da área",
+			"choice": "Desenvolvimento da parte cientifica da área.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Criação de novos hardwares",
+			"choice": "Criação de novos hardwares.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Analisar dados",
+			"choice": "Analisar dados.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das respostas anteriores",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -75,21 +75,21 @@
 			"question": "Qual das alternativas abaixo é um exemplo de sistema operacional?"
 		},
 		{
-			"choice": "Instagram e Facebook",
+			"choice": "Instagram e Facebook.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Google e Youtube",
+			"choice": "Google e Youtube.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Windows e Android",
+			"choice": "Windows e Android.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -104,14 +104,14 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Mercado pago e Netflix",
+			"choice": "Mercado pago e Netflix.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das alternativas anteriores",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -185,7 +185,7 @@
 			"question": "Qual das alternativas descreve rastreabilidade de requisitos?"
 		},
 		{
-			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos",
+			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -200,28 +200,28 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software",
+			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente",
+			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos",
+			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das respostas é a certa",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
