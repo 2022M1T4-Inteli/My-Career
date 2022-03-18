@@ -8,7 +8,7 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Aqui você precisa escolher os 3 perfis que se encaixam melhor para trabalhar no projeto apresentado a você."
+			"text": "Um hospital quer criar um aplicativo de monitoramento de estresse no trânsito (temperatura, batimentos, pressão). \nApós a realização do planejamento, ficou claro a necessidade de pessoas capacitadas em: Python , Pixel Art, E-commerce. \nPara isso, você, como engenheiro de software, ficou responsável por montar uma equipe de 3 programadores para a criação desse aplicativo."
 		},
 		{
 			"emit_signal": "rmend0",
