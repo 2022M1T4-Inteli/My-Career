@@ -20,10 +20,8 @@ func _process(delta):
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
-		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionada
-			get_tree().paused = true #Pausa o jogo durante o diálogo
+		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionadao
 			var dialog = Dialogic.start(str("RecrutadoraMicrosoft-",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
-			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 			dialog.connect("timeline_end", self, "unpause") #Faz com que ao fim do timeline, o jogo despause
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz

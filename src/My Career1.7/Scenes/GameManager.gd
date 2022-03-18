@@ -14,6 +14,12 @@ var nsdialogcount = 0 #terreo nasa
 var rndialogcount = 0 #recrutadora nasa
 var goddialogcount = 0 #god
 
+var iniciominigamems = true
+var inicioms = true
+var inicioap = true
+var iniciona = true
+var iniciots = true
+
 var velocidadevertical = 500
 var velocidadehorizontal = 500
 

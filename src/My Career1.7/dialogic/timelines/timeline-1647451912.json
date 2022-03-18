@@ -8,10 +8,10 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Aqui você precisa escolher os 3 perfis que se encaixam melhor para trabalhar no projeto."
+			"text": "Aqui você precisa escolher os 3 perfis que se encaixam melhor para trabalhar no projeto apresentado a você."
 		},
 		{
-			"emit_signal": "rtend0",
+			"emit_signal": "rmend0",
 			"event_id": "dialogic_040"
 		},
 		{

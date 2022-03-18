@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Sprites/Minigame Kaique/Personagem_1-removebg-preview (1).png" type="Texture" id=1]
 [ext_resource path="res://Sprites/Minigame Kaique/Personagem_4-removebg-preview.png" type="Texture" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://Fonts/Louis George Cafe.ttf" type="DynamicFontData" id=8]
 [ext_resource path="res://Sprites/Minigame Kaique/fonteES.tres" type="DynamicFont" id=9]
 [ext_resource path="res://Sprites/Minigame Kaique/lousa.Eng.Softw.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Interface/Dialogo/CaixacONCLUIR.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=3]
 size = 30
@@ -90,9 +91,9 @@ __meta__ = {
 
 [node name="personagem2" type="ColorRect" parent="Control/ColorRect"]
 margin_left = 2216.0
-margin_top = 746.0
+margin_top = 732.0
 margin_right = 2728.0
-margin_bottom = 1066.0
+margin_bottom = 1052.0
 color = Color( 0.454902, 0.454902, 0.454902, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -123,9 +124,9 @@ __meta__ = {
 
 [node name="personagem3" type="ColorRect" parent="Control/ColorRect"]
 margin_left = 2800.0
-margin_top = 746.0
+margin_top = 732.0
 margin_right = 3312.0
-margin_bottom = 1066.0
+margin_bottom = 1052.0
 color = Color( 0.454902, 0.454902, 0.454902, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -139,7 +140,7 @@ texture = ExtResource( 6 )
 [node name="habilidade3" type="Label" parent="Control/ColorRect/personagem3"]
 margin_left = 144.0
 margin_top = -3.0
-margin_right = 464.0
+margin_right = 469.0
 margin_bottom = 325.0
 custom_fonts/font = ExtResource( 9 )
 text = "            Raphael
@@ -155,10 +156,10 @@ __meta__ = {
 }
 
 [node name="personagem4" type="ColorRect" parent="Control/ColorRect"]
-margin_left = 1592.0
-margin_top = 1168.0
-margin_right = 2128.0
-margin_bottom = 1488.0
+margin_left = 1598.0
+margin_top = 1084.0
+margin_right = 2134.0
+margin_bottom = 1404.0
 color = Color( 0.454902, 0.454902, 0.454902, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -188,10 +189,10 @@ __meta__ = {
 }
 
 [node name="personagem5" type="ColorRect" parent="Control/ColorRect"]
-margin_left = 2211.0
-margin_top = 1165.0
-margin_right = 2723.0
-margin_bottom = 1486.0
+margin_left = 2214.0
+margin_top = 1086.0
+margin_right = 2726.0
+margin_bottom = 1407.0
 color = Color( 0.454902, 0.454902, 0.454902, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -221,10 +222,11 @@ __meta__ = {
 }
 
 [node name="personagem6" type="ColorRect" parent="Control/ColorRect"]
-margin_left = 2800.0
-margin_top = 1165.0
-margin_right = 3312.0
-margin_bottom = 1486.0
+margin_left = 2799.0
+margin_top = 1085.0
+margin_right = 3311.0
+margin_bottom = 1406.0
+rect_pivot_offset = Vector2( -431, 161 )
 color = Color( 0.454902, 0.454902, 0.454902, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -264,6 +266,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Sprite" type="Sprite" parent="Control/ColorRect"]
+
+[node name="CaixacOncluir" type="Sprite" parent="Control/ColorRect/Sprite"]
+position = Vector2( 2459, 1457 )
+scale = Vector2( 0.103308, 0.105426 )
+texture = ExtResource( 11 )
+
 [node name="Button" type="Button" parent="Control"]
 show_behind_parent = true
 margin_left = 104.0
@@ -276,42 +285,57 @@ __meta__ = {
 
 [node name="Button2" type="Button" parent="Control"]
 show_behind_parent = true
-margin_left = 728.0
-margin_top = 256.0
-margin_right = 1235.0
-margin_bottom = 576.0
+margin_left = 733.0
+margin_top = 244.0
+margin_right = 1240.0
+margin_bottom = 564.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Button3" type="Button" parent="Control"]
 show_behind_parent = true
-margin_left = 1312.0
-margin_top = 256.0
-margin_right = 1819.0
-margin_bottom = 579.0
+margin_left = 1310.0
+margin_top = 234.0
+margin_right = 1817.0
+margin_bottom = 557.0
 
 [node name="Button4" type="Button" parent="Control"]
 show_behind_parent = true
-margin_left = 126.0
-margin_top = 680.0
-margin_right = 637.0
-margin_bottom = 1000.0
+margin_left = 132.0
+margin_top = 596.0
+margin_right = 643.0
+margin_bottom = 916.0
 custom_fonts/font = ExtResource( 9 )
 
 [node name="Button5" type="Button" parent="Control"]
 show_behind_parent = true
-margin_left = 733.0
-margin_top = 677.0
-margin_right = 1237.0
-margin_bottom = 997.0
+margin_left = 729.0
+margin_top = 599.0
+margin_right = 1233.0
+margin_bottom = 919.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button6" type="Button" parent="Control"]
 show_behind_parent = true
-margin_left = 1312.0
-margin_top = 680.0
-margin_right = 1824.0
-margin_bottom = 993.0
+margin_left = 1317.0
+margin_top = 594.0
+margin_right = 1829.0
+margin_bottom = 907.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button7" type="Button" parent="Control"]
+margin_left = 861.0
+margin_top = 932.0
+margin_right = 1079.0
+margin_bottom = 1002.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -333,3 +357,4 @@ __meta__ = {
 [connection signal="pressed" from="Control/Button4" to="." method="_on_Button4_pressed"]
 [connection signal="pressed" from="Control/Button5" to="." method="_on_Button5_pressed"]
 [connection signal="pressed" from="Control/Button6" to="." method="_on_Button6_pressed"]
+[connection signal="pressed" from="Control/Button7" to="." method="_on_Button7_pressed"]

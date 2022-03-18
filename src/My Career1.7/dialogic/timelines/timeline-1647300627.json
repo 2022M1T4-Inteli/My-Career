@@ -35,12 +35,12 @@
 			"set_value": "63"
 		},
 		{
-			"change_scene": "res://Scenes/Minigame Microsoft.tscn",
-			"event_id": "dialogic_041"
-		},
-		{
 			"emit_signal": "rmend0",
 			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/Minigame Microsoft.tscn",
+			"event_id": "dialogic_041"
 		},
 		{
 			"choice": "Não",

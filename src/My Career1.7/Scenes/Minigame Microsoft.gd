@@ -6,13 +6,15 @@ var pontos = 0
 
 
 func _ready():
-	$pontos.text="Pontos: " + str(pontos)
-	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
-		var dialog = Dialogic.start(str("RecrutadoraMicrosoft-1",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
-		dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
-		# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
-		add_child(dialog) 
-	pass 
+		if get_node_or_null('DialogNode') == null and GameManager.iniciominigamems == true: #Verifica se outro diálogo ja esta em cena
+			GameManager.iniciominigamems = false
+			var dialog = Dialogic.start(str("RecrutadoraMicrosoft-",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
+			dialog.connect("timeline_end", self, "unpause") #Faz com que ao fim do timeline, o jogo despause
+			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
+			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
+			add_child(dialog) 
+		else:
+			$pontos.text="Pontos: " + str(pontos)
 
 
 func dialog_listener(string):
@@ -24,11 +26,11 @@ func dialog_listener(string):
 func _process(delta):
 	print(escolha)
 	if escolha >=3:
-		podeEscolher=false
+		podeEscolher = false
 		$pontos.text="Pontos: " + str(pontos)
 		Dialogic.set_variable("esxppoints", pontos)
 		
-	pass
+
 	
 	
 func _on_Button_pressed():
@@ -87,3 +89,7 @@ func _on_Button6_pressed():
 		
 	pass 
 
+
+func _on_Button7_pressed():
+	get_tree().change_scene("res://Scenes/1andarMicrosoft.tscn")
+	

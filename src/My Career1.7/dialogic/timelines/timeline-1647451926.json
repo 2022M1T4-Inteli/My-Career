@@ -8,21 +8,11 @@
 			"character": "character-1647288409.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Colocar Fala explicando minigame aqui* pode suar a variavel [playername] para puchar o nome do personagem"
+			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, para teste vá para a trilha de engenharia de software para testar o minigame!"
 		},
 		{
-			"character": "character-1647288409.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "esse texto não precisa é só pra explicar, aqui no change scnece coloca a cena no minigame"
-		},
-		{
-			"emit_signal": "rtend0",
+			"emit_signal": "raend0",
 			"event_id": "dialogic_040"
-		},
-		{
-			"change_scene": "",
-			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
