@@ -185,7 +185,7 @@
 			"question": "Qual das alternativas descreve rastreabilidade de requisitos?"
 		},
 		{
-			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos",
+			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -200,28 +200,28 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software",
+			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente",
+			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos",
+			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das respostas é a certa",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

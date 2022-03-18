@@ -8,7 +8,7 @@
 			"character": "character-1647117958.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[playername] siga para o 1º andar pelo elevador à sua direita, por favor."
+			"text": "[playername], siga para o 1º andar pelo elevador à sua direita, por favor."
 		},
 		{
 			"emit_signal": "msend0",

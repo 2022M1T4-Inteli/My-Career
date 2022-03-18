@@ -209,7 +209,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Siga para o elevador á direita da recepcionista da Tesla para iniciar seu estágio."
+			"text": "Siga para o elevador à direita da recepcionista da Tesla para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -224,7 +224,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Siga para o elevador á direita da recepcionista da Nasa para iniciar seu estágio."
+			"text": "Siga para o elevador à direita da recepcionista da Nasa para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -239,7 +239,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Siga para o elevador á direita da recepcionista da Microsoft para iniciar seu estágio."
+			"text": "Siga para o elevador à direita da recepcionista da Microsoft para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -254,7 +254,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Siga para o elevador á direita da recepcionista da Apple para iniciar seu estágio."
+			"text": "Siga para o elevador à direita da recepcionista da Apple para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -434,7 +434,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da recepcionista da Apple para refazer seu estágio."
+			"text": "Procure pela recrutadora da Apple para refazer seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"

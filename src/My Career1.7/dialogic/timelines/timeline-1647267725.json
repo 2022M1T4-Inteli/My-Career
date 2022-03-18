@@ -14,7 +14,7 @@
 			"character": "character-1647267811.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Puxa vida [playername]! Parece que você não atingiu a nota mínima no QUIZ que fizemos. Por favor, volte ao QUIZ e acerte mais questões."
+			"text": "Que pena [playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
 		},
 		{
 			"emit_signal": "dvend-1",
@@ -33,7 +33,7 @@
 			"character": "character-1647267811.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parabéns [playername]! Você passou no teste de conhecimento! Agora, basta seguir para o prédio da APPLE e continuar sua trilha no curso de CIÊNCIA DA COMPUTAÇÃO."
+			"text": " Muito bem [playername]! Agora que você completou o QUIZ, pode ir até o prédio da NASA para ter a experiência do curso."
 		},
 		{
 			"definition": "1647366069-648",
