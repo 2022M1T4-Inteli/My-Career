@@ -8,7 +8,7 @@
 			"character": "character-1647269471.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Certo [playername], agora vamos testar seu conhecimento sobre as bases do curso de ENGENHEIRO DE SOFTWARE com um QUIZ."
+			"text": "Certo [playername], agora vamos testar seu conhecimento sobre as bases do curso de ENGENHARIA DE SOFTWARE com um QUIZ."
 		},
 		{
 			"character": "character-1647269471.json",
@@ -20,7 +20,7 @@
 			"question": "Qual destas funções um engenheiro de software desempenha?"
 		},
 		{
-			"choice": "Construção de softwares de qualidade",
+			"choice": "Construção de softwares de qualidade.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -35,28 +35,28 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Desenvolvimento da parte cientifica da área",
+			"choice": "Desenvolvimento da parte cientifica da área.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Criação de novos hardwares",
+			"choice": "Criação de novos hardwares.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Analisar dados",
+			"choice": "Analisar dados.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das respostas anteriores",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -75,21 +75,21 @@
 			"question": "Qual das alternativas abaixo é um exemplo de sistema operacional?"
 		},
 		{
-			"choice": "Instagram e Facebook",
+			"choice": "Instagram e Facebook.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Google e Youtube",
+			"choice": "Google e Youtube.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Windows e Android",
+			"choice": "Windows e Android.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -104,14 +104,14 @@
 			"set_value": "5"
 		},
 		{
-			"choice": "Mercado pago e Netflix",
+			"choice": "Mercado pago e Netflix.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"choice": "Nenhuma das alternativas anteriores",
+			"choice": "Nenhuma das respostas anteriores.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
