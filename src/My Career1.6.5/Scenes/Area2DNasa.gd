@@ -1,14 +1,15 @@
 extends Area2D
 
-var firsttime = 0
+var firstTime = 0
 
 func _ElevadorEnable():
 	$CollisionShape2D.disabled = false
-
+#Função que ativa o colisor do elevador
 
 func _on_Area2DNasa_body_entered(body):
-	if firsttime == 0:
+	if firstTime == 0:
 		$CollisionShape2D.disabled = true
-		firsttime += 1
+		firstTime += 1
 	else: 
 		$CollisionShape2D.disabled = false
+#Proibe a entrada do jogador na cena respectiva se for a primeira vez

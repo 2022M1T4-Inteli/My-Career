@@ -6,6 +6,7 @@ var activate = false
 func _dialog():
 	Dialogic.set_variable("ecxppoints", 0)
 	Dialogic.set_variable("ecqzpoints", 0)
+#setando a variavel em 0
 
 func _ready():
 	connect("body_entered", self, '_on_MentorInterectionArea_body_entered')

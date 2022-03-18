@@ -13,3 +13,4 @@ func _ready():
 
 func _on_TerreoTesla_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoTesla.tscn")
+	#Função que muda de cena

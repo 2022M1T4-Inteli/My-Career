@@ -6,7 +6,7 @@ var activate = false
 func _dialog():
 	Dialogic.set_variable("ccxppoints", 0)
 	Dialogic.set_variable("ccqzpoints", 0)
-
+#Declara a variavel como 0
 func _ready():
 	connect("body_entered", self, '_on_MentorInterectionArea_body_entered')
 	connect("body_exited", self, '_on_MentorInterectionArea_body_exited')

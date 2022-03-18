@@ -6,7 +6,8 @@ func _ready():
 		GameManager.tutorial = true
 	else:
 		pass
-
+#função incia quando o botão do tutorial é clicado 
+#função inicia o tutorial
 
 func _on_ElonMusgo_body_entered(body):
 	get_tree().change_scene("res://Scenes/ElonMusgo.tscn")

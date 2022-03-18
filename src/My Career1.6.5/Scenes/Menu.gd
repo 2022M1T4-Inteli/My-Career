@@ -47,12 +47,13 @@ func _on_Mute_pressed():
 
 
 func _on_Play_mouse_entered():
-	$Buttom.playing = true
-
+	$Button.playing = true
+#Quando clica começa a tocar
 
 func _on_Quit_mouse_entered():
-	$Buttom.playing = true
-
+	$Button.playing = true
+#Quando clica para de tocar
 
 func _on_Mute_mouse_entered():
-	$Buttom.playing = true
+	$Button.playing = true
+#Quando clica muta
