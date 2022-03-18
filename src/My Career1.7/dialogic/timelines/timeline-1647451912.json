@@ -1,0 +1,27 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aqui você precisa escolher os 3 perfis que se encaixam melhor para trabalhar no projeto."
+		},
+		{
+			"emit_signal": "rtend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/Minigame Microsoft.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647451912.json",
+		"name": "RecrutadoraMicrosoft-1"
+	}
+}

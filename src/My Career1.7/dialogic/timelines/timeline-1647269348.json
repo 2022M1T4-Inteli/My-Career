@@ -1,0 +1,251 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647208252.cfg"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certo [playername], agora vamos testar seu conhecimento sobre as bases do curso de ENGENHEIRO DE SOFTWARE com um QUIZ."
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual destas funções um engenheiro de software desempenha?"
+		},
+		{
+			"choice": "Construção de softwares de qualidade",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Desenvolvimento da parte cientifica da área",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Criação de novos hardwares",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Analisar dados",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Nenhuma das respostas anteriores",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas abaixo é um exemplo de sistema operacional?"
+		},
+		{
+			"choice": "Instagram e Facebook",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Google e Youtube",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Windows e Android",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Mercado pago e Netflix",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Nenhuma das alternativas anteriores",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sobre arquitetura de software qual das afirmações abaixo estão corretas:\nI. Com a arquitetura de software teve o surgimento de técnicas de modelagem e projeto\nII. A arquitetura de software define a estrutura do sistema\nIII. Os softwares atualmente não precisam ter qualidade"
+		},
+		{
+			"choice": "I,II",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "II,III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "II",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas descreve rastreabilidade de requisitos?"
+		},
+		{
+			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182325-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Nenhuma das respostas é a certa",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"emit_signal": "bpend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "23"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647269348.json",
+		"name": "BillPortas-1"
+	}
+}

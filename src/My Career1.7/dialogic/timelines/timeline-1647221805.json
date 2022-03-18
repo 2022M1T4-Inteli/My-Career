@@ -1,0 +1,251 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209342.cfg"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[playername] agora que você sabe o principal de Sistemas de Informação, vamos testar seu conhecimento com um QUIZ!"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual vantagem um profissional dessa área *NÃO* oferece à uma empresa?"
+		},
+		{
+			"choice": "Escolha inteligente de hardware para otimizar o sistema.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Maior segurança aos dados dos clientes.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Fazer a planta de uma construção",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182325-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Montar uma estratégia empresarial.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Desenvolvimento de um software para uso corporativo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual dessas opções é primordialmente vista em Sistemas de informação, diferentemente de outros cursos?"
+		},
+		{
+			"choice": "Gestão de dados.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182325-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Arquitetura de um computador.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Como construir um hadware.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Automatização de máquinas industriais.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Desenvolvimento de um aplicativo mobile.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual a importância dos dados coletados por um profissinal nessa área?"
+		},
+		{
+			"choice": "Ajudam a empresa a entender como competir em seu mercado, com eficiência operacional, e a criar vantagem competitiva para garantir seu lugar no mercado.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Ajudam a entender o perfil dos clientes.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Entender como melhorar seu produto.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Traz mais confiabilidade às decisões tomadas pelos líderes da empresa.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Todas as alternativas acima.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182325-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quais desses não são competências de profissionais que cursaram sistemas de software?"
+		},
+		{
+			"choice": "Administrar o fluxo de informação, planejar e organizar o processamento, o armazenamento e a recuperação de informações",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Garantir segurança aos dados e informações da empresa.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Integrar e gerenciar tecnologias da informação para problemas e demandas organizacionais.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Implementar soluções desconsiderando os efeitos causados nas informações e no sistema.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182325-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"choice": "Modelar e implementar soluções de Tecnologia de Informação em variados domínios de aplicação.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"emit_signal": "stend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "24"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647221805.json",
+		"name": "SteveTrabalho-1"
+	}
+}
