@@ -31,6 +31,7 @@ func _ready():
 	elif int (Dialogic.get_variable("godindice")) > 50 :
 		$BackgroundMusic.stream = load("res://Audios/Track 5.mp3")
 		$BackgroundMusic.play()
+#series de ifs determinam quais trilhas sonoras vão tocar e quando
 
 func _physics_process(delta):
 	var velocity = Vector2.ZERO
@@ -83,15 +84,16 @@ func _on_Mute_pressed():
 		$BackgroundMusic.playing = true
 		iconUnmuted.show()
 		iconMuted.hide()
-		
+#função faz o botão para mutar a musica funcionar
 
 func _on_Button2_mouse_entered():
-	$Buttom.playing = true
-
+	$Button.playing = true
+#função permite botão a ser clicado
 
 func _on_Mute_mouse_entered():
-	$Buttom.playing = true
-
+	$Button.playing = true
+#função permite botão a ser clicado
 
 func _on_Button_mouse_entered():
-	$Buttom.playing = true
+	$Button.playing = true
+#função permite botão a ser clicado

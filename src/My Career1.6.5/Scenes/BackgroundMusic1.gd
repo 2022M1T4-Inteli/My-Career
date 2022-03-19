@@ -4,7 +4,7 @@ onready var music = $BackgroundMusic1
 onready var music2 = $BackgroundMusic5
 onready var iconUnmuted =  $SoundUnmuted
 onready var iconMuted = $SoundMuted
-
+#Declarar variaveis para usar na função ready
 func _ready():
 	if GameManager.goddialogcount > 9 and GameManager.goddialogcount < 20:
 		music.play()
@@ -16,10 +16,9 @@ func _on_Mute_pressed():
 		playing = false
 		iconUnmuted.hide()
 		iconMuted.show()
-		
 	else:
 		music.volume_db = 0.0
 		playing = true
 		iconUnmuted.show()
 		iconMuted.hide()
-	pass # Replace with function body.
+	pass #Função que muta o jogo se apertar o botão

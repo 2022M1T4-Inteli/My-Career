@@ -13,7 +13,7 @@ func _getcharactersName():
 		PlayerName.grab_focus()
 		PlayerName.set_cursor_position(len(PlayerName.text))
 		Box.visible = true
-
+#Função que permite o usuario a inserir seu nome
 func _on_Button_pressed():
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
 			var dialog = Dialogic.start(str("AlanTuring-",GameManager.goddialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
