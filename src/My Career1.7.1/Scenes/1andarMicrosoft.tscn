@@ -1,0 +1,94 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/1andarMicrosofte.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameEngenhariaSoftware/1ºandar ES (.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
+[ext_resource path="res://Scenes/RecrutadoraM.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 7.01999, 16.4162 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10.4415, 24.5612 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 11.4471, 23.4971 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 10, 25.1375 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 11.0257, 25.7056 )
+
+[node name="1andarMicrosoft" type="Node2D"]
+
+[node name="InteriorMicrosoft" type="Sprite" parent="."]
+scale = Vector2( 7.135, 6.108 )
+texture = ExtResource( 3 )
+script = ExtResource( 2 )
+
+[node name="TerreoMicrosoft" type="Area2D" parent="InteriorMicrosoft"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorMicrosoft/TerreoMicrosoft"]
+position = Vector2( 332.598, -49.9787 )
+shape = SubResource( 1 )
+
+[node name="ElevadorHorizontal" type="Sprite" parent="InteriorMicrosoft"]
+position = Vector2( 323.756, -43.0583 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="ElevadorVertical" type="Sprite" parent="InteriorMicrosoft"]
+visible = false
+position = Vector2( 323.896, -47.4787 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="InteriorMicrosoft"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="InteriorMicrosoft/StaticBody2D"]
+position = Vector2( 336.37, -8.34971 )
+polygon = PoolVector2Array( -24.8073, -64.1781, -24.8073, -113.621, -95.3048, -113.13, -101.752, -91.0282, -114.366, -91.0282, -120.252, -113.458, -189.208, -112.148, -201.682, -88.8998, -210.652, -87.59, -211.493, -114.931, -289.418, -114.44, -289.839, -88.7361, -218.641, -88.2449, -216.258, 8.18599, -288.437, 6.54879, -288.858, 34.5449, -168.185, 32.9077, -167.765, 104.453, -238.402, 103.471, -239.383, 151.277, -240.645, 229.208, -265.996, 228.977, -270.638, 247.38, -282.691, 246.071, -287.22, 228.784, -313.15, 228.548, -317.729, 247.38, -327.12, 248.527, -334.366, 228.354, -360.282, 228.119, -366.363, 247.38, -376.454, 247.38, -380.098, 227.898, -408.83, 229.044, -413.455, 247.38, -424.527, 249.836, -429.594, 227.473, -456.482, 227.243, -455.221, 148.985, -454.66, 32.9077, -361.056, 33.3102, -359.515, -53.6809, -381.154, -53.3996, -385.424, -17.8454, -407.148, -18.5003, -406.587, -51.2443, -431.963, -51.429, -432.516, -17.8454, -454.24, -18.5003, -455.221, -50.5894, -484.092, -49.1159, -480.168, 102.325, -485.271, 102.289, -488.437, 125.409, -497.267, 126.883, -503.519, 102.161, -551.787, 102.489, -551.787, 9.65946, -527.821, 9.65946, -528.661, -71.5455, -552.418, -71.7474, -551.366, -17.6817, -574.632, -17.1906, -577.295, -71.9589, -600.032, -72.1522, -598.458, -16.5357, -622.845, -17.1906, -625.978, -72.3727, -646.95, -72.5509, -648.774, 7.69483, -575.893, 8.18599, -576.034, 104.126, -581.763, 103.93, -581.78, 126.064, -593.693, 128.52, -597.786, 103.383, -647.933, 101.67, -648.612, 128.09, -624.387, 128.684, -623.932, 149.637, -598.038, 150.131, -598.458, 175.999, -608.334, 175.156, -605.466, 199.247, -616.818, 198.101, -620.182, 173.379, -648.493, 175.508, -648.573, 200.12, -622.705, 199.083, -623.555, 220.938, -599.159, 222.004, -598.318, 247.38, -607.148, 271.775, -617.379, 268.664, -616.959, 246.889, -649.474, 245.907, -647.933, 299.443, -22.8451, 297.642, -24.8073, 248.527, -96.5662, 248.527, -95.8654, 31.5979, -23.5459, 32.0891, -24.6671, -16.2083, 7.14786, 25.3766, -0.280304, 47.6424, 13.1745, 198.101, 23.1255, 237.394, 4.76526, 297.479, -37.281, 331.696, -651.296, 342.502, -699.229, 309.267, -670.918, 88.5724, -678.346, -75.6385, -659.285, -155.043, -503.854, -146.529, -358.374, -118.042, -340.434, 33.3988, -337.211, 86.9352, -336.09, 34.5449, -329.362, -54.3549, -330.343, -153.733, -245.41, -157.335, -157.533, -164.375, 9.25018, -180.747, 52.5578, -91.8468, 29.8528, 52.8815, -24.8073, -16.372, 9.25018, -16.372, 10.291, -69.1932 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorMicrosoft/StaticBody2D"]
+position = Vector2( -228.031, 238.048 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="InteriorMicrosoft/StaticBody2D"]
+position = Vector2( -179.022, 237.479 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="InteriorMicrosoft/StaticBody2D"]
+position = Vector2( -178.556, 167.158 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="InteriorMicrosoft/StaticBody2D"]
+position = Vector2( -227.61, 166.667 )
+shape = SubResource( 5 )
+
+[node name="Recrutadora" type="Sprite" parent="."]
+position = Vector2( -1465, 868 )
+scale = Vector2( 0.319444, 0.23374 )
+texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2177, -343 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
+position = Vector2( -956, 1064 )
+scale = Vector2( 3.10644, 3.25947 )
+polygon = PoolVector2Array( -66.9577, -120.265, -267.831, -118.731, -269.118, 23.0099, -68.2453, 26.0779 )
+
+[node name="EButton" type="Sprite" parent="MentorInterectionArea"]
+position = Vector2( -1458, 664 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 5 )
+
+[connection signal="body_entered" from="InteriorMicrosoft/TerreoMicrosoft" to="InteriorMicrosoft" method="_on_TerreoMicrosoft_body_entered"]

@@ -11,3 +11,4 @@ func _ready():
 
 func _on_TerreoNasa_body_entered(body):
 	get_tree().change_scene("res://Scenes/TerreoNasa.tscn")
+	#Função que muda de cena

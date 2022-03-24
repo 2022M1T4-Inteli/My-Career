@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/DorothyVan.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Dorothy Van Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaQuizzCienciaComputacao/Map009.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 11.2125 )
+
+[node name="ElonMusgo" type="Node2D"]
+
+[node name="Interior" type="Sprite" parent="."]
+position = Vector2( 944, -1000 )
+scale = Vector2( 7.13542, 6.10833 )
+texture = ExtResource( 5 )
+script = ExtResource( 6 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="Interior"]
+script = ExtResource( 2 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 162.429, 67.2852 )
+polygon = PoolVector2Array( -282.674, -43.3834, -283.235, -2.78313, -211.901, -1.80086, -211.901, -43.056 )
+
+[node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
+position = Vector2( -78.7622, -1.63721 )
+scale = Vector2( 0.0242761, 0.0288865 )
+texture = ExtResource( 3 )
+
+[node name="OpenWorld" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/OpenWorld"]
+position = Vector2( 188.356, -108.788 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Interior"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+position = Vector2( 162.289, -143.411 )
+polygon = PoolVector2Array( 10.5109, -10.4775, 24.3854, -19.9727, 58.8613, 20.6276, 44.146, 96.0983, 57.1795, 141.119, 58.3007, 285.839, 18.219, 304.175, 10.6511, 338.391, -48.6306, 359.673, -131.597, 369.005, -189.898, 340.027, -207.556, 362.62, -222.412, 391.106, -240.771, 387.504, -366.902, 385.867, -368.864, 336.098, -398.295, 310.723, -368.444, 242.128, -371.667, 200.218, -390.026, 147.013, -382.318, 57.2988, -376.012, 7.367, -248.058, -49.6044, -74.6978, -19.809, -31.5328, -38.6358, 2.80292, -25.3752, 33.4949, 18.9908, 3.78394, 21.7738, 2.1022, 2.45593, -84.0328, 1.47343, -115.48, 1.47342, -115.48, 21.6098, -137.623, 22.7558, -139.165, 1.146, -208.692, 1.0889, -209.518, 24.3932, -233.531, 23.9019, -265.156, 23.9021, -265.156, 46.1667, -275.387, 45.1845, -277.591, 22.6486, -353.028, 21.2824, -352.75, 47.9127, -354.705, 166.838, -355.27, 192.851, -353.028, 213.152, -352.467, 242.128, -353.033, 263.525, -312.525, 264.23, -307.2, 300.246, -306.079, 309.905, -306.779, 334.953, -231.241, 333.479, -228.718, 313.507, -213.162, 313.015, -211.48, 285.021, -210.779, 262.429, -186.815, 263.247, -185.46, 286.536, -139.866, 288.131, -138.744, 310.56, -166.914, 312.033, -167.334, 335.935, -87.5912, 336.426, -89.2729, 310.56, -65.7284, 312.524, -64.8876, 332.497, -18.219, 333.479, -17.7985, 286.985, 7.70804, 287.968, 7.2876, 260.464, 1.96207, 279.127, -9.46437, 279.375, -16.1168, 257.517, -64.8876, 260.464, -64.0467, 286.985, -89.4131, 286.167, -90.3941, 240.492, -93.197, 189.25, -66.289, 190.56, -66.289, 169.932, 0.560608, 171.897, 3.08322, 145.376, -92.7766, 143.411, -92.2994, 168.6, -112.397, 169.441, -113.378, 191.869, -137.203, 191.215, -138.464, 166.985, -183.031, 166.985, -185.413, 191.378, -186.254, 236.89, -210.779, 238.527, -209.798, 167.967, -233.483, 168.295, -264.035, 167.477, -265.577, 189.086, -275.527, 182.538, -282.534, 164.53, -285.057, 92.8244, -86.8905, 92.9878, -86.6102, 71.8691, -23.4044, 72.1965, -21.3022, 69.086, 0.700745, 70.0685, 4.90512, 52.8786, 4.90512, 47.9673, 38.9519, 48.2816, 38.1197, 21.2827 )
+
+[node name="NPC" type="Sprite" parent="."]
+position = Vector2( 381, -836 )
+scale = Vector2( 0.304435, 0.216743 )
+texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2031, -1664 )
+
+[connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
+[connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
+[connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]

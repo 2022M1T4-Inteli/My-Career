@@ -1,13 +1,13 @@
 extends Node2D
 
 
-onready var PlayLoading = $Loading
+onready var playLoading = $Loading
 # Declarando o objeto PlayLoading para poder trabalhar com as propriedades 
 # da Sprite Animada.
 
 
 func _ready():
-	PlayLoading.play()
+	playLoading.play()
 # Quando a cena é executada o audio inicia através da função play()
 
 
