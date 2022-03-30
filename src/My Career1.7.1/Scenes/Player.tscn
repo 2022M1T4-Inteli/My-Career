@@ -12,7 +12,7 @@
 [ext_resource path="res://Audios/Beep.wav-8a40c87ada5a0fb3b17e7da786a6259a.sample" type="AudioStream" id=14]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 43, 28 )
+extents = Vector2( 43, 79 )
 
 [sub_resource type="Animation" id=2]
 resource_name = "Idle"
@@ -108,7 +108,7 @@ font_data = ExtResource( 6 )
 script = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 1, 32 )
+position = Vector2( 1, 27 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]

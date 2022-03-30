@@ -1,6 +1,6 @@
 extends Node2D
 
-var start = true
+var inicio = true
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -8,7 +8,7 @@ var start = true
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	if get_node_or_null('DialogNode') == null and start == true: #Verifica se outro diálogo ja esta em cena
+	if get_node_or_null('DialogNode') == null and inicio == true: #Verifica se outro diálogo ja esta em cena
 			get_tree().paused = true #Pausa o jogo durante o diálogo
 			var dialog = Dialogic.start(str("RecrutadoraMicrosoft-",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
@@ -16,7 +16,7 @@ func _ready():
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
-			start = false
+			inicio = false
 	pass # Replace with function body.
 
 
