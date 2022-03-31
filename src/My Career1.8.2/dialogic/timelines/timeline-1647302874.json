@@ -1,0 +1,101 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"condition": ">=",
+			"definition": "1647181086-648",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parabéns [playername]! Você passou no minigame final!\nSua jornada de CIÊNCIA DA COMPUTAÇÃO está completa.\nSua pontuação atual no minigame é de [ccxppoints] pontos."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1647181086-648",
+			"event_id": "dialogic_012",
+			"value": "10"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Infelizmente você não passou [playername], tente novamente.\nSua pontuação atual no minigame é de [ccxppoints] pontos e o mínimo necessário para passar são 10 pontos."
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quer tentar novamente"
+		},
+		{
+			"choice": "Sim",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "rnend-1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/MinigameNasa.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "62"
+		},
+		{
+			"choice": "Não",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "72"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647302874.json",
+		"name": "RecrutadoraNasa-2"
+	}
+}
