@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Prédio da Tesla à esquerda.                                                                                                             Prédio da Apple à direita."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648140975.json",
+		"name": "Placa3-0"
+	}
+}

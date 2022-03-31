@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647208252.cfg"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá [playername]! Eu sou o Bill Portões, fundador da Microsoft. Eu tranquei Harvard para poder criar minha companhia. Com a criação da Microsoft também veio o sistema operacional Windows e mais tarde a Xbox. O Windows hoje é o maior sistema operacional no mundo, logo é o mais usado.\n[playername], vou falar sobre engenharia de software e depois realizarei o QUIZ com você.\nO engenheiro de software é um profissional qualificado para a construção de softwares de qualidade para a sociedade. O software desempenha um papel central em quase todos os aspectos da vida cotidiana, no governo, bancos, finanças, educação, transporte, entretenimento, medicina, agricultura, indústria, direito, entre outros.\nDentro de engenharia de software temos o sistema operacional que é um programa para computador ou celular, como o Windows ou o Android. É o software encarregado por fazer a interface entre usuário e hardware, sem código binário ou linguagem de máquina. Exemplos de sistema operacional: unix, MS-DOS e OS/2.\nA arquitetura de software claramente faz parte de engenharia de software. Os softwares estão sendo cada vez mais usados, como na área científica, robótica e aplicações Web. Surgiu de várias técnicas de modelagem e projeto, como de linguagens de programação.\n A arquitetura de software serve como uma estrutura na qual se tem o entendimento dos componentes de um sistema e de seus inter-relacionamentos. Portanto, ela define a estrutura do sistema, de modo consistente para implementações, já que está diretamente relacionada aos atributos de qualidade como confiabilidade e desempenho.\nOutro tema importante na Engenharia de software é a rastreabilidade de requisitos, que tem conexão com a concepção de fluxo de entrega contínua, um dos assuntos mais avançados da área. \nA rastreabilidade de requisitos consiste na identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre os requisitos e os outros artefatos da engenharia de Software. Também pode-se abranger documentos da organização, padrões a serem seguidos, legislação, entre outros.\n[playername], agora que já expliquei o lado teórico do curso, quando você estiver pronto, fale comigo novamente para iniciar o QUIZ e testar eu conhecimento."
+		},
+		{
+			"emit_signal": "bpend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "13"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647269347.json",
+		"name": "BillPortas-0"
+	}
+}
