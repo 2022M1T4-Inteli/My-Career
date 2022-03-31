@@ -34,3 +34,8 @@ var tutorial = false
 
 var god
 var select
+
+var firsttimeap = 0
+var firsttimens = 0
+var firsttimems = 0
+var firsttimets = 0

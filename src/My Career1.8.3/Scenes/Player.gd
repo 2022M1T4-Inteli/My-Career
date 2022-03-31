@@ -12,6 +12,7 @@ onready var animationTree = $AnimationTree
 onready var stateMachine = animationTree.get("parameters/playback")
 onready var iconUnmuted = get_node("CanvasLayer").get_node("Mute").get_node("SoundUnmuted")
 onready var iconMuted = get_node("CanvasLayer").get_node("Mute").get_node("SoundMuted")
+onready var playerminimapa = $"CanvasLayer/Sprite/MapaExterno/KinematicBody2D"
 
 # Definir qual animação vai rodar 
 
@@ -52,26 +53,34 @@ func _ready():
 		$BackgroundMusic.play()
 
 func _physics_process(delta):
+	if get_tree().get_current_scene().get_name() == "OpenWorld":
+		get_node("CanvasLayer/Sprite").visible = true
+	else:
+		get_node("CanvasLayer/Sprite").visible = false
+	
+	playerminimapa.position.x = ($Sprite.global_position.x/7)
+	playerminimapa.position.y = ($Sprite.global_position.y/7)
+	
 	var velocity = Vector2.ZERO
 # Delcarando a variavel vetor
 	if Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_up"):
-		velocity.x -= GameManager.velocidadehorizontal
-		velocity.y -= GameManager.velocidadevertical
+		velocity.x -= GameManager.velocidadehorizontal/2
+		velocity.y -= 0
 		stateMachine.travel("Walk")
 
 	elif Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_down"):
-		velocity.x -= GameManager.velocidadehorizontal
-		velocity.y += GameManager.velocidadevertical
+		velocity.x -= GameManager.velocidadehorizontal/2
+		velocity.y += 0
 		stateMachine.travel("Walk")
 
 	elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_up"):
-		velocity.x += GameManager.velocidadehorizontal
-		velocity.y -= GameManager.velocidadevertical
+		velocity.x += GameManager.velocidadehorizontal/2
+		velocity.y -= 0
 		stateMachine.travel("Walk")
 
 	elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_down"):
-		velocity.x += GameManager.velocidadehorizontal
-		velocity.y += GameManager.velocidadevertical
+		velocity.x += GameManager.velocidadehorizontal/2
+		velocity.y += 0
 		stateMachine.travel("Walk")
 		
 	if Input.is_action_pressed("ui_up"):

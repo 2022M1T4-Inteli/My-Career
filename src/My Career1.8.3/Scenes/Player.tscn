@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Personagens/CharacterSheet.png" type="Texture" id=2]
@@ -10,7 +10,18 @@
 [ext_resource path="res://Sprites/Interface/Menu/mute volume.png" type="Texture" id=8]
 [ext_resource path="res://Audios/Track 1.mp3" type="AudioStream" id=9]
 [ext_resource path="res://Scenes/PauseMenu.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Sprites/Interface/Desing/BackGround.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoMicrosoft.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Mapa/Logos/CCMiniMapa.png" type="Texture" id=13]
 [ext_resource path="res://Audios/Beep.wav-8a40c87ada5a0fb3b17e7da786a6259a.sample" type="AudioStream" id=14]
+[ext_resource path="res://Sprites/Mapa/Logos/SIMiniMapa.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoApple.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoNasa.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoTesla.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Mapa/Logos/ECMiniMapa.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Mapa/Logos/MapaExternoMinimapa.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Personagens/MiniaturaMiniMapa.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Mapa/Logos/ESMiniMapa.png" type="Texture" id=22]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 29, 42.5 )
@@ -202,7 +213,7 @@ __meta__ = {
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="BotãoInterogação" type="Sprite" parent="CanvasLayer"]
-position = Vector2( 1852, 60 )
+position = Vector2( 58, 127 )
 scale = Vector2( 0.0602041, 0.0602041 )
 texture = ExtResource( 3 )
 
@@ -219,10 +230,10 @@ __meta__ = {
 }
 
 [node name="Mute" type="Button" parent="CanvasLayer"]
-margin_left = 28.0
-margin_top = 22.0
-margin_right = 132.0
-margin_bottom = 126.0
+margin_left = 17.0
+margin_top = 11.0
+margin_right = 93.0
+margin_bottom = 85.0
 focus_mode = 0
 enabled_focus_mode = 0
 flat = true
@@ -231,17 +242,77 @@ __meta__ = {
 }
 
 [node name="SoundMuted" type="Sprite" parent="CanvasLayer/Mute"]
-position = Vector2( 56, 55.6757 )
-scale = Vector2( 3.73333, 3.53107 )
+position = Vector2( 39.5, 38.509 )
+scale = Vector2( 2.63333, 2.49067 )
 texture = ExtResource( 8 )
 
 [node name="SoundUnmuted" type="Sprite" parent="CanvasLayer/Mute"]
-position = Vector2( 48, 56 )
-scale = Vector2( 3.86207, 3.74011 )
+position = Vector2( 36, 39 )
+scale = Vector2( 2.82759, 2.73829 )
 texture = ExtResource( 7 )
 
 [node name="PauseMenu" parent="CanvasLayer" instance=ExtResource( 10 )]
 visible = false
+
+[node name="Sprite" type="Sprite" parent="CanvasLayer"]
+visible = false
+
+[node name="BackGround" type="Sprite" parent="CanvasLayer/Sprite"]
+position = Vector2( 1731, 174.25 )
+scale = Vector2( 1.26, 1.165 )
+texture = ExtResource( 11 )
+
+[node name="MapaExterno" type="Sprite" parent="CanvasLayer/Sprite"]
+position = Vector2( 1731, 173 )
+scale = Vector2( 0.332407, 0.306837 )
+texture = ExtResource( 20 )
+
+[node name="LogoTesla" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( 166.156, 166.5 )
+scale = Vector2( 0.0557098, 0.0557098 )
+texture = ExtResource( 18 )
+
+[node name="LogoNasa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( -440.313, 180 )
+scale = Vector2( 0.0403677, 0.0437317 )
+texture = ExtResource( 17 )
+
+[node name="LogoMicrosoft" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( -211.848, 153 )
+scale = Vector2( 0.12963, 0.12963 )
+texture = ExtResource( 12 )
+
+[node name="LogoApple" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( 456.922, 265.5 )
+scale = Vector2( 0.182099, 0.182099 )
+texture = ExtResource( 16 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="CanvasLayer/Sprite/MapaExterno"]
+
+[node name="MiniaturaMiniMapa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno/KinematicBody2D"]
+position = Vector2( -36.1001, -84.7355 )
+scale = Vector2( 0.496659, 0.538048 )
+texture = ExtResource( 21 )
+
+[node name="SiMiniMapa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( -94.7637, -478.078 )
+scale = Vector2( 0.592267, 0.592267 )
+texture = ExtResource( 15 )
+
+[node name="EsMiniMapa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( 278.273, -481.337 )
+scale = Vector2( 0.592267, 0.592267 )
+texture = ExtResource( 22 )
+
+[node name="EcMiniMapa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( -476.825, -197.799 )
+scale = Vector2( 0.592267, 0.592267 )
+texture = ExtResource( 19 )
+
+[node name="CcMiniMapa" type="Sprite" parent="CanvasLayer/Sprite/MapaExterno"]
+position = Vector2( 148.914, -478.078 )
+scale = Vector2( 0.592267, 0.592267 )
+texture = ExtResource( 13 )
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
