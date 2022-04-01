@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Prédio da Nasa à esquerda.                                                                                                         Prédio da Microsoft à direita."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648140629.json",
+		"name": "Placa2-0"
+	}
+}
