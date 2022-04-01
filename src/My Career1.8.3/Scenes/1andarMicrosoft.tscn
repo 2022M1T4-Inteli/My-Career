@@ -75,11 +75,11 @@ position = Vector2( -1849.5, 1092.2 )
 scale = Vector2( 0.319444, 0.23374 )
 texture = ExtResource( 4 )
 
-[node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1291, -668 )
-
 [node name="MentorInterectionArea" type="Area2D" parent="."]
 script = ExtResource( 6 )
+
+[node name="Player" parent="MentorInterectionArea" instance=ExtResource( 1 )]
+position = Vector2( 1291, -668 )
 
 [node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
 position = Vector2( -1144, 1212 )
@@ -91,4 +91,4 @@ position = Vector2( -1842.5, 888.2 )
 scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 5 )
 
-[connection signal="body_entered" from="InteriorMicrosoft/TerreoMicrosoft" to="InteriorMicrosoft" method="_on_TerreoMicrosoft_body_entered"]
+[connection signal="body_entered" from="InteriorMicrosoft/TerreoMicrosoft" to="." method="_on_TerreoMicrosoft_body_entered"]

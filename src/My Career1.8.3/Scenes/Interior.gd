@@ -13,22 +13,26 @@ func _on_Area2DApple_body_entered(body):
 	GameManager.positionelevador = get_node("Player").global_position + Vector2(-100,0)
 	GameManager.interiorterreo = false
 	GameManager.interiorandar = true
+	GameManager.firsttimeap = 1
 	get_tree().change_scene("res://Scenes/1andarApple.tscn")
 
 func _on_Area2DMicrosoft_body_entered(body):
 	GameManager.positionelevador = get_node("Player").global_position + Vector2(-100,0)
 	GameManager.interiorterreo = false
 	GameManager.interiorandar = true
+	GameManager.firsttimems = 1
 	get_tree().change_scene("res://Scenes/1andarMicrosoft.tscn")
 
 func _on_Area2DNasa_body_entered(body):
 	GameManager.positionelevador = get_node("Player").global_position + Vector2(-100,0)
 	GameManager.interiorterreo = false
 	GameManager.interiorandar = true
+	GameManager.firsttimens = 1
 	get_tree().change_scene("res://Scenes/1andarNasa.tscn")
 
 func _on_Area2DTesla_body_entered(body):
 	GameManager.positionelevador = get_node("Player").global_position + Vector2(-100,0)
 	GameManager.interiorterreo = false
 	GameManager.interiorandar = true
+	GameManager.firsttimets = 1
 	get_tree().change_scene("res://Scenes/1andarTesla.tscn")

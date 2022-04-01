@@ -1,8 +1,5 @@
 extends Node2D
 
-func _process(delta):
-	if GameManager.minigame == true:
-		GameManager.positionandar = get_node("Player").global_position
 
 func _ready():
 		if GameManager.interiorandar == false:
@@ -16,5 +13,6 @@ func _ready():
 			GameManager.iniciots = false
 
 func _on_TerreoTesla_body_entered(body):
-	GameManager.interiorterreo = true
+	GameManager.interiorterreo = false
+	GameManager.interiorandar = true
 	get_tree().change_scene("res://Scenes/TerreoTesla.tscn")

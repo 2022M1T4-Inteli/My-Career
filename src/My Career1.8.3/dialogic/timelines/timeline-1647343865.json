@@ -308,103 +308,13 @@
 			"condition": "",
 			"definition": "1647366069-648",
 			"event_id": "dialogic_012",
-			"value": "54"
+			"value": "74"
 		},
 		{
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Apple para iniciar seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "61"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Fale novamente com a recrutadora da Tesla para ver sua pontuação seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "62"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Fale novamente com a recrutadora da Nasa para ver sua pontuação seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "63"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Fale novamente com a recrutadora da Microsoft para ver sua pontuação seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "64"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Fale novamente com a recrutadora da Apple para ver sua pontuação seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "71"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Procure pela recrutadora da Tesla para refazer seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "72"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Procure pela recrutadora da Nasa para refazer seu estágio."
+			"text": "Procure pela recrutadora da Apple para refazer seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -428,13 +338,103 @@
 			"condition": "",
 			"definition": "1647366069-648",
 			"event_id": "dialogic_012",
-			"value": "74"
+			"value": "72"
 		},
 		{
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recrutadora da Apple para refazer seu estágio."
+			"text": "Procure pela recrutadora da Nasa para refazer seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "71"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Procure pela recrutadora da Tesla para refazer seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "64"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fale novamente com a recrutadora da Apple para ver sua pontuação seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "63"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fale novamente com a recrutadora da Microsoft para ver sua pontuação seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "62"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fale novamente com a recrutadora da Nasa para ver sua pontuação seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "61"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fale novamente com a recrutadora da Tesla para ver sua pontuação seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "54"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Procure pela recrutadora da Apple para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"

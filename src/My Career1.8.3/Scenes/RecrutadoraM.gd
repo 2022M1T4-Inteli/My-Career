@@ -19,6 +19,7 @@ func _process(delta):
 
 
 func _input(event):
+	GameManager.positionandar = get_node("Player").global_position
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
 		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionadao
 			var dialog = Dialogic.start(str("RecrutadoraMicrosoft-",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
