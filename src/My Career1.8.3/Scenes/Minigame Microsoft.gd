@@ -5,7 +5,9 @@ var podeEscolher = true
 var pontos = 0 
 
 
+
 func _ready():
+		GameManager.interiorandar = false
 		if get_node_or_null('DialogNode') == null and GameManager.iniciominigamems == true: #Verifica se outro diálogo ja esta em cena
 			GameManager.iniciominigamems = false
 			var dialog = Dialogic.start(str("RecrutadoraMicrosoft-",GameManager.rmdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"

@@ -8,6 +8,7 @@ func _dialog():
 	Dialogic.set_variable("ecqzpoints", 0)
 
 func _ready():
+	GameManager.positionandar = get_node("Player").global_position
 	connect("body_entered", self, '_on_MentorInterectionArea_body_entered')
 	connect("body_exited", self, '_on_MentorInterectionArea_body_exited')
 #Criação da conexão da Area 2D para detecção do Objeto Player para caso ele esteja presente na Area 2D
@@ -84,6 +85,9 @@ func dialog_listener(string):
 			GameManager.goddialogcount += 1
 		"godend-1":
 			GameManager.goddialogcount -= 1
+		"minigame0":
+			GameManager.minigame = true
+			
 #Nessa função caso uma das strings seja detectada então é executada uma série de instruções para mudança de dialogo e outros.
 
 func unpause(timeline_name):

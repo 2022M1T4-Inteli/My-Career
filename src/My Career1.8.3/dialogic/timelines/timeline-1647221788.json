@@ -253,18 +253,18 @@
 			"value": "10"
 		},
 		{
-			"character": "character-1647223667.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Que pena [playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
-		},
-		{
 			"definition": "1647366069-648",
 			"event_id": "dialogic_014",
 			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "14"
+		},
+		{
+			"character": "character-1647223667.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Que pena [playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
 		},
 		{
 			"emit_signal": "stend3",

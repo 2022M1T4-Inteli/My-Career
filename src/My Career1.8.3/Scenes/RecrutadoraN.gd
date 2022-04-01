@@ -19,6 +19,7 @@ func _process(delta):
 
 
 func _input(event):
+	GameManager.minigame = true
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
 		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionada
 			get_tree().paused = true #Pausa o jogo durante o diálogo
@@ -84,6 +85,9 @@ func dialog_listener(string):
 			GameManager.goddialogcount += 1
 		"godend-1":
 			GameManager.goddialogcount -= 1
+		"minigame0":
+			GameManager.minigame = true
+			
 		
 #Nessa função caso uma das strings seja detectada então é executada uma série de instruções para mudança de dialogo e outros.
 

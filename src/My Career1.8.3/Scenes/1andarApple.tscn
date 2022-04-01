@@ -33,12 +33,12 @@ extents = Vector2( 15.9965, 157.823 )
 extents = Vector2( 17.2635, 59.2698 )
 
 [node name="1andarApple" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="InteriorApple" type="Sprite" parent="."]
 position = Vector2( 2, 0 )
 scale = Vector2( 7.135, 6.108 )
 texture = ExtResource( 3 )
-script = ExtResource( 2 )
 
 [node name="ElevadorVertical" type="Sprite" parent="InteriorApple"]
 position = Vector2( 0.560619, -125.246 )
@@ -59,6 +59,10 @@ shape = SubResource( 2 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
 position = Vector2( -215.767, -143.582 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( 215.978, -142.6 )
 shape = SubResource( 3 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]

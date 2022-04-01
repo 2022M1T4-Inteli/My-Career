@@ -20,6 +20,7 @@ var ccxppoints = 0
 
 var iniciominigamems = true
 var iniciominigameap = true
+
 var inicioms = true
 var inicioap = true
 var iniciona = true
@@ -39,3 +40,13 @@ var firsttimeap = 0
 var firsttimens = 0
 var firsttimems = 0
 var firsttimets = 0
+
+var positionopenworld = Vector2.ZERO
+var positionelevador = Vector2.ZERO
+var positionandar = Vector2.ZERO
+
+var interiorterreo 
+var interiorandar 
+var minigame
+
+

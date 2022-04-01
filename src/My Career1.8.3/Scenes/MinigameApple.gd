@@ -1,5 +1,6 @@
 extends Node2D
 
+
 var pontos = 0
 var Funcao1 
 var Funcao2
@@ -23,6 +24,7 @@ var var4 = false
 
 
 func _ready():
+		GameManager.interiorandar = false
 		if get_node_or_null('DialogNode') == null and GameManager.iniciominigameap == true: #Verifica se outro diálogo ja esta em cena
 			GameManager.iniciominigameap = false
 			var dialog = Dialogic.start(str("RecrutadoraApple-",GameManager.radialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"

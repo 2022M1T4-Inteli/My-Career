@@ -17,12 +17,12 @@ extents = Vector2( 10, 12.564 )
 extents = Vector2( 11.2569, 18.7074 )
 
 [node name="ElonMusgo" type="Node2D"]
+script = ExtResource( 6 )
 
 [node name="Interior" type="Sprite" parent="."]
 position = Vector2( 944, -1000 )
 scale = Vector2( 7.13542, 6.10833 )
 texture = ExtResource( 5 )
-script = ExtResource( 6 )
 
 [node name="MentorColisionBody" type="StaticBody2D" parent="Interior"]
 position = Vector2( -47.8437, 164.311 )
@@ -89,5 +89,5 @@ position = Vector2( 4, -75 )
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
 [connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]
-[connection signal="body_entered" from="Interior/Area2DMicrosoft" to="Interior" method="_on_Area2DMicrosoft_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DMicrosoft" to="." method="_on_Area2DMicrosoft_body_entered"]
 [connection signal="body_entered" from="Interior/Area2DMicrosoft" to="Interior/Area2DMicrosoft" method="_on_Area2DMicrosoft_body_entered"]

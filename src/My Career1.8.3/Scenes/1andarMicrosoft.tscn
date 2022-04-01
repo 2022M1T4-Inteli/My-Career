@@ -25,11 +25,11 @@ extents = Vector2( 10, 23.5379 )
 extents = Vector2( 11.0257, 25.7056 )
 
 [node name="1andarMicrosoft" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="InteriorMicrosoft" type="Sprite" parent="."]
 scale = Vector2( 7.135, 6.108 )
 texture = ExtResource( 3 )
-script = ExtResource( 2 )
 
 [node name="TerreoMicrosoft" type="Area2D" parent="InteriorMicrosoft"]
 
@@ -38,13 +38,13 @@ position = Vector2( 180.098, -141.618 )
 shape = SubResource( 1 )
 
 [node name="ElevadorHorizontal" type="Sprite" parent="InteriorMicrosoft"]
+visible = false
 position = Vector2( 180.659, -133.432 )
 scale = Vector2( 0.0585801, 0.0684297 )
 texture = ExtResource( 7 )
 
 [node name="ElevadorVertical" type="Sprite" parent="InteriorMicrosoft"]
-visible = false
-position = Vector2( 323.896, -47.4787 )
+position = Vector2( 180.799, -134.086 )
 scale = Vector2( 0.0585801, 0.0684297 )
 texture = ExtResource( 8 )
 

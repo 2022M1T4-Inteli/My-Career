@@ -1,13 +1,13 @@
 extends Node2D
 
 
-
 func _on_Button_pressed():
 	get_tree().change_scene("res://Scenes/1andarNasa.tscn")
 	pass # Replace with function body.
 
 
 func _ready():
+	GameManager.interiorandar = false
 	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
 			var dialog = Dialogic.start(str("RecrutadoraNasa-",GameManager.rndialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS

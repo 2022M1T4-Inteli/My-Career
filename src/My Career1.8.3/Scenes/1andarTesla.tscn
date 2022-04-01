@@ -13,12 +13,12 @@
 extents = Vector2( 12.7786, 13.3497 )
 
 [node name="1andarTesla" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="InteriorTesla" type="Sprite" parent="."]
 position = Vector2( -4, 0 )
 scale = Vector2( 7.135, 6.108 )
 texture = ExtResource( 3 )
-script = ExtResource( 2 )
 
 [node name="TerreoTesla" type="Area2D" parent="InteriorTesla"]
 

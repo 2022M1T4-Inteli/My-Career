@@ -11,12 +11,12 @@
 extents = Vector2( 10, 11.2125 )
 
 [node name="ElonMusgo" type="Node2D"]
+script = ExtResource( 6 )
 
 [node name="Interior" type="Sprite" parent="."]
 position = Vector2( 944, -1000 )
 scale = Vector2( 7.13542, 6.10833 )
 texture = ExtResource( 4 )
-script = ExtResource( 6 )
 
 [node name="MentorInterectionArea" type="Area2D" parent="Interior"]
 script = ExtResource( 5 )
@@ -56,4 +56,4 @@ position = Vector2( -255.095, -834.484 )
 scale = Vector2( 0.535038, 0.567822 )
 texture = ExtResource( 2 )
 
-[connection signal="body_entered" from="Interior/OpenWorld" to="Interior" method="_on_OpenWorld_body_entered"]
+[connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]

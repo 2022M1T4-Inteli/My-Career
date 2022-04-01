@@ -84,6 +84,9 @@ func dialog_listener(string):
 			GameManager.goddialogcount += 1
 		"godend-1":
 			GameManager.goddialogcount -= 1
+		"minigame0":
+			GameManager.minigame = true
+			
 #Nessa função caso uma das strings seja detectada então é executada uma série de instruções para mudança de dialogo e outros.
 
 func unpause(timeline_name):

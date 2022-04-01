@@ -52,6 +52,18 @@
 			"value": ""
 		},
 		{
+			"emit_signal": "minigame0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "rtend-1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/MinigameTesla.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
 			"definition": "1647366069-648",
 			"event_id": "dialogic_014",
 			"operation": "=",

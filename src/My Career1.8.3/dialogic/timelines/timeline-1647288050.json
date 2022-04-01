@@ -49,6 +49,10 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"emit_signal": "minigame0",
+			"event_id": "dialogic_040"
+		},
+		{
 			"choice": "Não",
 			"condition": "",
 			"definition": "",
