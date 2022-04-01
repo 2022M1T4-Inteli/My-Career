@@ -6,7 +6,7 @@ var player1_path_sprite = "res://Sprites/Personagens/CharacterSheet.png"
 var player2_path_sprite =  "res://Sprites/Personagens/player4_charsheet.png"
 var player3_path_sprite =  "res://Sprites/Personagens/player2_charsheet.png"
 var player4_path_sprite = "res://Sprites/Personagens/player3_charsheet.png"
-
+#faz o preload das sprites
 
 onready var animationTree = $AnimationTree
 onready var stateMachine = animationTree.get("parameters/playback")
@@ -20,15 +20,20 @@ func _ready():
 	
 	if GameManager.select == 1:
 		$Sprite.texture = load(player1_path_sprite)
-		
+	#if chama o load da sprite e faz a troca efetiva do personagem
+	
 	elif GameManager.select == 2:
 		$Sprite.texture = load(player2_path_sprite)
-		
+	#if chama o load da sprite e faz a troca efetiva do personagem
+	
 	elif GameManager.select == 3:
 		$Sprite.texture = load(player3_path_sprite)
-		
+	#if chama o load da sprite e faz a troca efetiva do personagem
+	
 	elif GameManager.select == 4:
 		$Sprite.texture = load(player4_path_sprite)
+	#if chama o load da sprite e faz a troca efetiva do personagem
+	
 	stateMachine.travel("Idle")
 # Quando executado o estado da animação do player se mantem no Idle que siginifica parado
 
