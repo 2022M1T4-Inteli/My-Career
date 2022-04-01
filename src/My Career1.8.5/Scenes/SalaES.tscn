@@ -6,7 +6,7 @@
 [ext_resource path="res://Biblioteca/BotaoUniversidade.png" type="Texture" id=4]
 [ext_resource path="res://Biblioteca/BotaoÁreaDeTrabalho.png" type="Texture" id=5]
 [ext_resource path="res://Biblioteca/BotaoInstagram.png" type="Texture" id=6]
-[ext_resource path="res://Biblioteca/fecharbotao-removebg-preview.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Interface/Menu/BotãoX.png" type="Texture" id=7]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( -316, -144 )
@@ -102,8 +102,8 @@ __meta__ = {
 }
 
 [node name="Fecharbotao-removebg-preview" type="Sprite" parent="."]
-position = Vector2( 831, 111 )
-scale = Vector2( 0.25, 0.25 )
+position = Vector2( 830.358, 111.952 )
+scale = Vector2( 0.0954239, 0.0783342 )
 texture = ExtResource( 7 )
 
 [connection signal="pressed" from="ButtonCarreiraES" to="." method="_on_ButtonCarreiraES_pressed"]

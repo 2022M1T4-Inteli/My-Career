@@ -59,7 +59,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pelo mentor Bill Portas do curso de Engenharia de Software para testar os seus conhecimentos sobre o curso."
+			"text": "Procure pelo mentor Bill Portões do curso de Engenharia de Software para testar os seus conhecimentos sobre o curso."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -435,6 +435,29 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Procure pela recrutadora da Apple para iniciar seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
+			"value": "80"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Va até a Biblioteca para acompanhar seu progresso e comparar ele com de outros jogadores através do Ranking."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
 		},
 		{
 			"event_id": "dialogic_013"

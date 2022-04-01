@@ -22,7 +22,7 @@
 			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "10"
+			"set_value": "80"
 		},
 		{
 			"event_id": "dialogic_013"

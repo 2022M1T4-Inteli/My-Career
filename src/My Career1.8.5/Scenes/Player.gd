@@ -44,11 +44,11 @@ func _ready():
 		$BackgroundMusic.stream = load("res://Audios/Track 3.mp3")
 		$BackgroundMusic.play()
 
-	elif int (Dialogic.get_variable("godindice")) > 40 and int (Dialogic.get_variable("godindice")) < 50:
+	elif int (Dialogic.get_variable("godindice")) > 40 and int (Dialogic.get_variable("godindice")) < 60:
 		$BackgroundMusic.stream = load("res://Audios/Track 4.mp3")
 		$BackgroundMusic.play()
 
-	elif int (Dialogic.get_variable("godindice")) > 50 :
+	elif int (Dialogic.get_variable("godindice")) > 60 :
 		$BackgroundMusic.stream = load("res://Audios/Track 5.mp3")
 		$BackgroundMusic.play()
 

@@ -41,7 +41,7 @@
 			"text": "não é pra digitar aqui, exclui o texto , coloca a cena do minigame aqui no change scene de baixo"
 		},
 		{
-			"change_scene": "res://Scenes/MinigameTesla.tscn",
+			"change_scene": "res://MinigameLuca/MinigameTesla.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

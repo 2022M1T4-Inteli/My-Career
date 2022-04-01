@@ -48,7 +48,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "5"
+			"set_value": "15"
 		},
 		{
 			"choice": "São voltadas para o aumento da qualidade de vida dos cidadãos.",
@@ -110,7 +110,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "5"
+			"set_value": "15"
 		},
 		{
 			"choice": "III",
@@ -172,7 +172,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "5"
+			"set_value": "15"
 		},
 		{
 			"choice": "Impressoras",
@@ -220,7 +220,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "5"
+			"set_value": "15"
 		},
 		{
 			"choice": "Identificar novas oportunidades de negócios e desenvolver soluções inovadoras.",
@@ -250,7 +250,7 @@
 			"condition": ">=",
 			"definition": "1647182381-713",
 			"event_id": "dialogic_012",
-			"value": "10"
+			"value": "30"
 		},
 		{
 			"character": "character-1647027241.json",
@@ -281,7 +281,7 @@
 			"condition": "<",
 			"definition": "1647182381-713",
 			"event_id": "dialogic_012",
-			"value": "10"
+			"value": "30"
 		},
 		{
 			"character": "character-1647027241.json",

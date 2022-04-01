@@ -8,11 +8,11 @@ func _ready():
 	pass
 	
 func _update_score():
-	score += 1
+	score += 15
 	$ScoreLabel.text = "Score: " + String(score)
 
 func _update_score2():
-	score -= 1
+	score -= 15
 	$ScoreLabel.text = "Score: " + String(score)
 
 func _on_ButtonAcabar_pressed():

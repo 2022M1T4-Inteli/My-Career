@@ -33,7 +33,7 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 				else:
 					selected = false
 					posicao = true
-					pontos = 300
+					pontos = 60
 					Dialogic.set_variable("ccxppoints", pontos)
 					print(pontos)
 
