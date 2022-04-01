@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, vá para a trilha de engenharia de software para testar o minigame!"
+		},
+		{
+			"emit_signal": "rtend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "minigame0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/MinigameTesla.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647451375.json",
+		"name": "RecrutadoraTesla-1"
+	}
+}

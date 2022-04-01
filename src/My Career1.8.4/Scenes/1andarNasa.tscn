@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/1andarNasa.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameCienciaComputacao/Map020.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
+[ext_resource path="res://Scenes/RecrutadoraN.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 12.7786, 13.3497 )
+
+[node name="1andarTesla" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="InteriorNasa" type="Sprite" parent="."]
+scale = Vector2( 7.135, 6.108 )
+texture = ExtResource( 3 )
+
+[node name="TerreoNasa" type="Area2D" parent="InteriorNasa"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorNasa/TerreoNasa"]
+position = Vector2( 252.558, -133.595 )
+shape = SubResource( 1 )
+
+[node name="ElevadorHorizontal" type="Sprite" parent="InteriorNasa"]
+position = Vector2( 251.717, -132.94 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="ElevadorVertical" type="Sprite" parent="InteriorNasa"]
+visible = false
+position = Vector2( 251.717, -131.467 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="InteriorNasa"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="InteriorNasa/StaticBody2D"]
+position = Vector2( 258.725, -192.862 )
+polygon = PoolVector2Array( 12.8942, 43.0583, -19.2011, 44.2043, -11.6328, 7.36739, 37.7014, 37.3281, 11.0722, 99.2141, -17.6594, 145.219, -67.274, 146.693, -117.029, 148.657, -28.4513, 212.017, 39.6636, 259.005, 45.2698, 448.919, 18.7806, 490.995, -215.837, 506.221, -545.06, 489.194, -551.086, 452.03, -617.659, 324.82, -561.598, 73.8376, -523.896, 14.8985, -425.648, -3.60185, -373.651, 26.0314, -356.132, -39.6202, -306.657, -25.8677, -253.819, -46.8239, -116.188, -47.8062, -112.824, -0.982346, -18.6405, 45.6778, -113.805, 49.1159, -122.775, 23.2482, -133.146, 23.2482, -136.412, -1.41348, -211.353, -2.78326, -213.735, 17.6817, -230.694, 20.9561, -235.459, 3.27437, -236.02, 24.5579, -240.084, 45.0229, -276.384, 46.0052, -283.672, 45.678, -309.04, 43.0585, -306.657, 24.2305, -352.348, 24.2305, -352.768, 74.9836, -375.473, 75.9659, -383.882, 51.2442, -394.954, 47.315, -394.52, 26.2063, -424.942, 26.4612, -424.387, 50.0982, -522.153, 51.2136, -522.419, 73.1694, -427.19, 71.5455, -427.351, 95.9499, -408.83, 104.126, -409.25, 115.095, -429.432, 120.989, -427.68, 145.767, -378.837, 145.383, -377.996, 121.316, -355.571, 120.989, -340.294, 123.936, -330.484, 144.892, -331.184, 240.832, -305.676, 240.177, -304.695, 336.608, -330.624, 335.298, -330.624, 383.595, -380.378, 386.051, -378.697, 408.317, -400.981, 409.463, -400.984, 386.244, -427.47, 386.706, -427.47, 337.754, -353.889, 336.608, -354.31, 288.474, -402.242, 288.474, -401.754, 264.68, -474.842, 264.407, -474.842, 287.492, -522.114, 289.876, -521.514, 336.608, -449.755, 335.789, -450.315, 385.56, -474.842, 383.432, -478.486, 432.875, -521.921, 434.031, -521.381, 458.131, -427.05, 455.959, -424.387, 436.149, -364.261, 435.658, -354.991, 458.415, -186.966, 458.415, -180.098, 437.786, -159.495, 434.676, -113.385, 432.875, -112.964, 458.251, -20.3224, 456.942, -17.6594, 432.875, -59.0049, 429.764, -67.4142, 384.741, -89.979, 383.923, -91.801, 288.638, -19.7617, 290.275, -19.3413, 265.226, -89.8388, 264.735, -90.2593, 240.668, -115.627, 240.177, -113.245, 264.244, -186.545, 263.425, -187.386, 287.492, -112.404, 287.983, -113.665, 387.361, -137.614, 387.361, -138.893, 406.68, -157.673, 406.025, -160.336, 387.361, -208.97, 387.361, -211.633, 337.426, -235.599, 338.245, -236.3, 239.358, -209.813, 241.651, -210.371, 145.056, -161.598, 145.056, -156.692, 127.374, -137.912, 121.644, -139.874, 95.6123, -91.2404, 94.63, -90.3725, 121.748, -66.6381, 121.19, -66.0126, 96.1034, -18.0799, 96.1034, -19.061, 75.3111, 10.6517, 76.2934 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -262, -1118 )
+scale = Vector2( 0.319444, 0.23374 )
+texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1571, -791 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
+position = Vector2( 348, -561 )
+scale = Vector2( 3.10644, 3.25947 )
+polygon = PoolVector2Array( -118.785, -144.809, -283.926, -142.048, -303.885, -58.2917, -111.06, -56.1441 )
+
+[node name="EButton" type="Sprite" parent="MentorInterectionArea"]
+position = Vector2( -257, -1315 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 5 )
+
+[connection signal="body_entered" from="InteriorNasa/TerreoNasa" to="InteriorNasa" method="_on_TerreoNasa_body_entered"]

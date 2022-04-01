@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/SteveTrabalho.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/SteveTrabalhos Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaQuizzSistemasInformacao/Map004.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 11.2125 )
+
+[node name="ElonMusgo" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Interior" type="Sprite" parent="."]
+position = Vector2( 944, -1000 )
+scale = Vector2( 7.13542, 6.10833 )
+texture = ExtResource( 5 )
+
+[node name="MentorColisionBody" type="StaticBody2D" parent="Interior"]
+position = Vector2( -47.8437, 164.311 )
+scale = Vector2( 1.77199, 2.00379 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/MentorColisionBody"]
+position = Vector2( -9.5394, -32.9797 )
+polygon = PoolVector2Array( 9.99573, 10.8118, -18.8233, 11.7649, -18.2697, 43.8732, -71.4179, 46.8962, -71.1015, 33.6607, -44.2111, 33.579, -44.3692, 10.8662, -70.4215, 10.8662, -71.0205, -36.7763, -44.2902, -37.2555, -44.3692, -73.6123, -59.3553, -73.2112, -59.3172, -86.6027, -71.3073, -86.1718, -72.2879, -109.642, -29.0259, -109.07, -29.0259, -96.2433, -19.6933, -97.3054, -19.456, -109.07, 9.56984, -109.234, 9.56984, -121.407, 49.6683, -121.816, 51.25, -108.825, 63.588, -108.662, 63.1926, -121.571, 76.569, -121.252, 77.1914, -108.662, 118.397, -108.825, 117.904, -121.004, 132, -120.754, 131.21, -109.315, 145.683, -109.234, 149.717, -109.479, 149.558, -96.4067, 131.21, -96.9786, 131.679, -89.4675, 117.923, -84.5601, 78.3778, -84.2333, 78.5413, -73.4215, -18.0324, -72.7952, -17.2415, -24.837, -14.6316, -13.1538, 6.40626, -13.3989, 9.41166, -14.7061, 9.41166, -1.14381, 23.0151, -1.30721, 23.7269, -25.9808, 50.0637, -25.4089, 50.301, -12.9904, 63.4298, -13.7257, 63.588, -25.4089, 76.796, -25.4089, 77.5078, -12.827, 91.1112, -13.3989, 90.3203, -37.2555, 119.504, -37.0921, 120.77, -29.0854, 129.628, -29.0854, 128.521, -37.664, 131.905, -37.664, 131.684, 10.376, 90.8739, 10.5394, 90.7157, -2.12422, 76.6378, -1.71571, 77.1914, 17.5656, 63.8253, 17.3205, 63.9835, 34.6411, 52.12, 35.213, 70.7852, 46.0791, 77.5078, 22.7945, 131.684, 24.7553, 141.491, 21.2422, 141.649, -37.5006, 128.521, -50.0825, 78.6941, -63.318, 132, -72.7952, 150.27, -82.681, 164.744, -124.839, 142.361, -125.329, 117.448, -132.273, 81.9368, -136.195, 55.6791, -134.398, 4.03357, -138.728, -80.5132, -137.012, -82.8859, -86.3576, -74.8978, -72.7952, -71.1806, -49.5106, -84.784, 10.8662, -83.914, 56.21, -18.2697, 56.7819, 9.80711, 46.8962, 52.1991, 39.5431, 49.5101, 12.6636, 37.3303, 12.0917, 37.5675, 23.4481, 23.2523, 22.8762, 22.3823, 10.8662 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="Interior"]
+script = ExtResource( 2 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 225.915, -96.5894 )
+polygon = PoolVector2Array( -272.163, -44.3657, -270.061, -23.7381, -295.147, -19.4816, -291.784, 3.2742, -271.042, 8.67668, -200.549, 8.67668, -179.246, 8.34926, -178.406, -19.4816, -201.278, -19.4477, -201.95, -45.3479 )
+
+[node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
+position = Vector2( -25.084, -173.9 )
+scale = Vector2( 0.0242761, 0.0288865 )
+texture = ExtResource( 3 )
+
+[node name="OpenWorld" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/OpenWorld"]
+position = Vector2( 188.356, -108.788 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Interior"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+position = Vector2( -108.473, -32.9059 )
+polygon = PoolVector2Array( 63.6263, -118.527, 60.9635, -104.12, 68.1109, -86.1119, 92.3562, -90.5321, 101.326, -106.74, 102.867, -119.018 )
+
+[node name="NPC" type="Sprite" parent="."]
+position = Vector2( 762.013, -1888.24 )
+scale = Vector2( 0.46537, 0.248327 )
+texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2031, -1664 )
+
+[connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]
