@@ -8,13 +8,28 @@
 			"condition": "",
 			"definition": "1647366069-648",
 			"event_id": "dialogic_012",
+			"value": "61"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fale novamente com a recrutadora da Tesla para ver sua pontuação seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
 			"value": "10"
 		},
 		{
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure por uma das casas de conhecimento com um mentor famoso no setor superior do mapa para iniciar sua experiência."
+			"text": "Utilize o minimapa no canto superior esquerdo e vá até a sigla do curso para acessar uma das casas de conhecimento com um mentor famoso para iniciar sua experiência."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -149,7 +164,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Tesla na parte inferior do mapa para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Tesla na parte inferior da cidade para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -164,7 +179,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Nasa na parte inferior do mapa para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Nasa na parte inferior da cidade para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -179,7 +194,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Microsoft na parte inferior do mapa para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Microsoft na parte inferior da cidade para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -194,7 +209,7 @@
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Procure pela recepcionista da Apple na parte inferior do mapa para iniciar seu estágio."
+			"text": "Procure pela recepcionista da Apple na parte inferior da cidade para iniciar seu estágio."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -308,6 +323,21 @@
 			"condition": "",
 			"definition": "1647366069-648",
 			"event_id": "dialogic_012",
+			"value": "54"
+		},
+		{
+			"character": "character-1647343070.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Procure pela recrutadora da Apple para iniciar seu estágio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1647366069-648",
+			"event_id": "dialogic_012",
 			"value": "74"
 		},
 		{
@@ -413,43 +443,13 @@
 			"condition": "",
 			"definition": "1647366069-648",
 			"event_id": "dialogic_012",
-			"value": "61"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Fale novamente com a recrutadora da Tesla para ver sua pontuação seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
-			"value": "54"
-		},
-		{
-			"character": "character-1647343070.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Procure pela recrutadora da Apple para iniciar seu estágio."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "",
-			"definition": "1647366069-648",
-			"event_id": "dialogic_012",
 			"value": "80"
 		},
 		{
 			"character": "character-1647343070.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Va até a Biblioteca para acompanhar seu progresso e comparar ele com de outros jogadores através do Ranking."
+			"text": "Va até a Biblioteca no meio da cidade para acompanhar seu progresso e comparar ele com de outros jogadores através do Ranking."
 		},
 		{
 			"definition": "1647366069-648",

@@ -16,34 +16,33 @@ var goddialogcount = 0 #god
 
 var pcdialogcount = 0 #placa
 
-var ccxppoints = 0
 
-var iniciominigamems = true
-var iniciominigameap = true
+var iniciominigamems = true #variavel de estado do inicio do minigame microsoft
+var iniciominigameap = true #variavel de estado do inicio do minigame apple
+var iniciominigamets = true #variavel de estado do inicio do minigame tesla
+var iniciominigamens = true #variavel de estado do inicio do minigame nasa
 
-var inicioms = true
-var inicioap = true
-var iniciona = true
-var iniciots = true
+var inicioms = true  #variavel de estado do tutorial do primeiro andar da microsoft
+var inicioap = true  #variavel de estado do tutorial do primeiro andar da apple
+var iniciona = true  #variavel de estado do tutorial do primeiro andar da nasa
+var iniciots = true  #variavel de estado do tutorial do primeiro andar da tesla
 
-var velocidadevertical = 500
-var velocidadehorizontal = 500
-#var velocidadeverticalmp = 15.3
-#var velocidadehorizontalmp = 15.3
+var velocidadevertical = 500   #variavel da constante da velocidade no eixo y do player
+var velocidadehorizontal = 500 #variavel da constante da velocidade no eixo x do player
 
-var tutorial = false
+var tutorial = false #variavel de estado do tutorial do jogo
 
-var god
-var select
+var god #variavel do deus do jogo
+var select #variavel da seleção do player na tela de escolha de personagem
 
-var firsttimeap = 0
-var firsttimens = 0
-var firsttimems = 0
-var firsttimets = 0
+var firsttimeap = 0 #variavel de estado da liberação do elevador da apple
+var firsttimens = 0 #variavel de estado da liberação do elevador da nasa
+var firsttimems = 0 #variavel de estado da liberação do elevador da microsoft
+var firsttimets = 0 #variavel de estado da liberação do elevador da tesla
 
-var positionopenworld = Vector2.ZERO
-var positionelevador = Vector2.ZERO
-var positionandar = Vector2.ZERO
+var positionopenworld = Vector2.ZERO #vetor que armazena posição global na cena open world
+var positionelevador = Vector2.ZERO #vetor que armazena posição global na cena terreo
+var positionandar = Vector2.ZERO #vetor que armazena posição global na cena primeiro andar
 
 var interiorterreo 
 var interiorandar 

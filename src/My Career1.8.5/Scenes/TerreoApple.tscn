@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/TerreoApple.gd" type="Script" id=2]
@@ -9,6 +9,8 @@
 [ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
 [ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/Area2DApple.gd" type="Script" id=9]
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmVertical.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmHorizontal.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 12.564 )
@@ -89,6 +91,16 @@ polygon = PoolVector2Array( 11.0715, 11.9509, 26.2073, 245.894, 79.3226, 233.615
 position = Vector2( 0.721497, -1757.24 )
 scale = Vector2( 0.2145, 0.248808 )
 texture = ExtResource( 4 )
+
+[node name="SaidaEmVertical" type="Sprite" parent="."]
+position = Vector2( -3.25, 76.75 )
+scale = Vector2( 0.215972, 0.215972 )
+texture = ExtResource( 10 )
+
+[node name="SaidaEmHorizontal" type="Sprite" parent="SaidaEmVertical"]
+visible = false
+position = Vector2( -3.4726, 15.0481 )
+texture = ExtResource( 11 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4, -75 )

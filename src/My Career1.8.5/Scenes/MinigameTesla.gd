@@ -10,7 +10,8 @@ var inicio = true
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	GameManager.interiorandar = false
-	if get_node_or_null('DialogNode') == null and inicio == true: #Verifica se outro diálogo ja esta em cena
+	if GameManager.iniciominigamets == true: #Verifica se outro diálogo ja esta em cena
+			GameManager.iniciominigamets = false #Verifica se outro diálogo ja esta em cena
 			get_tree().paused = true #Pausa o jogo durante o diálogo
 			var dialog = Dialogic.start(str("RecrutadoraTesla-",GameManager.rtdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS

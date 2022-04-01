@@ -51,15 +51,18 @@ func _ready():
 	elif int (Dialogic.get_variable("godindice")) > 60 :
 		$BackgroundMusic.stream = load("res://Audios/Track 5.mp3")
 		$BackgroundMusic.play()
+#Verifica o espectro do valor da variavel e muda o arquivo da música tocada no fundo
 
 func _physics_process(delta):
 	if get_tree().get_current_scene().get_name() == "OpenWorld":
 		get_node("CanvasLayer/Sprite").visible = true
 	else:
 		get_node("CanvasLayer/Sprite").visible = false
+	#Caso a cena atual seja o OpenWorld o minimapa aparece
 	
 	playerminimapa.position.x = ($Sprite.global_position.x/7)
 	playerminimapa.position.y = ($Sprite.global_position.y/7)
+	#A posição global do player no minimapa é a posição global do player dividido pela escala do mapa
 	
 	var velocity = Vector2.ZERO
 # Delcarando a variavel vetor
@@ -122,15 +125,16 @@ func _physics_process(delta):
 
 func _on_Button2_mouse_entered():
 	$Buttom.playing = true
+#QUando o mouse passa por cima do botão toca um som
 
 
 func _on_Mute_mouse_entered():
 	$Buttom.playing = true
-
+#QUando o mouse passa por cima do botão toca um som
 
 func _on_Button_mouse_entered():
 	$Buttom.playing = true
-	
+#QUando o mouse passa por cima do botão toca um som
 
 func _on_Mute_pressed():
 	if $BackgroundMusic.playing == true:
@@ -144,6 +148,9 @@ func _on_Mute_pressed():
 		$BackgroundMusic.playing = true
 		iconUnmuted.show()
 		iconMuted.hide()
+#Caso o botão seja pressionado ele verifica se a música esta tocando caso seja verdade
+# diminui o volume e deixa o botão de mutado visivel e o de desmutado invisivel
+# Caso contrario aumenta o volume e deixa o botão de mutado invisivel e o de desmutado visivel
 
 
 

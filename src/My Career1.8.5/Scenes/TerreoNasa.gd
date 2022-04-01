@@ -19,7 +19,7 @@ func _process(delta):
 
 
 func _input(event):
-	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
+	if Dialogic.has_current_dialog_node() == false: #Verifica se outro diálogo ja esta em cena
 		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionada
 			get_tree().paused = true #Pausa o jogo durante o diálogo
 			var dialog = Dialogic.start(str("RecepcionistaN-",GameManager.nsdialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"

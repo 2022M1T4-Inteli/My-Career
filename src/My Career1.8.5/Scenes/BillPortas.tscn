@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Sprites/Personagens/BillPortas Personagem.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaQuizzEngenhariaSoftware/Map011.png" type="Texture" id=4]
 [ext_resource path="res://Scenes/BillPortas.gd" type="Script" id=5]
 [ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmHorizontal.png" type="Texture" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 11.2125 )
@@ -48,12 +49,17 @@ polygon = PoolVector2Array( 10.5109, -10.4775, 24.3854, -19.9727, 58.8613, 20.62
 position = Vector2( -15.416, 6.71214 )
 polygon = PoolVector2Array( -158.365, 37.4898, -140.286, 46.985, -139.725, -0.982269 )
 
-[node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 2031, -1664 )
-
 [node name="NPC" type="Sprite" parent="."]
 position = Vector2( -255.095, -834.484 )
 scale = Vector2( 0.535038, 0.567822 )
 texture = ExtResource( 2 )
+
+[node name="SaidaEmHorizontal" type="Sprite" parent="."]
+position = Vector2( 2231, -1662 )
+scale = Vector2( 0.215972, 0.215972 )
+texture = ExtResource( 7 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2031, -1664 )
 
 [connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]

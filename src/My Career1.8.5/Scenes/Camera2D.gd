@@ -11,6 +11,7 @@ func _process(delta):
 	if Dialogic.get_variable("godindice") != slot:
 		_on_Button_pressed()
 		slot = Dialogic.get_variable("godindice")
+#Se o dialogo do deus do jogo mudar ele executa a fala do deus do jogo que foi mudada
 
 func _getcharactersName():
 		GameManager.velocidadevertical = 0
@@ -18,9 +19,11 @@ func _getcharactersName():
 		PlayerName.grab_focus()
 		PlayerName.set_cursor_position(len(PlayerName.text))
 		Box.visible = true
+#Determina a velocidade do movimento do personagem como 0, coloca o cursor no line edit
+# e deixa o objeto visivel para o usuário colocar o nome
 
 func _on_Button_pressed():
-	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
+	if Dialogic.has_current_dialog_node() == false: #Verifica se outro diálogo ja esta em cena
 			var dialog = Dialogic.start(str(GameManager.god,GameManager.goddialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
@@ -89,19 +92,23 @@ func dialog_listener(string):
 func _on_Button2_pressed():
 		Dialogic.set_variable("playername",PlayerName.text)
 		Box.visible = false
-		if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
+		GameManager.velocidadevertical = 500
+		GameManager.velocidadehorizontal =500
+		# Variavel nome do jogador recebe o texto digitado
+		# O box de digitação fica invisivel e o moviemnto do jogador volta
+		if Dialogic.has_current_dialog_node() == false: #Verifica se outro diálogo ja esta em cena
 			var dialog = Dialogic.start(str(GameManager.god,GameManager.goddialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog)
-
-
-
+			
 
 func _on_LineEdit_text_entered(new_text):
 		Dialogic.set_variable("playername",PlayerName.text)
 		Box.visible = false
-		if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
+		# Variavel nome do jogador recebe o texto digitado
+		# O box de digitação fica invisivel
+		if Dialogic.has_current_dialog_node() == false: #Verifica se outro diálogo ja esta em cena
 			var dialog = Dialogic.start(str(GameManager.god,GameManager.goddialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
