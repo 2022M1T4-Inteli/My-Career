@@ -9,6 +9,8 @@
 [ext_resource path="res://Biblioteca/fecharbotao-removebg-preview.png" type="Texture" id=7]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -173, -138 )
+scale = Vector2( 2.59487, 2.26494 )
 script = ExtResource( 2 )
 
 [node name="SalaDeAulaFundo" type="Sprite" parent="."]

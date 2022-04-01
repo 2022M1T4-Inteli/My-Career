@@ -42,7 +42,7 @@ func _on_Button1_pressed():
 
 
 func _on_ButtonComputer_pressed():
-	get_tree().change_scene("res://Computer.tscn")
+	get_tree().change_scene("res://Scenes/Computer.tscn")
 	pass # Replace with function body.
 
 
@@ -58,7 +58,7 @@ func _on_ButtonAreaTrab_pressed():
 
 
 func _on_ButtonVoltarSI_pressed():
-	get_tree().change_scene("res://Scenes/Node2D.tscn")
+	get_tree().change_scene("res://Scenes/Biblioteca.tscn")
 	pass # Replace with function body.
 
 

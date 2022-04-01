@@ -32,7 +32,7 @@ func _on_ButtonAreatrabCC_pressed():
 
 
 func _on_ButtonVoltarCC_pressed():
-	get_tree().change_scene("res://Scenes/Node2D.tscn")
+	get_tree().change_scene("res://Scenes/Biblioteca.tscn")
 	pass # Replace with function body.
 
 

@@ -36,7 +36,7 @@ func _on_Button_pressed():
 
 
 func _on_ButtonVoltarEC_pressed():
-	get_tree().change_scene("res://Scenes/Node2D.tscn")
+	get_tree().change_scene("res://Scenes/Biblioteca.tscn")
 	pass # Replace with function body.
 
 

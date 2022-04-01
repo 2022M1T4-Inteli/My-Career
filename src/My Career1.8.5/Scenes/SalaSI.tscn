@@ -9,6 +9,8 @@
 [ext_resource path="res://Scenes/Node2D.gd" type="Script" id=7]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -92, -131 )
+scale = Vector2( 2.59105, 2.25945 )
 script = ExtResource( 7 )
 
 [node name="SalaDeAulaFundo" type="Sprite" parent="."]

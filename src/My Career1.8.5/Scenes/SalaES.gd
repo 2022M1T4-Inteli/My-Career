@@ -32,7 +32,7 @@ func _on_ButtonCarreiraES_pressed():
 
 
 func _on_ButtonVoltarES_pressed():
-	get_tree().change_scene("res://Scenes/Node2D.tscn")
+	get_tree().change_scene("res://Scenes/Biblioteca.tscn")
 	pass # Replace with function body.
 
 
