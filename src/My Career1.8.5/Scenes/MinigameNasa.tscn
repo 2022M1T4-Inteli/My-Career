@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Minigame CC/CaixaEscolhas.png" type="Texture" id=1]
 [ext_resource path="res://Minigame CC/Area2D.gd" type="Script" id=2]
@@ -7,13 +7,31 @@
 [ext_resource path="res://Minigame CC/Area2D3.gd" type="Script" id=5]
 [ext_resource path="res://Minigame CC/Fundo Nasa Ciênc Comp.png" type="Texture" id=6]
 [ext_resource path="res://Sprites/Minigame Kaique/fonteES.tres" type="DynamicFont" id=7]
-[ext_resource path="res://addons/dialogic/Documentation/Theme/DocumentationH1.tres" type="DynamicFont" id=8]
+[ext_resource path="res://Fonts/noto-sans-regular.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://Fonts/Louis George Cafe.ttf" type="DynamicFontData" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 156, 44 )
 
+[sub_resource type="DynamicFont" id=3]
+size = 27
+font_data = ExtResource( 9 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 36
+font_data = ExtResource( 9 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 36
+font_data = ExtResource( 9 )
+
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 140, 60 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 90
+outline_size = 1
+font_data = ExtResource( 8 )
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 3 )
@@ -79,11 +97,11 @@ position = Vector2( 2, 0 )
 shape = SubResource( 1 )
 
 [node name="Label1" type="Label" parent="Area2D"]
-margin_left = -170.0
-margin_top = -16.0
-margin_right = 172.0
-margin_bottom = 24.0
-custom_fonts/font = ExtResource( 7 )
+margin_left = -184.0
+margin_top = -13.0
+margin_right = 169.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 3 )
 text = "média = (nota1+nota2+nota3)/3"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -103,11 +121,11 @@ position = Vector2( 0, 3.05176e-05 )
 shape = SubResource( 1 )
 
 [node name="Label2" type="Label" parent="Area2D2"]
-margin_left = -116.0
+margin_left = -172.0
 margin_top = -16.0
-margin_right = 136.0
+margin_right = 199.0
 margin_bottom = 32.0
-custom_fonts/font = ExtResource( 7 )
+custom_fonts/font = SubResource( 4 )
 text = "média = (10  *  5  *  6)   "
 __meta__ = {
 "_edit_use_anchors_": false
@@ -126,20 +144,21 @@ texture = ExtResource( 1 )
 shape = SubResource( 1 )
 
 [node name="Label3" type="Label" parent="Area2D3"]
-margin_left = -116.0
-margin_top = -20.0
-margin_right = 124.0
-margin_bottom = 20.0
-custom_fonts/font = ExtResource( 7 )
+margin_left = -148.0
+margin_top = -28.0
+margin_right = 156.0
+margin_bottom = 13.0
+custom_fonts/font = SubResource( 5 )
 text = "média = 10 + 5 + 6/3"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Area2D4" type="KinematicBody2D" parent="." groups=["CERTO"]]
-position = Vector2( 336, 560 )
+position = Vector2( 336, 648 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
+position = Vector2( -5, 3 )
 shape = SubResource( 2 )
 
 [node name="Button" type="Button" parent="."]
@@ -161,7 +180,7 @@ texture = ExtResource( 1 )
 margin_left = 32.0
 margin_right = 369.0
 margin_bottom = 111.0
-custom_fonts/font = ExtResource( 8 )
+custom_fonts/font = SubResource( 6 )
 text = "Concluir"
 __meta__ = {
 "_edit_use_anchors_": false

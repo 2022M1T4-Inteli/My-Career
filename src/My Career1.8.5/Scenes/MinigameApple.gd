@@ -46,14 +46,14 @@ func _process(delta):
 	Funcao1 = str($LineEditFun.text)
 	if fun1 == false:
 		if Funcao1 == "Aumentar" or Funcao1 == "aumentar":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			fun1 = true
 			
 	Funcao2 = str($LineEditFun2.text)
 	if fun2 == false:
 		if Funcao2 == "Aumentar" or Funcao2 == "aumentar" :
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			fun2 = true 
 			
@@ -61,21 +61,21 @@ func _process(delta):
 	Funcao3 = str($LineEditFun3.text)
 	if fun3 == false:
 		if Funcao3 == "diminuir" or Funcao3 == "Diminuir":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			fun3 = true
 		
 	Funcao4 = str($LineEditFun4.text)
 	if fun4 == false:
 		if Funcao4 == "Aumentar" or Funcao4 == "aumentar":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			fun4 = true
 		
 	variavel1 = str($LineEditVar.text)
 	if var1 == false:
 		if variavel1  == "Promocao" or variavel1 == "promocao" or variavel1 == "promoção" or variavel1 == "Promoção" or variavel1 == "facilidade" or variavel1 == "Facilidade" or variavel1 =="restaurante" or variavel1 =="Restaurante":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			var1 = true
 		
@@ -83,21 +83,21 @@ func _process(delta):
 	variavel2 = str($LineEditVar2.text)
 	if var2 == false:
 		if variavel2  == "Promocao" or variavel2 == "promocao" or variavel2 == "promoção" or variavel2 == "Promoção" or variavel2 == "facilidade" or variavel2 == "Facilidade" or variavel2 =="restaurante" or variavel2 =="Restaurante":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			var2 = true
 			
 	variavel3 = str($LineEditVar3.text)
 	if var3 == false:
 		if variavel3  == "erros" or variavel3 =="Erros":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			var3 = true
 		
 	variavel4 = str($LineEditVar4.text)
 	if var4 == false:
 		if variavel4  == "Promocao" or variavel4 == "promocao" or variavel4 == "promoção" or variavel4 == "Promoção" or variavel4 == "facilidade" or variavel4 == "Facilidade" or variavel4 =="restaurante" or variavel4  =="Restaurante":
-			pontos +=50
+			pontos +=37.5
 			$LabelPontos.text = "Pontos: " + str(pontos)
 			var4 = true
 

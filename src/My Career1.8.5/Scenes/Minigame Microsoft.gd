@@ -40,6 +40,7 @@ func _on_Button_pressed():
 		escolha +=1
 		pontos +=100
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button.disabled = true
 		$Control/ColorRect/personagem1.color ="2fb438"
 		
 	pass
@@ -49,6 +50,7 @@ func _on_Button2_pressed():
 	if podeEscolher:
 		escolha +=1
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button2.disabled = true
 		$Control/ColorRect/personagem2.color ="e21515"
 		
 	pass 
@@ -59,6 +61,7 @@ func _on_Button3_pressed():
 		escolha +=1
 		pontos +=100
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button3.disabled = true
 		$Control/ColorRect/personagem3.color ="2fb438"
 		
 	pass 
@@ -68,6 +71,7 @@ func _on_Button4_pressed():
 	if podeEscolher:
 		escolha +=1
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button4.disabled = true
 		$Control/ColorRect/personagem4.color ="e21515"
 		
 	pass 
@@ -78,6 +82,7 @@ func _on_Button5_pressed():
 		escolha +=1
 		pontos +=100
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button5.disabled = true
 		$Control/ColorRect/personagem5.color ="2fb438"
 		
 	pass 
@@ -87,6 +92,7 @@ func _on_Button6_pressed():
 	if podeEscolher:
 		escolha +=1
 		$pontos.text="Pontos: " + str(pontos)
+		$Control/Button6.disabled = true
 		$Control/ColorRect/personagem6.color ="e21515"
 		
 	pass 
