@@ -10,12 +10,10 @@ func _ready():
 func _update_score():
 	score += 15
 	$ScoreLabel.text = "Score: " + String(score)
-#faz update o score
 
 func _update_score2():
 	score -= 15
 	$ScoreLabel.text = "Score: " + String(score)
-#faz update do score
 
 func _on_ButtonAcabar_pressed():
 	_update_score()

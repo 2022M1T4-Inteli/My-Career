@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Biblioteca/Map022.png" type="Texture" id=1]
 [ext_resource path="res://Biblioteca/Spite_num4-removebg-preview.png" type="Texture" id=2]
@@ -7,9 +7,6 @@
 [ext_resource path="res://Biblioteca/Sprite_num_2-removebg-preview.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Node2D.gd" type="Script" id=6]
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Biblioteca/Bibliotecária2Personagem.png" type="Texture" id=8]
-[ext_resource path="res://Biblioteca/BibliotecárioPersonagem.png" type="Texture" id=9]
-[ext_resource path="res://Biblioteca/spriteranking.png" type="Texture" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 240.5, 89 )
@@ -84,10 +81,10 @@ __meta__ = {
 
 [node name="ButtonComputer" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-margin_left = 793.0
-margin_top = 1791.0
-margin_right = 938.0
-margin_bottom = 1898.0
+margin_left = 790.0
+margin_top = 1800.0
+margin_right = 935.0
+margin_bottom = 1912.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -105,20 +102,6 @@ shape = SubResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PoolVector2Array( 3569, 3583, 3569, 3838, 3018, 3849, 3029, 3558, 2987, 3388, 1109, 3419, 1103, 3272, 636, 3269, 631, 2766, 1264, 2763, 1261, 1796, 636.191, 1796, 632.685, 1478.59, 944, 1470, 944, 987, 624.948, 993.114, 631, 656, 789, 670, 795, 825, 947, 825, 950, 681, 1117, 687, 1114, 831, 1270, 820, 1263.88, 675.36, 1437, 678, 1439, 823, 1592, 814, 1595, 673, 1762, 695, 1759, 817, 2062, 825, 2084, 1128, 2231, 1134, 2239.1, 664.288, 3079.95, 664.12, 3122, 808, 3176, 811, 3229.86, 664.091, 4021.82, 664.005, 4030, 1962, 2259.78, 1973.25, 2229, 1470, 2087, 1473, 2091.56, 1795.55, 1779, 1796, 1770, 2109, 1937.27, 2109, 1957, 2279, 1589, 2279, 1626, 2938, 1889, 2927, 1917, 2613, 2096, 2613, 2118, 2918, 2412, 2930, 2429, 3043, 2560, 3043, 2576, 2910, 2766.08, 2912.57, 2789, 3102, 3009, 3077, 3071.72, 2916.71, 3560.87, 2923.34, 3606, 3091, 3804, 3077, 3855.05, 2927.32, 4005.3, 2929.35, 4023.34, 3399.45, 3685, 3407, 3693, 3571, 4030, 3573, 4444, 2946, 4033, 2109, 4175, 2093, 4288, 435, 2243, 438, 1708, 455, 1256, 489, 625, 511, 370, 998, 433, 1796, 517, 2638, 483, 3428, 2913, 3925, 3366, 4036, 3807, 3832, 3747, 3583 )
-
-[node name="Bibliotecária2Personagem" type="Sprite" parent="."]
-position = Vector2( 787, 3091 )
-scale = Vector2( 0.9, 0.7 )
-texture = ExtResource( 8 )
-
-[node name="BibliotecárioPersonagem" type="Sprite" parent="."]
-position = Vector2( 1674, 1882 )
-texture = ExtResource( 9 )
-
-[node name="Spriteranking" type="Sprite" parent="."]
-position = Vector2( 3134, 433 )
-scale = Vector2( 0.9, 0.8 )
-texture = ExtResource( 10 )
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
