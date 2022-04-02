@@ -1,0 +1,342 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/OpenWorld.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Exterior/MapaExterno.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoNasa.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoEC.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoTesla.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoMicrosoft.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoCC.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoES.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoSI.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Mapa/Logos/LogoApple.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/Placa1.gd" type="Script" id=12]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Mapa/Exterior/PlacaDireção.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/Placa2.gd" type="Script" id=15]
+[ext_resource path="res://Scenes/Placa3.gd" type="Script" id=16]
+[ext_resource path="res://Scenes/Placa4.gd" type="Script" id=17]
+[ext_resource path="res://Sprites/Mapa/Logos/Biblioteca.png" type="Texture" id=18]
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 546.482, 12.2143 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 35.3571, 374.143 )
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 163.5, 78.8438 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 84.75, 80.125 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 78.5, 73.5 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 164, 75 )
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 551.318
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 240.25, 133 )
+
+[node name="OpenWorld" type="Node2D"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 4344.0, -3224.0 ],
+"_edit_vertical_guides_": [ 4056.0, 4048.0, -3504.0 ]
+}
+
+[node name="Map" type="Sprite" parent="."]
+position = Vector2( 285, 563 )
+scale = Vector2( 7, 7 )
+texture = ExtResource( 3 )
+
+[node name="LogoNasa" type="Sprite" parent="Map"]
+position = Vector2( -442.572, 211.572 )
+scale = Vector2( 0.0150151, 0.0150151 )
+texture = ExtResource( 4 )
+
+[node name="LogoApple" type="Sprite" parent="Map"]
+position = Vector2( 455, 311.286 )
+scale = Vector2( 0.057967, 0.057967 )
+texture = ExtResource( 11 )
+
+[node name="LogoTesla" type="Sprite" parent="Map"]
+position = Vector2( 167.144, 189.43 )
+scale = Vector2( 0.0189918, 0.0189918 )
+texture = ExtResource( 6 )
+
+[node name="LogoMicrosoft" type="Sprite" parent="Map"]
+position = Vector2( -213.857, 168.715 )
+scale = Vector2( 0.0499303, 0.0499303 )
+texture = ExtResource( 7 )
+
+[node name="LogoEs" type="Sprite" parent="Map"]
+position = Vector2( 264.43, -449.858 )
+scale = Vector2( 0.0117886, 0.0117886 )
+texture = ExtResource( 9 )
+
+[node name="LogoCc" type="Sprite" parent="Map"]
+position = Vector2( 168.143, -449.143 )
+scale = Vector2( 0.0117886, 0.0117886 )
+texture = ExtResource( 8 )
+
+[node name="LogoSi" type="Sprite" parent="Map"]
+position = Vector2( -107.857, -449.001 )
+scale = Vector2( 0.0117886, 0.0117886 )
+texture = ExtResource( 10 )
+
+[node name="LogoEc" type="Sprite" parent="Map"]
+position = Vector2( -479.428, -174.429 )
+scale = Vector2( 0.0117886, 0.0117886 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Map"]
+
+[node name="CollisionBuilding1" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( -357.143, 299, -357.143, 277.286, -372, 277.286, -372, 56.7143, -514.857, 57.8571, -514.857, 276.143, -481.714, 276.143, -482.857, 369.857, -358.286, 369.857, -358.286, 348.143, -477.143, 348.143, -477.143, 276.143, -473.714, 276.143, -473.714, 251, -469.857, 251, -469.143, 225.857, -418.857, 225.857, -419.571, 251.143, -409.714, 251, -409.714, 297.857 )
+
+[node name="CollisionBuilding2" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( -290.857, 323, -272.571, 323, -272.571, 348.143, -204, 348.143, -204, 323, -188, 323, -189.143, 227, -156, 227, -157.143, 37.2857, -276, 36.1429, -276, 228.143, -244, 228.143, -244, 251, -236, 251, -236, 228.143, -229.143, 228.143, -229.143, 204.143, -204, 204.143, -202.857, 227, -194.857, 227, -194.857, 302.429, -290.857, 302.429 )
+
+[node name="CollisionBuilding3" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( -182.286, 368.714, -175.429, 371, -165.143, 371, -154.857, 369.857, -146.857, 365.286, -140, 359.571, -137.714, 352.714, -142.286, 343.571, -150.286, 336.714, -158.286, 332.143, -162.857, 326.429, -167.429, 323, -173.143, 323, -178.857, 326.429, -177.714, 328.714, -177.714, 332.143, -182.286, 334.429, -186.857, 336.714, -191.429, 342.429, -194.857, 350.429, -192.571, 359.571, -186.857, 365.286 )
+
+[node name="CollisionBuilding4" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 226.857, 36.1429, 228, 228.143, 199.429, 228.143, 199.429, 251, 185.714, 251, 185.714, 228.143, 193, 227.857, 192.429, 203.571, 142.286, 203, 142.857, 228, 145.714, 228.143, 145.714, 275, 141.143, 275, 141.143, 228.143, 132, 228.143, 132, 252.143, 108, 252.143, 108, 36.1429 )
+
+[node name="CollisionBuilding5" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 300, 365.286, 300, 353.857, 288.571, 339, 288.571, 333.286, 280.571, 332.143, 277.143, 336.714, 257.714, 352.714, 252, 351.571, 252, 367.571, 261.143, 367.571, 272.571, 364.143, 273.714, 364.143, 284, 364.143, 294.286, 365.286 )
+
+[node name="CollisionBuilding6" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionBuilding7" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+position = Vector2( 48.5714, -0.428574 )
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionBuilding8" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 181.143, 395, 277.143, 395, 277.143, 376.714, 181.143, 375.571 )
+
+[node name="CollisionBuilding9" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 485.143, 371, 485.143, 347, 516, 347, 516, 81.8571, 396, 81.8571, 396, 348.143, 424.571, 348.143, 424.571, 371, 438.286, 371, 438.286, 348.143, 440.857, 347, 440.714, 323, 469.571, 323, 469.571, 347.143, 473.714, 347, 473.714, 371 )
+
+[node name="CollisionBuilding10" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 20, -83.8571, 19.4286, -110, 13.1429, -154.857, -62.5714, -154.429, -68.2857, -110.714, -68, -83.8571, -348, -85, -348, -323.857, -345.714, -323.857, -337.714, -346.714, -334.286, -346.714, -325.143, -323.857, -321.714, -323.857, -312.571, -346.714, -309.143, -345.571, -302.286, -325, -296.571, -325, -290.857, -345.571, -287.429, -345.571, -284, -341, -278.286, -325, -273.714, -325, -268, -341, -265.714, -346.714, -262.286, -345.571, -257.714, -335.286, -253.143, -323.857, 346.857, -323.857, 348, -179.857, 366.286, -179.857, 366.286, -138.714, 348, -139.857, 348, -107.857, 341.143, -109, 341.143, -89.5714, 336.571, -83.8571, 329.714, -86.1429, 328.571, -107.857, 317.143, -107.857, 316, -85, 305.714, -83.8571 )
+
+[node name="CollisionBuilding11" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( -540, -85, -537.714, -543.286, 536.571, -543.286, 540, -106.714, 530.857, -85, 524, -85, 520.571, -95.2857, 520.571, -107.857, 509.143, -107.857, 510.286, -97.5714, 509.143, -86.1429, 503.429, -83.8571, 497.714, -88.4286, 496.571, -95.2857, 497.714, -107.857, 420, -107.857, 420, -395.857, 324, -395.857, 306.857, -395.857, 308, -421, 289.714, -421, 289.429, -445, 239, -444.857, 238.571, -420.143, 252.286, -419.571, 252, -397, 204, -397, 205.143, -421, 191, -420.429, 191.429, -444.857, 140.571, -444.857, 140.857, -420.143, 155.714, -420.143, 157.143, -395.857, 62.2857, -397, 61.1429, -491.857, -12, -493, -12, -421, -82.1429, -419.857, -83.1429, -443.857, -133.571, -444.286, -133.001, -421, -157.143, -421, -159.429, -409.571, -159.429, -398.143, -176.571, -397, -177.714, -409.571, -177.714, -415.286, -180, -419.857, -202.857, -421, -204, -397, -253.143, -397, -253.143, -421, -277.143, -419.857, -277.143, -402.714, -296.571, -401.571, -300, -395.857, -390.286, -395.857, -389.143, -419.857, -400.571, -418.714, -400.571, -398.143, -420, -399.286, -418.857, -83.8571, -468, -85, -468, -107.857, -462.286, -109, -461.143, -130.714, -456.143, -132.143, -455.571, -156.143, -505, -156.571, -505.286, -131.857, -522.857, -131.857, -524, -125, -524, -111.286, -521.714, -105.571, -493.143, -106.714, -492, -86.1429 )
+
+[node name="CollisionBuilding12" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+position = Vector2( -167.429, -792.429 )
+polygon = PoolVector2Array( 182.286, 347, 201.714, 347, 201.714, 334.429, 202.857, 320.714, 194.857, 302.429, 189.143, 302.429, 182.286, 319.571, 183.429, 333.286 )
+
+[node name="CollisionBuilding13" type="CollisionPolygon2D" parent="Map/StaticBody2D"]
+polygon = PoolVector2Array( 426.857, -85, 437.143, -85, 439.429, -90.7143, 439.429, -102.143, 436, -105.571, 429.143, -105.571, 425.714, -102.143, 424.571, -91.8571 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Map/StaticBody2D"]
+position = Vector2( 4.19639, 505.5 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Map/StaticBody2D"]
+position = Vector2( -572.857, 175.571 )
+shape = SubResource( 8 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Map/StaticBody2D"]
+position = Vector2( 576.286, 211.429 )
+shape = SubResource( 8 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 125, -119 )
+
+[node name="ElonMusgo" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElonMusgo"]
+position = Vector2( -3341, -286 )
+shape = SubResource( 1 )
+
+[node name="Tesla" type="Area2D" parent="."]
+position = Vector2( 16, -30 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tesla"]
+position = Vector2( 1438, 2104 )
+shape = SubResource( 1 )
+
+[node name="SteveTrabalho" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SteveTrabalho"]
+position = Vector2( -733, -2297 )
+shape = SubResource( 1 )
+
+[node name="DorothyVan" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DorothyVan"]
+position = Vector2( 1188, -2305.31 )
+shape = SubResource( 1 )
+
+[node name="BillPortas" type="Area2D" parent="."]
+position = Vector2( 261, -161 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BillPortas"]
+position = Vector2( 1866, -2302.84 )
+shape = SubResource( 1 )
+
+[node name="Apple" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Apple"]
+position = Vector2( 3464.25, 2909.88 )
+shape = SubResource( 2 )
+
+[node name="Microsoft" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Microsoft"]
+position = Vector2( -1231.5, 2085.5 )
+shape = SubResource( 3 )
+
+[node name="Nasa" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nasa"]
+position = Vector2( -2831, 2247 )
+shape = SubResource( 4 )
+
+[node name="Placa1" type="Area2D" parent="."]
+position = Vector2( -396, 657 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 12 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa1"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa1"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa1"]
+texture = ExtResource( 14 )
+
+[node name="Placa2,1" type="Area2D" parent="."]
+position = Vector2( -2233, 678 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 15 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa2,1"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa2,1"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa2,1"]
+texture = ExtResource( 14 )
+
+[node name="Placa2,2" type="Area2D" parent="."]
+position = Vector2( -2115, 3210 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 15 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa2,2"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa2,2"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa2,2"]
+texture = ExtResource( 14 )
+
+[node name="Placa3,1" type="Area2D" parent="."]
+position = Vector2( 2898, 694 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa3,1"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa3,1"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa3,1"]
+texture = ExtResource( 14 )
+
+[node name="Placa3,2" type="Area2D" parent="."]
+position = Vector2( 2299, 3210 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa3,2"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa3,2"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa3,2"]
+texture = ExtResource( 14 )
+
+[node name="Placa4" type="Area2D" parent="."]
+position = Vector2( 2628, 23 )
+scale = Vector2( 0.553448, 0.694043 )
+script = ExtResource( 17 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="IconeE(2)" type="Sprite" parent="Placa4"]
+position = Vector2( 3.61475, -210.361 )
+scale = Vector2( 0.355254, 0.327967 )
+texture = ExtResource( 13 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Placa4"]
+shape = SubResource( 5 )
+
+[node name="Placa" type="Sprite" parent="Placa4"]
+texture = ExtResource( 14 )
+
+[node name="Biblioteca" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Biblioteca"]
+position = Vector2( 108, -347 )
+shape = SubResource( 6 )
+
+[node name="LogoBiblioteca" type="Sprite" parent="."]
+position = Vector2( 116, -630 )
+scale = Vector2( 0.212833, 0.212833 )
+texture = ExtResource( 18 )
+
+[connection signal="body_entered" from="ElonMusgo" to="." method="_on_ElonMusgo_body_entered"]
+[connection signal="body_entered" from="Tesla" to="." method="_on_Tesla_body_entered"]
+[connection signal="body_entered" from="SteveTrabalho" to="." method="_on_SteveTrabalho_body_entered"]
+[connection signal="body_entered" from="DorothyVan" to="." method="_on_DorothyVan_body_entered"]
+[connection signal="body_entered" from="BillPortas" to="." method="_on_BillPortas_body_entered"]
+[connection signal="body_entered" from="Apple" to="." method="_on_Apple_body_entered"]
+[connection signal="body_entered" from="Microsoft" to="." method="_on_Microsoft_body_entered"]
+[connection signal="body_entered" from="Nasa" to="." method="_on_Nasa_body_entered"]
+[connection signal="body_entered" from="Biblioteca" to="." method="_on_Biblioteca_body_entered"]
