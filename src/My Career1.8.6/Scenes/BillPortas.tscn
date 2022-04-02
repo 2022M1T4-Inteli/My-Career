@@ -1,0 +1,65 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprites/Personagens/BillPortas Personagem.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaQuizzEngenhariaSoftware/Map011.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/BillPortas.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmHorizontal.png" type="Texture" id=7]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 11.2125 )
+
+[node name="ElonMusgo" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Interior" type="Sprite" parent="."]
+position = Vector2( 944, -1000 )
+scale = Vector2( 7.13542, 6.10833 )
+texture = ExtResource( 4 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="Interior"]
+script = ExtResource( 5 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 90.1138, 83.4925 )
+polygon = PoolVector2Array( -278.61, -56.9713, -277.909, -33.2333, -212.741, -33.2333, -212.041, -12.442, -189.898, -12.442, -190.879, -56.3165 )
+
+[node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
+position = Vector2( -167.755, -0.203125 )
+scale = Vector2( 0.0242761, 0.0288865 )
+texture = ExtResource( 3 )
+
+[node name="OpenWorld" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/OpenWorld"]
+position = Vector2( 188.356, -108.788 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Interior"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+position = Vector2( 162.429, -143.411 )
+polygon = PoolVector2Array( 10.5109, -10.4775, 24.3854, -19.9727, 58.8613, 20.6276, 44.146, 96.0983, 57.1795, 141.119, 58.3007, 285.839, 6.02628, 285.512, -63.0657, 307.776, -73.997, 328.731, -189.898, 340.027, -368.864, 336.098, -398.295, 310.723, -368.444, 242.128, -371.667, 200.218, -354.289, 147.667, -382.318, 57.2988, -376.012, 7.367, -248.058, -49.6044, -74.6978, -19.809, -31.5328, -38.6358, 2.80292, -25.3752, 17.5182, 11.7872, 4.62482, 20.955, 4.62482, 2.61938, -41.6233, 1.47342, -40.6423, 23.9018, -65.5883, 24.2292, -66.4671, 1.47342, -115.48, 1.47342, -115.48, 21.6098, -137.623, 22.7558, -139.165, 1.146, -208.692, 1.0889, -208.397, 23.9018, -353.028, 21.2824, -352.75, 47.9127, -306.779, 48.7859, -305.238, 94.7886, -280.712, 93.6426, -283.936, 167.967, -354.705, 166.838, -355.27, 192.851, -285.758, 192.524, -285.477, 214.952, -353.028, 213.152, -352.467, 242.128, -305.798, 241.146, -306.079, 285.184, -353.588, 284.53, -351.755, 310.642, -210.219, 310.396, -212.041, 285.839, -171.258, 288.459, -168.315, 309.905, -110.996, 313.015, -113.238, 287.149, -114.78, 263.083, -66.4292, 263.575, -67.1299, 238.69, -42.4642, 238.69, -42.0438, 262.756, 6.18011, 259.889, 6.72702, 168.786, 1.68176, 167.149, 0.280304, 182.701, -10.6511, 184.011, -20.8585, 169.021, -41.343, 168.786, -40.6423, 216.917, -66.7095, 216.917, -66.4292, 191.869, -113.378, 191.869, -114.78, 215.771, -161.728, 215.28, -163.13, 190.559, -185.413, 191.378, -184.712, 263.575, -210.079, 266.03, -209.798, 167.967, -233.483, 168.295, -235.165, 93.97, -86.8905, 92.9878, -86.6102, 71.8691, -23.4044, 72.1965, -21.3022, 69.086, 4.90512, 52.8786, 4.90512, 47.9673, 38.9519, 48.2816, 37.2091, 20.6276, 5.18539, 20.6276 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Interior"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/StaticBody2D2"]
+position = Vector2( -15.416, 6.71214 )
+polygon = PoolVector2Array( -158.365, 37.4898, -140.286, 46.985, -139.725, -0.982269 )
+
+[node name="NPC" type="Sprite" parent="."]
+position = Vector2( -255.095, -834.484 )
+scale = Vector2( 0.535038, 0.567822 )
+texture = ExtResource( 2 )
+
+[node name="SaidaEmHorizontal" type="Sprite" parent="."]
+position = Vector2( 2231, -1662 )
+scale = Vector2( 0.215972, 0.215972 )
+texture = ExtResource( 7 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2031, -1664 )
+
+[connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]
