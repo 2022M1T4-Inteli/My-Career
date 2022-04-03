@@ -9,15 +9,14 @@ ___
   
 
   
-<center>
+<center><p topmargin="50">
 "The world of the 21st century is more decentralized and transhumanist robotics." - Mohammed Haziz
-</center>
+
 
 <p topmargin="50">
 
 <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/marcelofeitoza/BRASA-Hackathon-CircleBank-Client?logoColor=blue"> <img  alt="Repository size"  src="https://img.shields.io/github/repo-size/marcelofeitoza/BRASA-Hackathon-CircleBank-Client?color=green&logoColor=green"> <img  alt="GitHub downloads" src="https://img.shields.io/github/downloads/marcelofeitoza/BRASA-Hackathon-CircleBank-Client/total?logoColor=red"> <img  alt="GitHub stars" src="https://img.shields.io/github/stars/marcelofeitoza/BRASA-Hackathon-CircleBank-Client?style=social"> <img  alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marcelofeitoza/BRASA-Hackathon-CircleBank-Client">
-</center>
-</p>
+</p></p></center>
 
 **😊 Why?**
 
@@ -207,7 +206,7 @@ The layout of the application is available in Figma:
 
 💜 A super thanks 👏 to these guys who made this product leave the idea field and be delivered by INTELI's first student hackathon competition :)
 
-<table>
+<center><table>
 
 <tr>
 
@@ -235,7 +234,7 @@ style="border-radius: 50%"
 
 </tr>
 
-</table>
+</table></center>
 
 **📝 License**
 
