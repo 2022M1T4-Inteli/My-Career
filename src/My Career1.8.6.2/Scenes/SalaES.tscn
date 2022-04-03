@@ -93,10 +93,10 @@ scale = Vector2( 0.1, 0.08 )
 texture = ExtResource( 5 )
 
 [node name="ButtonVoltarES" type="Button" parent="."]
-margin_left = 814.0
-margin_top = 93.0
+margin_left = 817.0
+margin_top = 101.0
 margin_right = 847.0
-margin_bottom = 130.0
+margin_bottom = 123.0
 __meta__ = {
 "_edit_use_anchors_": false
 }

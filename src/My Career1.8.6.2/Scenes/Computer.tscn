@@ -6,7 +6,7 @@
 [ext_resource path="res://Biblioteca/PainelEC.png" type="Texture" id=4]
 [ext_resource path="res://Biblioteca/PainelES.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Computer.gd" type="Script" id=6]
-[ext_resource path="res://Biblioteca/fecharbotao-removebg-preview.png" type="Texture" id=7]
+[ext_resource path="res://Biblioteca/BotãoX.png" type="Texture" id=7]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( -83, -20 )
@@ -50,6 +50,130 @@ __meta__ = {
 [node name="Fecharbotao-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 966, 112 )
 scale = Vector2( 0.25, 0.25 )
+
+[node name="BotãoX" type="Sprite" parent="."]
+position = Vector2( 966.65, 118.686 )
+scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 7 )
+
+[node name="LabelQZSI" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 226.0
+margin_top = 227.0
+margin_right = 247.0
+margin_bottom = 241.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelEXPSI" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 230.0
+margin_top = 269.0
+margin_right = 249.0
+margin_bottom = 283.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralSI" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 227.447
+margin_top = 331.102
+margin_right = 267.447
+margin_bottom = 345.102
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelQZCC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 437.0
+margin_top = 224.0
+margin_right = 459.0
+margin_bottom = 241.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelEXPCC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 438.0
+margin_top = 269.0
+margin_right = 457.0
+margin_bottom = 283.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralCC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 438.265
+margin_top = 329.993
+margin_right = 478.265
+margin_bottom = 343.993
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelQZEC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 647.0
+margin_top = 223.0
+margin_right = 665.0
+margin_bottom = 237.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelEXPEC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 649.0
+margin_top = 268.0
+margin_right = 666.0
+margin_bottom = 282.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralEC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 649.083
+margin_top = 331.102
+margin_right = 689.083
+margin_bottom = 345.102
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelQZES" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 857.0
+margin_top = 227.0
+margin_right = 881.0
+margin_bottom = 241.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelEXPES" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 863.0
+margin_top = 268.0
+margin_right = 882.0
+margin_bottom = 282.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralES" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 856.145
+margin_top = 328.884
+margin_right = 896.145
+margin_bottom = 342.884
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="pressed" from="ButtonSair" to="." method="_on_ButtonSair_pressed"]

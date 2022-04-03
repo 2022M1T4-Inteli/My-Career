@@ -93,9 +93,9 @@ scale = Vector2( 0.1, 0.08 )
 texture = ExtResource( 5 )
 
 [node name="ButtonVoltarEC" type="Button" parent="."]
-margin_left = 756.0
+margin_left = 761.0
 margin_top = 100.0
-margin_right = 795.0
+margin_right = 793.0
 margin_bottom = 128.0
 __meta__ = {
 "_edit_use_anchors_": false
