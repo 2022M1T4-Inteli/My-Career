@@ -48,4 +48,7 @@ var interiorterreo
 var interiorandar 
 var minigame
 
+var bl1dialogcount = 0
+var bl2dialogcount = 0
+
 
