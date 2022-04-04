@@ -1,0 +1,93 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Biblioteca/TelaRanking.png" type="Texture" id=1]
+[ext_resource path="res://Biblioteca/TelaRankingPosições.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TelaRanking" type="Sprite" parent="."]
+position = Vector2( 532, 294 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_left = 198.0
+margin_top = 292.0
+margin_right = 878.0
+margin_bottom = 538.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+margin_right = 668.0
+margin_bottom = 711.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TelaRankingPosições" type="Sprite" parent="ScrollContainer/VBoxContainer"]
+position = Vector2( 338, 179 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="TelaRankingPosições3" type="Sprite" parent="ScrollContainer/VBoxContainer"]
+position = Vector2( 336, 392 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="TelaRankingPosições4" type="Sprite" parent="ScrollContainer/VBoxContainer"]
+position = Vector2( 338, 60 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="TelaRankingPosições2" type="Sprite" parent="ScrollContainer/VBoxContainer"]
+position = Vector2( 336, 290 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_right = 668.0
+margin_bottom = 711.0
+text = "maslka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

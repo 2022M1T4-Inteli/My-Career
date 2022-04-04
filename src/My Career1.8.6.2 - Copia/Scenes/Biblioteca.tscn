@@ -109,8 +109,8 @@ polygon = PoolVector2Array( 3569, 3583, 3569, 3838, 3018, 3849, 3029, 3558, 2987
 position = Vector2( 1681, 1959 )
 texture = ExtResource( 9 )
 
-[node name="Bibliotecária2Personagem" type="Sprite" parent="BibliotecárioPersonagem"]
-position = Vector2( -888, 1134 )
+[node name="Bibliotecária2Personagem" type="Sprite" parent="."]
+position = Vector2( 793, 3093 )
 scale = Vector2( 0.9, 0.7 )
 texture = ExtResource( 8 )
 
