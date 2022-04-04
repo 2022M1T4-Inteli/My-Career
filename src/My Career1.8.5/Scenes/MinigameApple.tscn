@@ -59,7 +59,7 @@ font_data = SubResource( 9 )
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 136, 72 )
-scale = Vector2( 1.19836, 1.10493 )
+scale = Vector2( 1.51051, 1.39787 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_horizontal_guides_": [ 696.0 ]
