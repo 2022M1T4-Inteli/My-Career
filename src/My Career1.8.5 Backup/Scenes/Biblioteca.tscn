@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Biblioteca/Map022.png" type="Texture" id=1]
 [ext_resource path="res://Biblioteca/Spite_num4-removebg-preview.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://Biblioteca/Bibliotecária2Personagem.png" type="Texture" id=8]
 [ext_resource path="res://Biblioteca/BibliotecárioPersonagem.png" type="Texture" id=9]
 [ext_resource path="res://Biblioteca/spriteranking.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=11]
+[ext_resource path="res://Scenes/Bibliotecário1.gd" type="Script" id=12]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 240.5, 89 )
@@ -95,6 +97,23 @@ __meta__ = {
 [node name="Player" parent="." instance=ExtResource( 7 )]
 position = Vector2( 3336, 3423 )
 
+[node name="Bibliotecário1" type="Area2D" parent="."]
+position = Vector2( 3299.5, 3714 )
+script = ExtResource( 12 )
+
+[node name="Bibliotecário1Personagem" type="Sprite" parent="Bibliotecário1"]
+position = Vector2( -1625.5, -1832 )
+texture = ExtResource( 9 )
+
+[node name="IconeE" type="Sprite" parent="Bibliotecário1"]
+position = Vector2( -1617.5, -2084 )
+scale = Vector2( 0.291262, 0.291262 )
+texture = ExtResource( 11 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Bibliotecário1"]
+position = Vector2( -46.5, 29 )
+polygon = PoolVector2Array( -1902.5, -2036, -1953.5, -1506, -1436.5, -1515, -1359.5, -2015 )
+
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
@@ -104,21 +123,27 @@ shape = SubResource( 1 )
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PoolVector2Array( 3569, 3583, 3569, 3838, 3018, 3849, 3029, 3558, 2987, 3388, 1109, 3419, 1103, 3272, 636, 3269, 631, 2766, 1264, 2763, 1261, 1796, 636.191, 1796, 632.685, 1478.59, 944, 1470, 944, 987, 624.948, 993.114, 631, 656, 789, 670, 795, 825, 947, 825, 950, 681, 1117, 687, 1114, 831, 1270, 820, 1263.88, 675.36, 1437, 678, 1439, 823, 1592, 814, 1595, 673, 1762, 695, 1759, 817, 2062, 825, 2084, 1128, 2231, 1134, 2239.1, 664.288, 3079.95, 664.12, 3122, 808, 3176, 811, 3229.86, 664.091, 4021.82, 664.005, 4030, 1962, 2259.78, 1973.25, 2229, 1470, 2087, 1473, 2091.56, 1795.55, 1779, 1796, 1770, 2109, 1937.27, 2109, 1957, 2279, 1589, 2279, 1626, 2938, 1889, 2927, 1917, 2613, 2096, 2613, 2118, 2918, 2412, 2930, 2429, 3043, 2560, 3043, 2576, 2910, 2766.08, 2912.57, 2789, 3102, 3009, 3077, 3071.72, 2916.71, 3560.87, 2923.34, 3606, 3091, 3804, 3077, 3855.05, 2927.32, 4005.3, 2929.35, 4023.34, 3399.45, 3685, 3407, 3693, 3571, 4030, 3573, 4444, 2946, 4033, 2109, 4175, 2093, 4288, 435, 2243, 438, 1708, 455, 1256, 489, 625, 511, 370, 998, 433, 1796, 517, 2638, 483, 3428, 2913, 3925, 3366, 4036, 3807, 3832, 3747, 3583 )
+polygon = PoolVector2Array( 3569, 3583, 3569, 3838, 3018, 3849, 3029, 3558, 2987, 3388, 1109, 3419, 1103, 3272, 636, 3269, 631, 2766, 1264, 2763, 1261, 1796, 636.191, 1796, 632.685, 1478.59, 944, 1470, 944, 987, 624.948, 993.114, 631, 656, 789, 670, 795, 825, 947, 825, 950, 681, 1117, 687, 1114, 831, 1270, 820, 1263.88, 675.36, 1437, 678, 1439, 823, 1592, 814, 1595, 673, 1762, 695, 1759, 817, 2062, 825, 2084, 1128, 2231, 1134, 2239.1, 664.288, 3079.95, 664.12, 3122, 808, 3176, 811, 3229.86, 664.091, 4021.82, 664.005, 4030, 1962, 2259.78, 1973.25, 2229, 1470, 2087, 1473, 2091.56, 1795.55, 1779, 1796, 1770, 2109, 1937.27, 2109, 1957, 2279, 1589, 2279, 1626, 2938, 1889, 2927, 1917, 2613, 2096, 2613, 2118, 2918, 2412, 2930, 2429, 3043, 2560, 3043, 2576, 2910, 2766.08, 2912.57, 2789, 3102, 3009, 3077, 3071.72, 2916.71, 3560.87, 2923.34, 3606, 3091, 3804, 3077, 3855.05, 2927.32, 4005.3, 2929.35, 4023.34, 3399.45, 3685, 3407, 3693, 3571, 4030, 3573, 4444, 2946, 4033, 2109, 4175, 2093, 4288, 435, 3066.88, 436.791, 2243, 438, 1708, 455, 1256, 489, 625, 511, 370, 998, 433, 1796, 517, 2638, 483, 3428, 2913, 3925, 3366, 4036, 3807, 3832, 3747, 3583 )
 
 [node name="Bibliotecária2Personagem" type="Sprite" parent="."]
 position = Vector2( 787, 3091 )
 scale = Vector2( 0.9, 0.7 )
 texture = ExtResource( 8 )
 
-[node name="BibliotecárioPersonagem" type="Sprite" parent="."]
-position = Vector2( 1674, 1882 )
-texture = ExtResource( 9 )
-
 [node name="Spriteranking" type="Sprite" parent="."]
 position = Vector2( 3134, 433 )
 scale = Vector2( 0.9, 0.8 )
 texture = ExtResource( 10 )
+
+[node name="Button5" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 2892.0
+margin_top = 353.0
+margin_right = 3383.0
+margin_bottom = 508.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
@@ -126,3 +151,4 @@ texture = ExtResource( 10 )
 [connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
 [connection signal="pressed" from="ButtonComputer" to="." method="_on_ButtonComputer_pressed"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]

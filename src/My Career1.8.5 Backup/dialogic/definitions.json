@@ -10,12 +10,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1647182381-713",
-			"name": "ecqzpoints",
-			"type": 0,
-			"value": ""
-		},
-		{
 			"id": "1647181102-787",
 			"name": "ccqzpoints",
 			"type": 0,
@@ -30,12 +24,6 @@
 		{
 			"id": "1647181086-648",
 			"name": "ccxppoints",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1647182367-970",
-			"name": "ecxppoints",
 			"type": 0,
 			"value": "0"
 		},
@@ -62,6 +50,18 @@
 			"name": "godindice",
 			"type": 0,
 			"value": "9"
+		},
+		{
+			"id": "1647182367-970",
+			"name": "ecxppoints",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647182381-713",
+			"name": "ecqzpoints",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }

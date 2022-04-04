@@ -69,3 +69,8 @@ func _on_ButtonUnivSI_pressed():
 
 func _on_Area2D_body_entered(body):
 	get_tree().change_scene("res://Scenes/OpenWorld.tscn")
+
+
+func _on_Button5_pressed():
+	get_tree().change_scene("res://Scenes/TelaRanking.tscn")
+	pass # Replace with function body.
