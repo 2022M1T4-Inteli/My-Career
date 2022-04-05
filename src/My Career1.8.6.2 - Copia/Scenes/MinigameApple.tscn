@@ -59,11 +59,8 @@ font_data = SubResource( 9 )
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 136, 72 )
-scale = Vector2( 1.19836, 1.10493 )
+scale = Vector2( 1.51123, 1.39134 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_horizontal_guides_": [ 696.0 ]
-}
 
 [node name="Fundoapple" type="Sprite" parent="."]
 position = Vector2( 529.891, 327.623 )
@@ -129,10 +126,10 @@ __meta__ = {
 }
 
 [node name="LabelProblema" type="Label" parent="."]
-margin_left = 22.0056
-margin_top = 36.6159
-margin_right = 742.006
-margin_bottom = 207.616
+margin_left = 46.9815
+margin_top = 44.5615
+margin_right = 766.982
+margin_bottom = 215.562
 rect_scale = Vector2( 1.00795, 0.983537 )
 custom_fonts/font = SubResource( 2 )
 text = "Gostei do aplicativo, mas acredito que precisa de algumas melhorias.
