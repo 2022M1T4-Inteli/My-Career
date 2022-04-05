@@ -6,8 +6,7 @@
 [ext_resource path="res://Sprites/Personagens/Dorothy Van Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaQuizzCienciaComputacao/Map009.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
-[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/SaidaEmHorizontal.png" type="Texture" id=7]
-
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmHorizontal.png" type="Texture" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 11.2125 )

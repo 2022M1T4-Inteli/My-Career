@@ -8,7 +8,7 @@
 			"character": "character-1648752939.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Inclusive [playername], sempre que quiser interagir com um NPC, pode apertar a letra E do seu teclado. \nCaso seja necessário você pode pedir ajuda para mim, basta clicar no botão de interrogação no canto superior esquerdo da sua tela. Estarei aqui sempre que precisar para lhe ajudar.\nPara se movimentar dentro do jogo utilize as teclas W, A, S e D ou Setas de Navegação do seu teclado. \nEntão [playername], vamos começar sua jornada! Procure um mentor em uma das casas na parte superior do mapa e inicie sua aventura! "
+			"text": "Inclusive [playername], sempre que quiser interagir com um NPC, pode apertar a letra E do seu teclado. \nCaso seja necessário você pode pedir ajuda para mim, basta clicar no botão de interrogação no canto superior direito da sua tela. Estarei aqui sempre que precisar para lhe ajudar.\nPara se movimentar dentro do jogo utilize as teclas W, A, S e D ou Setas de Navegação do seu teclado. \nEntão [playername], vamos começar sua jornada! Procure um mentor em uma das casas na parte superior do mapa e inicie sua aventura! "
 		},
 		{
 			"emit_signal": "godend0",

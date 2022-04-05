@@ -1,17 +1,16 @@
 [gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_1-removebg-preview (1).png" type="Texture" id=1]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_4-removebg-preview.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_2-removebg-preview.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_5-removebg-preview.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_6-removebg-preview.png" type="Texture" id=5]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Personagem_3-removebg-preview.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_1-removebg-preview (1).png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_4-removebg-preview.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_2-removebg-preview.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_5-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_6-removebg-preview.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Minigame Kaique/Personagem_3-removebg-preview.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/Minigame Microsoft.gd" type="Script" id=7]
 [ext_resource path="res://Fonts/Louis George Cafe.ttf" type="DynamicFontData" id=8]
-[ext_resource path="res://Fonts/fonteES.tres" type="DynamicFont" id=9]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/FundoMicrosoft.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Minigame Kaique/fonteES.tres" type="DynamicFont" id=9]
+[ext_resource path="res://Sprites/Minigame Kaique/lousa.Eng.Softw.png" type="Texture" id=10]
 [ext_resource path="res://Sprites/Interface/Dialogo/CaixacONCLUIR.png" type="Texture" id=11]
-
 
 [sub_resource type="DynamicFont" id=3]
 size = 30

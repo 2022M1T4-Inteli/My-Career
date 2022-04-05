@@ -1,7 +1,7 @@
 [gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://Scenes/Escolha.gd" type="Script" id=1]
-[ext_resource path="res://Sprites/Interface/EscolhaDePersonagem/Tela de Escolha de Personagens.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Interface/Tela de Escolha de Personagens.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Interface/Menu/1 (2).png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Interface/Menu/4 (2).png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Interface/Menu/3 (2).png" type="Texture" id=5]
@@ -11,7 +11,6 @@
 [ext_resource path="res://Sprites/Personagens/1 (1).png" type="Texture" id=9]
 [ext_resource path="res://Sprites/Personagens/3 (1).png" type="Texture" id=10]
 [ext_resource path="res://Sprites/Personagens/2 (1).png" type="Texture" id=11]
-
 
 [sub_resource type="StyleBoxEmpty" id=1]
 

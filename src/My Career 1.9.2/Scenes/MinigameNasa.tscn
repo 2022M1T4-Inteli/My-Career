@@ -1,21 +1,20 @@
 [gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://Sprites/Interface/Dialogo/CaixaEscolhas.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/Area2D.gd" type="Script" id=2]
+[ext_resource path="res://Minigame CC/CaixaEscolhas.png" type="Texture" id=1]
+[ext_resource path="res://Minigame CC/Area2D.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/MinigameNasa.gd" type="Script" id=3]
-[ext_resource path="res://Scenes/Area2D2.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/Area2D3.gd" type="Script" id=5]
-[ext_resource path="res://Sprites/Interface/SpriteMinigame/Fundo Nasa Ciênc Comp.png" type="Texture" id=6]
-[ext_resource path="res://Fonts/fonteES.tres" type="DynamicFont" id=7]
+[ext_resource path="res://Minigame CC/Area2D2.gd" type="Script" id=4]
+[ext_resource path="res://Minigame CC/Area2D3.gd" type="Script" id=5]
+[ext_resource path="res://Minigame CC/Fundo Nasa Ciênc Comp.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Minigame Kaique/fonteES.tres" type="DynamicFont" id=7]
 [ext_resource path="res://Fonts/noto-sans-regular.ttf" type="DynamicFontData" id=8]
 [ext_resource path="res://Fonts/Louis George Cafe.ttf" type="DynamicFontData" id=9]
-
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 156, 44 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 26
+size = 27
 font_data = ExtResource( 9 )
 
 [sub_resource type="DynamicFont" id=4]
@@ -98,9 +97,9 @@ position = Vector2( 2, 0 )
 shape = SubResource( 1 )
 
 [node name="Label1" type="Label" parent="Area2D"]
-margin_left = -178.0
+margin_left = -184.0
 margin_top = -13.0
-margin_right = 182.0
+margin_right = 169.0
 margin_bottom = 27.0
 custom_fonts/font = SubResource( 3 )
 text = "média = (nota1+nota2+nota3)/3"

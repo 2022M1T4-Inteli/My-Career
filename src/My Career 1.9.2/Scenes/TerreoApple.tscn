@@ -6,12 +6,11 @@
 [ext_resource path="res://Sprites/Personagens/Recepcionista Personagem.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Mapa/Interiores/MapaRecepcaoSistemasInformacao/Map012.png" type="Texture" id=5]
 [ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
-[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/Elevador Horizontal.png" type="Texture" id=7]
-[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/ElevadorVertical.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Mapa/Logos/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=8]
 [ext_resource path="res://Scenes/Area2DApple.gd" type="Script" id=9]
-[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/SaidaEmVertical.png" type="Texture" id=10]
-[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/SaidaEmHorizontal.png" type="Texture" id=11]
-
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmVertical.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Mapa/Logos/SaidaEmHorizontal.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 12.564 )

@@ -100,4 +100,4 @@ func _on_Button6_pressed():
 
 func _on_Button7_pressed():
 	get_tree().change_scene("res://Scenes/1andarMicrosoft.tscn")
-	
+

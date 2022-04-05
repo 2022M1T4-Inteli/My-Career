@@ -12,7 +12,7 @@ func _ready():
 
 func _process(delta):
 	$"IconeE(2)".visible = activate 
-#O Obejeto Sprite IconeE(2) só é visivel caso o Player esteja na Area 2D
+#O Obejeto Sprite EButton só é visivel caso o Player esteja na Area 2D
 
 
 func _input(event):
