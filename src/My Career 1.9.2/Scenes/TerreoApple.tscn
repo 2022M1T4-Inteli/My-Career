@@ -1,0 +1,115 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/TerreoApple.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recepcionista Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaRecepcaoSistemasInformacao/Map012.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Interior.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/Elevador Horizontal.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/ElevadorVertical.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/Area2DApple.gd" type="Script" id=9]
+[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/SaidaEmVertical.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Mapa/Exterior/LogosDoMapaExterior/SaidaEmHorizontal.png" type="Texture" id=11]
+
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 12.564 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 16.2961 )
+
+[node name="ElonMusgo" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Interior" type="Sprite" parent="."]
+position = Vector2( 936, -1023 )
+scale = Vector2( 7.13542, 6.10833 )
+texture = ExtResource( 5 )
+
+[node name="MentorColisionBody" type="StaticBody2D" parent="Interior"]
+position = Vector2( -47.8437, 164.311 )
+scale = Vector2( 1.77199, 2.00379 )
+
+[node name="MentorColision" type="CollisionPolygon2D" parent="Interior/MentorColisionBody"]
+position = Vector2( 70.5783, -27.0973 )
+polygon = PoolVector2Array( -97.961, -126.951, -97.6447, -103.993, -97.4865, -90.022, -151.188, -89.9403, -151.347, -101.378, -111.683, -103.666, -110.536, -126.869 )
+__meta__ = {
+"_editor_description_": "llide"
+}
+
+[node name="MentorInterectionArea" type="Area2D" parent="Interior"]
+script = ExtResource( 2 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="Interior/MentorInterectionArea"]
+position = Vector2( 125.851, -52.5512 )
+polygon = PoolVector2Array( -222.272, -90.6958, -221.711, -18.8268, -300.333, -19.809, -300.333, 1.80083, -200.969, 0.818558, -200.128, -90.3684 )
+
+[node name="EButton" type="Sprite" parent="Interior/MentorInterectionArea"]
+position = Vector2( -130.336, -153.108 )
+scale = Vector2( 0.0242761, 0.0288865 )
+texture = ExtResource( 3 )
+
+[node name="OpenWorld" type="Area2D" parent="Interior"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/OpenWorld"]
+position = Vector2( -133.279, 190.396 )
+shape = SubResource( 1 )
+
+[node name="Area2DApple" type="Area2D" parent="Interior"]
+script = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interior/Area2DApple"]
+position = Vector2( 189.477, -108.54 )
+shape = SubResource( 2 )
+disabled = true
+
+[node name="ElevadorHorizontal" type="Sprite" parent="Interior"]
+position = Vector2( 180.087, -108.376 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="ElevadorVertical" type="Sprite" parent="Interior"]
+visible = false
+position = Vector2( 180.089, -107.721 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Interior"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+polygon = PoolVector2Array( 0.420441, -0.982269, -34.3358, 45.839, -46.8087, 189.741, -119.124, 168.295, -46.9847, 167.468, -47.4167, 119.901, -96.1401, 119.018, -95.7197, 95.116, -71.8949, 95.6072, -72.3153, 72.0328, -47.6496, 71.8691, -47.9299, 47.8036, -71.4744, 47.8036, -71.4744, 23.4107, -120.245, 23.4107, -119.685, -47.9673, -32.654, -47.1487, -21.5825, -47.3124, -22.0029, -72.0328, 70.4934, -72.0328, 71.054, -48.4584, 144.866, -47.5837, 147.854, -72.1965, 165.092, -71.7054, 168.876, -95.116, 175.603, -94.6249, 178.125, -88.2402, 204.753, -87.9127, 204.193, -130.314, 179.387, -129.823, 177.144, -120.327, 167.615, -119.836, 167.474, -148.322, 203.632, -147.995, 225.495, -86.6031, 178.266, -69.086, 176.584, -53.0423, 167.755, -47.3124, 149.396, -34.543, 1.96204, -30.7776 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+position = Vector2( 96.5605, -159.127 )
+polygon = PoolVector2Array( -193.261, 13.9154, 22.0029, -6.3847, 71.1941, -34.543, 71.4744, 15.2251, 59.9825, 14.5703, 60.8233, 38.6358, 11.0715, 38.1447, 11.8269, 13.7596, -0.140167, 13.9154, -0.700745, 62.5376, -46.3883, 61.719, -47.7898, 37.3261, -83.3868, 38.4721, -76.3795, 53.2061, -78.762, 62.2101, -87.4511, 62.2101, -90.8146, 48.131, -90.1138, 38.4721, -96.7007, 38.4721, -96.4204, 61.719, -141.688, 61.0642, -142.388, 39.1269, -168.035, 38.4721, -167.755, 14.2429 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="Interior/StaticBody2D"]
+position = Vector2( -223.252, -65.1569 )
+polygon = PoolVector2Array( 11.0715, 11.9509, 26.2073, 245.894, 79.3226, 233.615, 30.692, 232.961, 31.2525, -7.6944 )
+
+[node name="NPC" type="Sprite" parent="."]
+position = Vector2( 0.721497, -1757.24 )
+scale = Vector2( 0.2145, 0.248808 )
+texture = ExtResource( 4 )
+
+[node name="SaidaEmVertical" type="Sprite" parent="."]
+position = Vector2( -3.25, 76.75 )
+scale = Vector2( 0.215972, 0.215972 )
+texture = ExtResource( 10 )
+
+[node name="SaidaEmHorizontal" type="Sprite" parent="SaidaEmVertical"]
+visible = false
+position = Vector2( -3.4726, 15.0481 )
+texture = ExtResource( 11 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4, -75 )
+
+[connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
+[connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
+[connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DApple" to="." method="_on_Area2DApple_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DApple" to="." method="_on_1andarApple_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DApple" to="Interior" method="_on_Area2DApple_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DApple" to="Interior/Area2DApple" method="_on_Area2DApple_body_entered"]

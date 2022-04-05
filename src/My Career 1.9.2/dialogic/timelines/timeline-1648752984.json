@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209310.cfg"
+		},
+		{
+			"character": "character-1648752939.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá Jogador(a) seja bem-vindo a simulação que vai lhe ajudar a descobrir o caminho que você deve trilhar na sua vida acadêmica e laboral! Aperte a barra de espaço para pular para a próxima fala e a tecla enter para selecionar uma opção em respostas.\nViu como é fácil?! Aliás meu nome é Ada Love e eu serei sua ajudante nessa aventura, estarei aqui sempre que precisar para te ajudar, assim como ajudei a tecnologia a se desenvolver.\nFui uma matemática e escritora inglesa, a primeira programadora do mundo e escrevi o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.\nOnde estão meus modos, qual é seu nome mesmo?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 0.5
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_getcharactersName",
+				"target_node_path": "/root/OpenWorld/Player/Camera2D"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"emit_signal": "godend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648752984.json",
+		"name": "AdaLove-0"
+	}
+}
