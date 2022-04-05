@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209346.cfg"
+		},
+		{
+			"character": "character-1647117958.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[playername], siga para o 1º andar pelo elevador à sua direita, por favor."
+		},
+		{
+			"emit_signal": "nsend0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647303044.json",
+		"name": "RecepcionistaN-2"
+	}
+}
