@@ -1,0 +1,122 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/1andarApple.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/Mapa/Interiores/MapaMinigameSistemasInformacao/Map017.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Personagens/Recrutadora Personagem.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Interface/Dialogo/icone_E(2).png" type="Texture" id=5]
+[ext_resource path="res://Scenes/RecrutadoraA.gd" type="Script" id=6]
+[ext_resource path="res://Sprites/Mapa/Logos/ElevadorVertical.png" type="Texture" id=7]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 12.7786, 13.3497 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 144.81 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 57.3931, 52.2266 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 84.3027, 23.0026 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 13.8174, 103.597 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 51.8115, 10 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 15.9965, 157.823 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 17.2635, 59.2698 )
+
+[node name="1andarApple" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="InteriorApple" type="Sprite" parent="."]
+position = Vector2( 2, 0 )
+scale = Vector2( 7.135, 6.108 )
+texture = ExtResource( 3 )
+
+[node name="ElevadorVertical" type="Sprite" parent="InteriorApple"]
+position = Vector2( 0.560619, -125.246 )
+scale = Vector2( 0.0585801, 0.0684297 )
+texture = ExtResource( 7 )
+
+[node name="TerreoTesla" type="Area2D" parent="InteriorApple"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorApple/TerreoTesla"]
+position = Vector2( 0.420462, -143.255 )
+shape = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="InteriorApple"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -120.813, -149.312 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -215.767, -143.582 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( 215.978, -142.6 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -215.627, -262.934 )
+shape = SubResource( 4 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -250.455, -221.513 )
+polygon = PoolVector2Array( 6.16679, -17.8454, 63.0694, -18.1729, 63.0694, 4.42043, 59.0049, 4.42043, 58.5844, -9.98691, 11.0722, -9.98691, 9.95096, 4.42043, 6.16679, 4.91159 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -313.665, -151.315 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -255.596, -37.4918 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -228.381, 58.2024 )
+scale = Vector2( 1.48509, -0.54617 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -269.071, 181.562 )
+shape = SubResource( 8 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -263.49, 228.553 )
+polygon = PoolVector2Array( -12.754, 11.6241, -53.679, 23.4119, -32.6559, 92.5016, -14.7162, 98.3956, 10.7918, 84.3157, 124.597, 98.5593, 408.549, 103.307, 471.619, 102.98, 539.734, 96.1035, 552.488, 59.4303, 540.294, -6.22134, 515.767, -100.196, 584.022, -278.487, 575.893, -491.323, 499.089, -484.283, 449.615, -494.925, 376.594, -480.681, 371.268, -346.267, 301.612, -342.01, 276.524, -414.538, 226.769, -396.202, 201.822, -324.984, 137.071, -301.735, 140.434, -253.602, 146.321, -229.208, 203.224, -229.699, 203.224, -276.031, 156.132, -276.031, 156.47, -301.884, 201.402, -302.227, 221.584, -301.244, 224.948, -324.375, 248.914, -323.838, 249.334, -397.511, 277.645, -396.857, 280.028, -324.82, 302.135, -323.223, 302.733, -301.735, 373.09, -303.045, 372.81, -276.85, 323.756, -276.031, 324.036, -229.208, 372.39, -229.699, 395.935, -230.026, 395.795, -468.566, 451.296, -469.221, 452.418, -444.663, 458.725, -460.38, 504.975, -460.052, 505.676, -446.791, 509.18, -445.809, 509.18, -468.893, 563.56, -469.221, 564.541, -276.359, 467.975, -277.014, 467.274, -85.1342, 515.067, -85.1342, 515.347, 11.4604, 540.455, 12.5631, 540.855, 59.2665, 536.931, 59.2665, 494.184, 59.2665, 494.184, 34.3811, 467.274, 34.3811, 465.172, 60.2489, 444.709, 58.9391, 444.709, 35.3634, 396.356, 36.6732, 393.87, 83.9775, 135.109, 83.8245, 130.764, 36.0183, 87.7365, 36.8369, 86.4751, 59.4303, 37.9818, 60.5763, 38.5424, 33.7263, 13.8752, 34.3811, 7.98875, 59.2665, -8.54944, 59.594, -7.84866, 84.8068, -13.0344, 84.3157, -12.3336, 74.3288 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="InteriorApple/StaticBody2D"]
+position = Vector2( -93.9033, 100.524 )
+polygon = PoolVector2Array( -38.1219, -55.3373, -38.1219, 42.4034, -30.9741, 67.4525, 10.7919, 67.9437, 10.7919, 120.989, 179.958, 118.861, 178.556, 67.4525, 201.682, 67.4525, 203.076, 43.4564, 225.788, 43.5494, 226.629, -54.3549 )
+
+[node name="Recrutadora" type="Sprite" parent="."]
+position = Vector2( -304.5, 993.2 )
+scale = Vector2( 0.319444, 0.23374 )
+texture = ExtResource( 4 )
+
+[node name="MentorInterectionArea" type="Area2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="Player" parent="MentorInterectionArea" instance=ExtResource( 1 )]
+position = Vector2( 6, -668 )
+
+[node name="MentorInterationc" type="CollisionPolygon2D" parent="MentorInterectionArea"]
+position = Vector2( 221, 1206 )
+scale = Vector2( 3.10644, 3.25947 )
+polygon = PoolVector2Array( -1.28766, -129.776, -331.247, -138.366, -334.466, 86.5171, 3.86296, 94.1871 )
+
+[node name="EButton" type="Sprite" parent="MentorInterectionArea"]
+position = Vector2( -299.5, 792.2 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 5 )
+
+[connection signal="body_entered" from="InteriorApple/TerreoTesla" to="." method="_on_TerreoTesla_body_entered"]
