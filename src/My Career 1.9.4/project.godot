@@ -50,8 +50,9 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Mt Career"
-run/main_scene="res://Scenes/Menu.tscn"
+config/name="minigametesla"
+run/main_scene="res://mini game EC/gametesla.tscn"
+config/icon="res://mini game EC/icon.png"
 
 [autoload]
 
@@ -188,3 +189,4 @@ quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
 environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_environment="res://mini game EC/default_env.tres"
