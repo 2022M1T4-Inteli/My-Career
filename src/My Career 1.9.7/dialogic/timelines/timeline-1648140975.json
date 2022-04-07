@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209310.cfg"
+		},
+		{
+			"character": "character-1648752939.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siga pela calçada à esqueda para acessar o Prédio da Tesla.                                                   Siga pela calçada à direita para acessar o Prédio da Apple."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648140975.json",
+		"name": "Placa3-0"
+	}
+}
