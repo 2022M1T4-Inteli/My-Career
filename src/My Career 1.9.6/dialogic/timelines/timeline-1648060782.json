@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quarteirão à esquerda: Siga pela calçada à esqueda para acessar o Prédio da Microsoft e Prédio da Nasa                                                                                                                   Quarteirão à direita: Siga pela calçada à direita para acessar o Prédio da Tesla e Prédio da Apple"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648060782.json",
+		"name": "Placa1-0"
+	}
+}

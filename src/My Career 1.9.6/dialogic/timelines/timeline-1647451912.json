@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um hospital quer criar um aplicativo de monitoramento de estresse no trânsito (temperatura, batimentos, pressão). \nApós a realização do planejamento, ficou claro a necessidade de pessoas capacitadas em: Python , Arte 2D e E-commerce. \nPara isso, você, como engenheiro de software, ficou responsável por montar uma equipe de 3 programadores para a criação desse aplicativo."
+		},
+		{
+			"emit_signal": "rmend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "minigame0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/Minigame Microsoft.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647451912.json",
+		"name": "RecrutadoraMicrosoft-1"
+	}
+}
