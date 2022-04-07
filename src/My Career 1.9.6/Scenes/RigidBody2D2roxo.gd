@@ -1,33 +1,29 @@
 extends RigidBody2D
 
 signal clicked
-
+#criar sinal 
 var held = false
-
+#variavel para mouse
 func _ready():
 	add_to_group("roxo")
-
-func _on_RigidBody2D_input_event(viewport, event, shape_idx):
-	if event is InputEventMouseButton and event.button_index == BUTTON_LEFT and event.pressed:
-		emit_signal("clicked", self)
-
+#adicinar ao grupo
 
 func _physics_process(delta):
 	if held:
 		global_transform.origin = get_global_mouse_position()
-
+#pegar a posição do moouse
 
 func pickup():
 	if held == false:
 		held = true
-
+	#segurar o botao
 
 func drop():
 	if held:
 		held = false
-
+	#soltar o botão
 
 func _on_RigidBody2D2roxo_input_event(viewport, event, shape_idx):
 	if event is InputEventMouseButton and event.button_index == BUTTON_LEFT and event.pressed:
 		emit_signal("clicked", self)
-	pass # Replace with function body.
+	#clicar com o botao segurar 
