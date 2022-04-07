@@ -107,10 +107,10 @@ position = Vector2( 53.4912, -0.212769 )
 shape = SubResource( 1 )
 
 [node name="Labelpontos" type="Label" parent="."]
-margin_left = -186.842
-margin_top = 503.518
-margin_right = -35.8425
-margin_bottom = 539.518
+margin_left = -165.711
+margin_top = 519.126
+margin_right = -14.7118
+margin_bottom = 555.126
 rect_scale = Vector2( 3.58377, 3.35315 )
 custom_colors/font_color = Color( 0.952941, 1, 0, 1 )
 custom_fonts/font = ExtResource( 12 )

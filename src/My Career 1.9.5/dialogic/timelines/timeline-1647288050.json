@@ -38,7 +38,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "não é pra digitar aqui, exclui o texto , coloca a cena do minigame aqui no change scene de baixo"
+			"text": "Estamos com alguns problemas aqui na Tesla, depois de uma tempestade. Alguns cabos foram desconectados, isso acabou afetando toda nossa energia. Você é o responsável pelo reparo"
 		},
 		{
 			"change_scene": "res://mini game EC/gametesla.tscn",

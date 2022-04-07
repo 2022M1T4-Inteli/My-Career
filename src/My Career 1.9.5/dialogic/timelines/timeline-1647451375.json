@@ -19,7 +19,7 @@
 			"event_id": "dialogic_040"
 		},
 		{
-			"change_scene": "res://MinigameLuca/MinigameTesla.tscn",
+			"change_scene": "res://mini game EC/gametesla.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
