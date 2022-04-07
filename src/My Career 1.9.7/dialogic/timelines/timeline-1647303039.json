@@ -37,7 +37,7 @@
 
 				],
 				"method_name": "_ElevadorEnable",
-				"target_node_path": "/root/ElonMusgo/Interior/Area2DNasa"
+				"target_node_path": "/root/TerreoNasa/Interior/Area2DNasa"
 			},
 			"event_id": "dialogic_042"
 		},

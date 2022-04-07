@@ -10,7 +10,7 @@
 [ext_resource path="res://mini game EC/RigidBody2Dred.gd" type="Script" id=8]
 [ext_resource path="res://mini game EC/RigidBody2Damarelo.gd" type="Script" id=9]
 [ext_resource path="res://mini game EC/RigidBody2D3azul.gd" type="Script" id=10]
-[ext_resource path="res://Minigame SI/CaixaEscolhas.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Interface/Dialogo/CaixacONCLUIR.png" type="Texture" id=11]
 [ext_resource path="res://Fonts/fonteES.tres" type="DynamicFont" id=12]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -186,18 +186,6 @@ __meta__ = {
 position = Vector2( 221.763, 47.0306 )
 scale = Vector2( 0.189168, 0.113409 )
 texture = ExtResource( 11 )
-
-[node name="Label" type="Label" parent="Button"]
-margin_left = 62.8036
-margin_top = 6.01447
-margin_right = 189.804
-margin_bottom = 42.0145
-rect_scale = Vector2( 2.34213, 2.04687 )
-custom_fonts/font = ExtResource( 12 )
-text = "Continuar"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [connection signal="clicked" from="RigidBody2Dred" to="." method="_on_RigidBody2Dred_clicked"]
 [connection signal="input_event" from="RigidBody2Dred" to="RigidBody2Dred" method="_on_RigidBody2Dred_input_event"]
