@@ -3,4 +3,5 @@
 [ext_resource path="res://Scenes/MinigameTesla.gd" type="Script" id=1]
 
 [node name="MinigameTesla" type="Node2D"]
+position = Vector2( 0, -1 )
 script = ExtResource( 1 )
