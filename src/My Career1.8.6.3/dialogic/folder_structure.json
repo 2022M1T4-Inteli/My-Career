@@ -1,0 +1,285 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1647027241.json",
+				"character-1647117958.json",
+				"character-1647223667.json",
+				"character-1647267811.json",
+				"character-1647269471.json",
+				"character-1647288409.json",
+				"character-1647343070.json",
+				"character-1648752939.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": true
+			}
+		},
+		"Definitions": {
+			"files": [
+				"1647182325-146",
+				"1647182352-483",
+				"1647182381-713",
+				"1647181102-787",
+				"1647182339-918",
+				"1647182312-366",
+				"1647181086-648",
+				"1647182367-970",
+				"1647344999-648",
+				"1647366069-648"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": true
+			}
+		},
+		"Themes": {
+			"files": [
+				"theme-1647134832.cfg",
+				"theme-1647208252.cfg",
+				"theme-1647208439.cfg",
+				"theme-1647209342.cfg",
+				"theme-1647209346.cfg",
+				"theme-1647209349.cfg",
+				"theme-1647209348.cfg",
+				"theme-1647209310.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+
+			],
+			"folders": {
+				"BillPortas": {
+					"files": [
+						"timeline-1647269347.json",
+						"timeline-1647269355.json",
+						"timeline-1647269356.json",
+						"timeline-1648665640.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"DeusDoJogo": {
+					"files": [
+						"timeline-1647287726.json",
+						"timeline-1647343865.json",
+						"timeline-1647441329.json",
+						"timeline-1648752984.json",
+						"timeline-1648753059.json",
+						"timeline-1648753086.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"DorothyVan": {
+					"files": [
+						"timeline-1647267717.json",
+						"timeline-1647267726.json",
+						"timeline-1647267730.json",
+						"timeline-1648663475.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"ElonMusgo": {
+					"files": [
+						"timeline-1647027261.json",
+						"timeline-1647214112.json",
+						"timeline-1647214113.json",
+						"timeline-1648662155.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Placas": {
+					"files": [
+						"timeline-1648060782.json",
+						"timeline-1648140629.json",
+						"timeline-1648140975.json",
+						"timeline-1648141152.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"RecepcionistaApple": {
+					"files": [
+						"timeline-1647280798.json",
+						"timeline-1647296857.json",
+						"timeline-1647297057.json",
+						"timeline-1647297148.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"RecepcionistaMicrosoft": {
+					"files": [
+						"timeline-1647280772.json",
+						"timeline-1647300440.json",
+						"timeline-1647300442.json",
+						"timeline-1647300444.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"RecepcionistaNasa": {
+					"files": [
+						"timeline-1647280755.json",
+						"timeline-1647303039.json",
+						"timeline-1647303044.json",
+						"timeline-1647303046.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"RecepcionistaTesla": {
+					"files": [
+						"timeline-1647280786.json",
+						"timeline-1647284264.json",
+						"timeline-1647285889.json",
+						"timeline-1647298322.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"RecrutadoraApple": {
+					"files": [
+						"timeline-1647291814.json",
+						"timeline-1647295784.json",
+						"timeline-1647451926.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"RecrutadoraMicrosoft": {
+					"files": [
+						"timeline-1647300627.json",
+						"timeline-1647300633.json",
+						"timeline-1647451912.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"RecrutadoraNasa": {
+					"files": [
+						"timeline-1647302854.json",
+						"timeline-1647302874.json",
+						"timeline-1647451688.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"RecrutadoraTesla": {
+					"files": [
+						"timeline-1647288050.json",
+						"timeline-1647288106.json",
+						"timeline-1647451375.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"SteveTrabalho": {
+					"files": [
+						"timeline-1647221788.json",
+						"timeline-1647221841.json",
+						"timeline-1647221859.json",
+						"timeline-1648667762.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

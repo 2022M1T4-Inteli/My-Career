@@ -16,7 +16,8 @@ func _process(delta):
 
 
 func _input(event):
-	if get_node_or_null('DialogNode') == null: #Verifica se outro diálogo ja esta em cena
+	get_node("Bibliotecario2/Player").global_position = GameManager.positionelevador
+	if Dialogic.has_current_dialog_node() == false: #Verifica se outro diálogo ja esta em cena
 		if event.is_action_pressed("ui_E") and activate: #Faz com que a interação ocorra somente se a tecla designada (no caso, a tecla E) for acionada
 			get_tree().paused = true #Pausa o jogo durante o diálogo
 			var dialog = Dialogic.start(str("Bibliotecario1-",GameManager.bl1dialogcount)) #Inicia o diálogo da timeline-1, que foi pré-definida na ferramente "Dialogic"
@@ -25,7 +26,7 @@ func _input(event):
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
-		get_tree().paused = false
+		
 
 
 func dialog_listener(string):

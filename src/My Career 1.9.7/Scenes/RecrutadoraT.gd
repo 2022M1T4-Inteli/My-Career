@@ -8,7 +8,6 @@ func _dialog():
 	Dialogic.set_variable("ecqzpoints", 0)
 
 func _ready():
-	GameManager.positionandar = get_node("Player").global_position
 	connect("body_entered", self, '_on_MentorInterectionArea_body_entered')
 	connect("body_exited", self, '_on_MentorInterectionArea_body_exited')
 #Criação da conexão da Area 2D para detecção do Objeto Player para caso ele esteja presente na Area 2D
@@ -30,7 +29,6 @@ func _input(event):
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
 			add_child(dialog) 
-		get_tree().paused = false
 
 
 func dialog_listener(string):

@@ -5,6 +5,8 @@ var inicio = true
 var held_object = null
 var pontos = 0
 
+func ready():
+	pass
 
 func _on_RigidBody2Dred_clicked(object):
 	if !held_object:

@@ -4,6 +4,12 @@
 	],
 	"variables": [
 		{
+			"id": "1647182325-146",
+			"name": "siqzpoints",
+			"type": 0,
+			"value": "0"
+		},
+		{
 			"id": "1647182352-483",
 			"name": "esqzpoints",
 			"type": 0,
@@ -13,11 +19,17 @@
 			"id": "1647182381-713",
 			"name": "ecqzpoints",
 			"type": 0,
-			"value": ""
+			"value": "0"
 		},
 		{
 			"id": "1647181102-787",
 			"name": "ccqzpoints",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647182339-918",
+			"name": "esxppoints",
 			"type": 0,
 			"value": "0"
 		},
@@ -40,22 +52,10 @@
 			"value": "0"
 		},
 		{
-			"id": "1647182325-146",
-			"name": "siqzpoints",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1647344999-648",
 			"name": "playername",
 			"type": 0,
 			"value": "\"\""
-		},
-		{
-			"id": "1647182339-918",
-			"name": "esxppoints",
-			"type": 0,
-			"value": "0"
 		},
 		{
 			"id": "1647366069-648",

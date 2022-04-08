@@ -3,6 +3,9 @@ extends Node2D
 var pontos
 var PONTOS_MAX = 120
 
+func _ready():
+	get_tree().paused = false
+
 func _process(delta):
 
 	$LabelQZSI.text = str(Dialogic.get_variable("siqzpoints"))

@@ -59,12 +59,12 @@ func _ready():
 #Verifica o espectro do valor da variavel e muda o arquivo da música tocada no fundo
 
 func _physics_process(delta):
-	if get_tree().get_current_scene().get_name() == "OpenWorld":
+	print(GameManager.map)
+	if get_tree().get_current_scene().get_name() == "OpenWorld" and GameManager.map == true:
 		get_node("CanvasLayer/Sprite").visible = true
 	else:
 		get_node("CanvasLayer/Sprite").visible = false
 	#Caso a cena atual seja o OpenWorld o minimapa aparece
-	
 	playerminimapa.position.x = ($Sprite.global_position.x/7)
 	playerminimapa.position.y = ($Sprite.global_position.y/7)
 	#A posição global do player no minimapa é a posição global do player dividido pela escala do mapa

@@ -2,9 +2,13 @@ extends Control
 
 var is_paused = false setget set_is_paused
 var paused = false
+onready var map = get_tree().get_root().get_node("Player/CanvasLayer/Sprite")
+
 
 func _unhandled_input(event):
 	if event.is_action_pressed("pause"):
+		GameManager.map = !GameManager.map
+		yield(get_tree().create_timer(0.01), "timeout")
 		self.is_paused = !is_paused
 
 
