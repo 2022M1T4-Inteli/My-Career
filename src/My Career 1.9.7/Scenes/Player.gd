@@ -59,7 +59,6 @@ func _ready():
 #Verifica o espectro do valor da variavel e muda o arquivo da música tocada no fundo
 
 func _physics_process(delta):
-	print(GameManager.map)
 	if get_tree().get_current_scene().get_name() == "OpenWorld" and GameManager.map == true:
 		get_node("CanvasLayer/Sprite").visible = true
 	else:
