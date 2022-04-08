@@ -18,7 +18,7 @@ extents = Vector2( 10, 12.564 )
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 11.2569, 18.7074 )
 
-[node name="TerroaMicrosoft" type="Node2D"]
+[node name="TerreoMicrosoft" type="Node2D"]
 script = ExtResource( 6 )
 
 [node name="Interior" type="Sprite" parent="."]

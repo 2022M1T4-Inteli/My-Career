@@ -56,7 +56,8 @@
 				"theme-1647209348.cfg",
 				"theme-1647209310.cfg",
 				"theme-1647208259.cfg",
-				"theme-1647208257.cfg"
+				"theme-1647208257.cfg",
+				"theme-1647208254.cfg"
 			],
 			"folders": {
 
@@ -81,7 +82,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Bibliotecário2": {
@@ -93,7 +94,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"BillPortas": {
@@ -108,7 +109,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"DeusDoJogo": {
@@ -140,7 +141,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"ElonMusgo": {
@@ -155,7 +156,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Placas": {
@@ -170,7 +171,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"RecepcionistaApple": {
@@ -185,7 +186,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"RecepcionistaMicrosoft": {
@@ -200,7 +201,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"RecepcionistaNasa": {
@@ -215,7 +216,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"RecepcionistaTesla": {
@@ -230,7 +231,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"RecrutadoraApple": {

@@ -4,7 +4,7 @@ var pontos
 var PONTOS_MAX = 315
 
 func _process(delta):
-
+	
 	$LabelQZSI.text = str(Dialogic.get_variable("siqzpoints"))
 	$LabelEXPSI.text = str(Dialogic.get_variable("siexppoints"))
 	var qzsi = float("siqzpoints")
@@ -32,6 +32,7 @@ func _process(delta):
 	var  expes = float("esexppoints")
 	var divisaoes = (qzes + expes) / PONTOS_MAX * 100
 	$LabelGeralES.text = str(divisaoes,001) + "%"
+
 
 func _on_ButtonSair_pressed():
 	get_tree().change_scene("res://Scenes/Biblioteca.tscn")

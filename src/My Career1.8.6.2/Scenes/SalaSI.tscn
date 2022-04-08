@@ -93,8 +93,8 @@ scale = Vector2( 0.1, 0.08 )
 texture = ExtResource( 5 )
 
 [node name="ButtonVoltarSI" type="Button" parent="."]
-margin_left = 729.0
-margin_top = 96.0
+margin_left = 727.0
+margin_top = 93.0
 margin_right = 760.0
 margin_bottom = 125.0
 __meta__ = {

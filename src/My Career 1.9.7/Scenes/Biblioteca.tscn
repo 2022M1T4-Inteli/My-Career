@@ -95,27 +95,6 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Player" parent="." instance=ExtResource( 7 )]
-position = Vector2( 3336, 3423 )
-
-[node name="Bibliotecário1" type="Area2D" parent="."]
-position = Vector2( 3299.5, 3714 )
-script = ExtResource( 12 )
-
-[node name="Bibliotecário1Personagem" type="Sprite" parent="Bibliotecário1"]
-position = Vector2( -1628.5, -1741 )
-scale = Vector2( 0.7, 0.8 )
-texture = ExtResource( 9 )
-
-[node name="IconeE" type="Sprite" parent="Bibliotecário1"]
-position = Vector2( -1622.5, -1920 )
-scale = Vector2( 0.2, 0.2 )
-texture = ExtResource( 11 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Bibliotecário1"]
-position = Vector2( -51.5, 52 )
-polygon = PoolVector2Array( -1942, -2092, -1955, -1523, -1368, -1525, -1362, -2100 )
-
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
@@ -142,21 +121,44 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Bibliotecario2" type="Area2D" parent="."]
+[node name="Bibliotecário1" type="Area2D" parent="."]
+position = Vector2( 3299.5, 3714 )
+scale = Vector2( 1, 1 )
+script = ExtResource( 12 )
+
+[node name="Bibliotecário1Personagem" type="Sprite" parent="Bibliotecário1"]
+position = Vector2( -1628.5, -1741 )
+scale = Vector2( 0.7, 0.8 )
+texture = ExtResource( 9 )
+
+[node name="IconeE" type="Sprite" parent="Bibliotecário1"]
+position = Vector2( -1622.5, -1920 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Bibliotecário1"]
+position = Vector2( -51.5, 52 )
+polygon = PoolVector2Array( -1942, -2092, -1955, -1523, -1368, -1525, -1362, -2100 )
+
+[node name="Bibliotecario2" type="Area2D" parent="Bibliotecário1"]
+position = Vector2( -3299.5, -3714 )
 script = ExtResource( 13 )
 
-[node name="Bibliotecária2" type="Sprite" parent="Bibliotecario2"]
+[node name="Bibliotecária2" type="Sprite" parent="Bibliotecário1/Bibliotecario2"]
 position = Vector2( 787, 3091 )
 scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 8 )
 
-[node name="IconeE(2)" type="Sprite" parent="Bibliotecario2"]
+[node name="IconeE(2)" type="Sprite" parent="Bibliotecário1/Bibliotecario2"]
 position = Vector2( 793, 2905 )
 scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 11 )
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Bibliotecario2"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Bibliotecário1/Bibliotecario2"]
 polygon = PoolVector2Array( 677, 2844, 782.83, 2844, 1187, 2851, 1215, 3267, 677, 3243 )
+
+[node name="Player" parent="Bibliotecário1/Bibliotecario2" instance=ExtResource( 7 )]
+position = Vector2( 3336, 3423 )
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]

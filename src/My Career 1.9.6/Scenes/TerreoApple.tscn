@@ -108,7 +108,7 @@ position = Vector2( 4, -75 )
 [connection signal="body_entered" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_entered"]
 [connection signal="body_exited" from="Interior/MentorInterectionArea" to="Interior" method="_on_AreaInteraoMentor_body_exited"]
 [connection signal="body_entered" from="Interior/OpenWorld" to="." method="_on_OpenWorld_body_entered"]
-[connection signal="body_entered" from="Interior/Area2DApple" to="." method="_on_1andarApple_body_entered"]
 [connection signal="body_entered" from="Interior/Area2DApple" to="." method="_on_Area2DApple_body_entered"]
+[connection signal="body_entered" from="Interior/Area2DApple" to="." method="_on_1andarApple_body_entered"]
 [connection signal="body_entered" from="Interior/Area2DApple" to="Interior" method="_on_Area2DApple_body_entered"]
 [connection signal="body_entered" from="Interior/Area2DApple" to="Interior/Area2DApple" method="_on_Area2DApple_body_entered"]

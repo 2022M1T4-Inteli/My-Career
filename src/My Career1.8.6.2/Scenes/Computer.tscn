@@ -52,36 +52,26 @@ position = Vector2( 966, 112 )
 scale = Vector2( 0.25, 0.25 )
 
 [node name="BotãoX" type="Sprite" parent="."]
-position = Vector2( 966.65, 118.686 )
+position = Vector2( 966.114, 113.14 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 7 )
 
 [node name="LabelQZSI" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 226.0
-margin_top = 227.0
-margin_right = 247.0
-margin_bottom = 241.0
+margin_left = 222.0
+margin_top = 225.0
+margin_right = 252.0
+margin_bottom = 239.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelEXPSI" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 230.0
-margin_top = 269.0
-margin_right = 249.0
-margin_bottom = 283.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LabelGeralSI" type="Label" parent="."]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 227.447
-margin_top = 331.102
-margin_right = 267.447
-margin_bottom = 345.102
+margin_left = 227.984
+margin_top = 268.431
+margin_right = 250.984
+margin_bottom = 282.431
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -90,88 +80,98 @@ __meta__ = {
 modulate = Color( 0, 0, 0, 1 )
 margin_left = 437.0
 margin_top = 224.0
-margin_right = 459.0
-margin_bottom = 241.0
+margin_right = 458.0
+margin_bottom = 238.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelEXPCC" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 438.0
-margin_top = 269.0
-margin_right = 457.0
-margin_bottom = 283.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LabelGeralCC" type="Label" parent="."]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 438.265
-margin_top = 329.993
-margin_right = 478.265
-margin_bottom = 343.993
+margin_left = 439.874
+margin_top = 263.994
+margin_right = 461.874
+margin_bottom = 277.994
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelQZEC" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 647.0
-margin_top = 223.0
-margin_right = 665.0
-margin_bottom = 237.0
+margin_left = 644.0
+margin_top = 222.0
+margin_right = 668.0
+margin_bottom = 236.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelEXPEC" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 649.0
-margin_top = 268.0
-margin_right = 666.0
-margin_bottom = 282.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LabelGeralEC" type="Label" parent="."]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 649.083
-margin_top = 331.102
-margin_right = 689.083
-margin_bottom = 345.102
+margin_left = 648.546
+margin_top = 266.767
+margin_right = 665.546
+margin_bottom = 282.767
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelQZES" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 857.0
-margin_top = 227.0
-margin_right = 881.0
-margin_bottom = 241.0
+margin_left = 852.0
+margin_top = 222.0
+margin_right = 876.0
+margin_bottom = 236.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelEXPES" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 863.0
-margin_top = 268.0
-margin_right = 882.0
-margin_bottom = 282.0
+margin_left = 855.0
+margin_top = 264.0
+margin_right = 874.0
+margin_bottom = 278.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralSI" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 226.374
+margin_top = 327.22
+margin_right = 266.374
+margin_bottom = 341.22
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralCC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 443.093
+margin_top = 329.993
+margin_right = 483.093
+margin_bottom = 343.993
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelGeralEC" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 644.255
+margin_top = 327.22
+margin_right = 684.255
+margin_bottom = 341.22
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="LabelGeralES" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 856.145
-margin_top = 328.884
-margin_right = 896.145
-margin_bottom = 342.884
+margin_left = 857.218
+margin_top = 329.993
+margin_right = 897.218
+margin_bottom = 343.993
 __meta__ = {
 "_edit_use_anchors_": false
 }

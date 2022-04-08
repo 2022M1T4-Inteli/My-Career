@@ -27,8 +27,8 @@ var inicioap = true  #variavel de estado do tutorial do primeiro andar da apple
 var iniciona = true  #variavel de estado do tutorial do primeiro andar da nasa
 var iniciots = true  #variavel de estado do tutorial do primeiro andar da tesla
 
-var velocidadevertical = 500   #variavel da constante da velocidade no eixo y do player
-var velocidadehorizontal = 500 #variavel da constante da velocidade no eixo x do player
+var velocidadevertical = 0   #variavel da constante da velocidade no eixo y do player
+var velocidadehorizontal = 0 #variavel da constante da velocidade no eixo x do player
 
 var tutorial = false #variavel de estado do tutorial do jogo
 
@@ -51,3 +51,4 @@ var minigame
 var bl1dialogcount = 0
 var bl2dialogcount = 0
 
+var map = true

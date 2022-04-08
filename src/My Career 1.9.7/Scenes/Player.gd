@@ -59,71 +59,71 @@ func _ready():
 #Verifica o espectro do valor da variavel e muda o arquivo da música tocada no fundo
 
 func _physics_process(delta):
-	if get_tree().get_current_scene().get_name() == "OpenWorld":
+	if get_tree().get_current_scene().get_name() == "OpenWorld" and GameManager.map == true:
 		get_node("CanvasLayer/Sprite").visible = true
 	else:
 		get_node("CanvasLayer/Sprite").visible = false
 	#Caso a cena atual seja o OpenWorld o minimapa aparece
-	
 	playerminimapa.position.x = ($Sprite.global_position.x/7)
 	playerminimapa.position.y = ($Sprite.global_position.y/7)
 	#A posição global do player no minimapa é a posição global do player dividido pela escala do mapa
 	
 	var velocity = Vector2.ZERO
 # Delcarando a variavel vetor
-	if Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_up"):
-		velocity.x -= GameManager.velocidadehorizontal/2
-		velocity.y -= 0
-		stateMachine.travel("Walk")
+	if GameManager.velocidadehorizontal > 0 and GameManager.velocidadevertical > 0:
+		if Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_up"):
+			velocity.x -= GameManager.velocidadehorizontal/2
+			velocity.y -= 0
+			stateMachine.travel("Walk")
 
-	elif Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_down"):
-		velocity.x -= GameManager.velocidadehorizontal/2
-		velocity.y += 0
-		stateMachine.travel("Walk")
+		elif Input.is_action_pressed("ui_left") and Input.is_action_pressed("ui_down"):
+			velocity.x -= GameManager.velocidadehorizontal/2
+			velocity.y += 0
+			stateMachine.travel("Walk")
 
-	elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_up"):
-		velocity.x += GameManager.velocidadehorizontal/2
-		velocity.y -= 0
-		stateMachine.travel("Walk")
+		elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_up"):
+			velocity.x += GameManager.velocidadehorizontal/2
+			velocity.y -= 0
+			stateMachine.travel("Walk")
 
-	elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_down"):
-		velocity.x += GameManager.velocidadehorizontal/2
-		velocity.y += 0
-		stateMachine.travel("Walk")
+		elif Input.is_action_pressed("ui_right") and Input.is_action_pressed("ui_down"):
+			velocity.x += GameManager.velocidadehorizontal/2
+			velocity.y += 0
+			stateMachine.travel("Walk")
 		
-	if Input.is_action_pressed("ui_up"):
-		velocity.y -= GameManager.velocidadevertical
-		stateMachine.travel("Walk")
+		if Input.is_action_pressed("ui_up"):
+			velocity.y -= GameManager.velocidadevertical
+			stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo y decrementa a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
-	elif Input.is_action_pressed("ui_down"):
-		velocity.y += GameManager.velocidadevertical
-		stateMachine.travel("Walk")
+		elif Input.is_action_pressed("ui_down"):
+			velocity.y += GameManager.velocidadevertical
+			stateMachine.travel("Walk")
 # Caso o botão de navegação para cima for pressionado o vetor no eixo y acrescenta a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
-	elif Input.is_action_pressed("ui_right"):
-		velocity.x += GameManager.velocidadehorizontal
-		stateMachine.travel("Walk")
-		$Sprite.scale = Vector2(8,8)
+		elif Input.is_action_pressed("ui_right"):
+			velocity.x += GameManager.velocidadehorizontal
+			stateMachine.travel("Walk")
+			$Sprite.scale = Vector2(8,8)
 # Caso o botão de navegação para cima for pressionado o vetor no eixo x acrescenta a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 		
 		
-	elif Input.is_action_pressed("ui_left"):
-		velocity.x -= GameManager.velocidadehorizontal
-		stateMachine.travel("Walk")
-		$Sprite.scale = Vector2(-8,8)
+		elif Input.is_action_pressed("ui_left"):
+			velocity.x -= GameManager.velocidadehorizontal
+			stateMachine.travel("Walk")
+			$Sprite.scale = Vector2(-8,8)
 # Caso o botão de navegação para cima for pressionado o vetor no eixo x decrementa a velocidade com valor speed
 #e a animação da sprite é setada com o estado de movimento.
 
-	else:
-		stateMachine.travel("Idle")
+		else:
+			stateMachine.travel("Idle")
 # Caso o personagem não se movimente a animação da sprite é setada com  o estado parado.
-
+		pass
 	move_and_slide(velocity)
 # A função de movimento de objetos recebe o vetor de velocidade.
 

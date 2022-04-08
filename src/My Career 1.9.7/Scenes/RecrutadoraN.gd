@@ -28,8 +28,7 @@ func _input(event):
 			dialog.connect("timeline_end", self, "unpause") #Faz com que ao fim do timeline, o jogo despause
 			dialog.connect("dialogic_signal", self, "dialog_listener") #Faz com que o sinal de dialogo receba um valor e assim execute uma ação
 			# Declarando variaveis de pontuação dos bachalerados tanto de experiência quanto de quiz
-			add_child(dialog) 
-		get_tree().paused = false
+			add_child(dialog)
 
 
 func dialog_listener(string):

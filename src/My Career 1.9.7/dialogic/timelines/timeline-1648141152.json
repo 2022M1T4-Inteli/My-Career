@@ -2,10 +2,10 @@
 	"events": [
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1647209310.cfg"
+			"set_theme": "theme-1647208254.cfg"
 		},
 		{
-			"character": "character-1648752939.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Siga o caminho acima pela calçada para chegar nas casas de conhecimento de ENGENHARIA DE SOFTWARE, SISTEMAS DE INFORMAÇÃO e CIÊNCIA DA COMPUTAÇÃO.\nSiga à esquerda pela calçada para a casa de conhecimento de ENGENHARIA DA COMPUTAÇÃO."

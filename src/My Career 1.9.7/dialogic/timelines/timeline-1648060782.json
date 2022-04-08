@@ -2,10 +2,10 @@
 	"events": [
 		{
 			"event_id": "dialogic_024",
-			"set_theme": "theme-1647209310.cfg"
+			"set_theme": "theme-1647208254.cfg"
 		},
 		{
-			"character": "character-1648752939.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Quarteirão à esquerda: Siga pela calçada à esqueda para acessar o Prédio da Microsoft e Prédio da Nasa                                                                                                                   Quarteirão à direita: Siga pela calçada à direita para acessar o Prédio da Tesla e Prédio da Apple"

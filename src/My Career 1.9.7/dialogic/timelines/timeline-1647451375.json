@@ -5,10 +5,10 @@
 			"set_theme": "theme-1647209349.cfg"
 		},
 		{
-			"character": "character-1647288409.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Aqui será executado o minigame que esta na fase final do desenvolvimento, vá para a trilha de engenharia de software para testar o minigame!"
+			"text": "Estamos com alguns problemas aqui na Tesla, depois de uma tempestade. Alguns cabos foram desconectados, isso acabou afetando toda nossa energia. Você é o responsável pelo reparo"
 		},
 		{
 			"emit_signal": "rtend0",
@@ -19,7 +19,7 @@
 			"event_id": "dialogic_040"
 		},
 		{
-			"change_scene": "res://mini game EC/gametesla.tscn",
+			"change_scene": "res://Scenes/MinigameTesla.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

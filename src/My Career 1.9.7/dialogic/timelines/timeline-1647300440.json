@@ -37,7 +37,7 @@
 
 				],
 				"method_name": "_ElevadorEnable",
-				"target_node_path": "/root/ElonMusgo/Interior/Area2DMicrosoft"
+				"target_node_path": "/root/TerreoMicrosoft/Interior/Area2DMicrosoft"
 			},
 			"event_id": "dialogic_042"
 		},
