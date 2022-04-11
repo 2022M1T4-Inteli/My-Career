@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/y2meta (mp3cut.net) (2).mp3-858ecc8b9595b8b68def29fd318bc7b0.mp3str"
+
+[deps]
+
+source_file="res://Audios/y2meta (mp3cut.net) (2).mp3"
+dest_files=[ "res://.import/y2meta (mp3cut.net) (2).mp3-858ecc8b9595b8b68def29fd318bc7b0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
