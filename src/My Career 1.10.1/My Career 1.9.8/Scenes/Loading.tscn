@@ -1,0 +1,74 @@
+[gd_scene load_steps=54 format=2]
+
+[ext_resource path="res://Sprites/Gif/Loading-0010.jpg" type="Texture" id=1]
+[ext_resource path="res://Sprites/Gif/Loading-0015.jpg" type="Texture" id=2]
+[ext_resource path="res://Sprites/Gif/Loading-0027.jpg" type="Texture" id=3]
+[ext_resource path="res://Sprites/Gif/Loading-0003.jpg" type="Texture" id=4]
+[ext_resource path="res://Sprites/Gif/Loading-0019.jpg" type="Texture" id=5]
+[ext_resource path="res://Sprites/Gif/Loading-0025.jpg" type="Texture" id=6]
+[ext_resource path="res://Sprites/Gif/Loading-0024.jpg" type="Texture" id=7]
+[ext_resource path="res://Sprites/Gif/Loading-0002.jpg" type="Texture" id=8]
+[ext_resource path="res://Sprites/Gif/Loading-0004.jpg" type="Texture" id=9]
+[ext_resource path="res://Sprites/Gif/Loading-0013.jpg" type="Texture" id=10]
+[ext_resource path="res://Sprites/Gif/Loading-0018.jpg" type="Texture" id=11]
+[ext_resource path="res://Sprites/Gif/Loading-0014.jpg" type="Texture" id=12]
+[ext_resource path="res://Sprites/Gif/Loading-0022.jpg" type="Texture" id=13]
+[ext_resource path="res://Sprites/Gif/Loading-0028.jpg" type="Texture" id=14]
+[ext_resource path="res://Sprites/Gif/Loading-0029.jpg" type="Texture" id=15]
+[ext_resource path="res://Sprites/Gif/Loading-0030.jpg" type="Texture" id=16]
+[ext_resource path="res://Sprites/Gif/Loading-0032.jpg" type="Texture" id=17]
+[ext_resource path="res://Sprites/Gif/Loading-0008.jpg" type="Texture" id=18]
+[ext_resource path="res://Sprites/Gif/Loading-0009.jpg" type="Texture" id=19]
+[ext_resource path="res://Sprites/Gif/Loading-0012.jpg" type="Texture" id=20]
+[ext_resource path="res://Sprites/Gif/Loading-0023.jpg" type="Texture" id=21]
+[ext_resource path="res://Sprites/Gif/Loading-0017.jpg" type="Texture" id=22]
+[ext_resource path="res://Sprites/Gif/Loading-0006.jpg" type="Texture" id=23]
+[ext_resource path="res://Sprites/Gif/Loading-0000.jpg" type="Texture" id=24]
+[ext_resource path="res://Sprites/Gif/Loading-0020.jpg" type="Texture" id=25]
+[ext_resource path="res://Sprites/Gif/Loading-0026.jpg" type="Texture" id=26]
+[ext_resource path="res://Sprites/Gif/Loading-0033.jpg" type="Texture" id=27]
+[ext_resource path="res://Sprites/Gif/Loading-0034.jpg" type="Texture" id=28]
+[ext_resource path="res://Sprites/Gif/Loading-0001.jpg" type="Texture" id=29]
+[ext_resource path="res://Sprites/Gif/Loading-0031.jpg" type="Texture" id=30]
+[ext_resource path="res://Sprites/Gif/Loading-0007.jpg" type="Texture" id=31]
+[ext_resource path="res://Sprites/Gif/Loading-0021.jpg" type="Texture" id=32]
+[ext_resource path="res://Sprites/Gif/Loading-0005.jpg" type="Texture" id=33]
+[ext_resource path="res://Sprites/Gif/Loading-0011.jpg" type="Texture" id=34]
+[ext_resource path="res://Sprites/Gif/Loading-0016.jpg" type="Texture" id=35]
+[ext_resource path="res://Sprites/Gif/Loading-0035.jpg" type="Texture" id=36]
+[ext_resource path="res://Sprites/Gif/Loading-0039.jpg" type="Texture" id=37]
+[ext_resource path="res://Sprites/Gif/Loading-0038.jpg" type="Texture" id=38]
+[ext_resource path="res://Sprites/Gif/Loading-0048.jpg" type="Texture" id=39]
+[ext_resource path="res://Sprites/Gif/Loading-0040.jpg" type="Texture" id=40]
+[ext_resource path="res://Sprites/Gif/Loading-0037.jpg" type="Texture" id=41]
+[ext_resource path="res://Sprites/Gif/Loading-0044.jpg" type="Texture" id=42]
+[ext_resource path="res://Sprites/Gif/Loading-0041.jpg" type="Texture" id=43]
+[ext_resource path="res://Sprites/Gif/Loading-0046.jpg" type="Texture" id=44]
+[ext_resource path="res://Sprites/Gif/Loading-0047.jpg" type="Texture" id=45]
+[ext_resource path="res://Sprites/Gif/Loading-0043.jpg" type="Texture" id=46]
+[ext_resource path="res://Sprites/Gif/Loading-0036.jpg" type="Texture" id=47]
+[ext_resource path="res://Sprites/Gif/Loading-0042.jpg" type="Texture" id=48]
+[ext_resource path="res://Sprites/Gif/Loading-0045.jpg" type="Texture" id=49]
+[ext_resource path="res://Sprites/Gif/Loading-0049.jpg" type="Texture" id=50]
+[ext_resource path="res://Sprites/Gif/Loading-0050.jpg" type="Texture" id=51]
+[ext_resource path="res://Scenes/Loading.gd" type="Script" id=124]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 24 ), ExtResource( 29 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 33 ), ExtResource( 23 ), ExtResource( 31 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 1 ), ExtResource( 34 ), ExtResource( 20 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 2 ), ExtResource( 35 ), ExtResource( 22 ), ExtResource( 11 ), ExtResource( 5 ), ExtResource( 25 ), ExtResource( 32 ), ExtResource( 13 ), ExtResource( 21 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 26 ), ExtResource( 3 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 30 ), ExtResource( 17 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 36 ), ExtResource( 47 ), ExtResource( 41 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 40 ), ExtResource( 43 ), ExtResource( 48 ), ExtResource( 46 ), ExtResource( 42 ), ExtResource( 49 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 51 ) ],
+"loop": true,
+"name": "default",
+"speed": 7.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 124 )
+
+[node name="Loading" type="AnimatedSprite" parent="."]
+position = Vector2( 959.778, 539.875 )
+scale = Vector2( 1.00023, 1.00023 )
+frames = SubResource( 1 )
+frame = 1
+
+[connection signal="animation_finished" from="Loading" to="." method="_on_Loading_animation_finished"]
+[connection signal="ready" from="Loading" to="." method="_on_AnimatedSprite_ready"]

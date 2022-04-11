@@ -1,0 +1,441 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647208252.cfg"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá [playername]! Eu sou o Bill Portões, fundador da Microsoft. Eu tranquei Harvard para poder criar minha companhia. Com a criação da Microsoft também veio o sistema operacional Windows e mais tarde a Xbox. O Windows hoje é o maior sistema operacional no mundo, logo é o mais usado.\n[playername], vou falar sobre engenharia de software e depois realizarei o QUIZ com você.\nO engenheiro de software é um profissional qualificado para a construção de softwares de qualidade para a sociedade. O software desempenha um papel central em quase todos os aspectos da vida cotidiana, no governo, bancos, finanças, educação, transporte, entretenimento, medicina, agricultura, indústria, direito, entre outros.\nDentro de engenharia de software temos o sistema operacional que é um programa para computador ou celular, como o Windows ou o Android. É o software encarregado por fazer a interface entre usuário e hardware, sem código binário ou linguagem de máquina. Exemplos de sistema operacional: unix, MS-DOS e OS/2.\nA arquitetura de software claramente faz parte de engenharia de software. Os softwares estão sendo cada vez mais usados, como na área científica, robótica e aplicações Web. Surgiu de várias técnicas de modelagem e projeto, como de linguagens de programação.\n A arquitetura de software serve como uma estrutura na qual se tem o entendimento dos componentes de um sistema e de seus inter-relacionamentos. Portanto, ela define a estrutura do sistema, de modo consistente para implementações, já que está diretamente relacionada aos atributos de qualidade como confiabilidade e desempenho.\nOutro tema importante na Engenharia de software é a rastreabilidade de requisitos, que tem conexão com a concepção de fluxo de entrega contínua, um dos assuntos mais avançados da área. \nA rastreabilidade de requisitos consiste na identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre os requisitos e os outros artefatos da engenharia de Software. Também pode-se abranger documentos da organização, padrões a serem seguidos, legislação, entre outros."
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[playername], agora que ja te expliquei o básico sobre ENGENHARIA DE SOFTWARE, você deseja começar o quiz?"
+		},
+		{
+			"choice": "Sim",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual destas funções um engenheiro de software desempenha?"
+		},
+		{
+			"choice": "Construção de softwares de qualidade.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "Desenvolvimento da parte cientifica da área.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Criação de novos hardwares.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Analisar dados.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Nenhuma das respostas anteriores.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas abaixo é um exemplo de sistema operacional?"
+		},
+		{
+			"choice": "Instagram e Facebook.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Google e Youtube.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Windows e Android.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "Mercado pago e Netflix.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Nenhuma das respostas anteriores.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/BillPortas/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sobre arquitetura de software qual das afirmações abaixo estão corretas:\nI. Com a arquitetura de software teve o surgimento de técnicas de modelagem e projeto\nII. A arquitetura de software define a estrutura do sistema\nIII. Os softwares atualmente não precisam ter qualidade"
+		},
+		{
+			"choice": "I,II",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "II,III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "II",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas descreve rastreabilidade de requisitos?"
+		},
+		{
+			"choice": "É a identificação de relações entre as fontes dos requisitos, entre os requisitos propriamente ditos, e entre requisitos de os outros produtos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182352-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "Rastreabilidade de requisitos está relacionada com a qualidade de software.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "É o nome dado para o modo como ocorre a “comunicação” entre duas partes distintas e que não podem se conectar diretamente.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "É o processo de aplicação de técnicas estatísticas e lógicas para avaliar informações obtidas a partir de determinados processos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Nenhuma das respostas anteriores.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1647182352-483",
+			"event_id": "dialogic_012",
+			"value": "30"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Que pena[playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "13"
+		},
+		{
+			"emit_signal": "bpend3",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1647182352-483",
+			"event_id": "dialogic_012",
+			"value": "30"
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Muito bem [playername]! Agora que você completou o QUIZ, pode ir até o prédio da MICROSOFT para ter a experiência do curso."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "33"
+		},
+		{
+			"emit_signal": "msend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "bpend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Não",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647269471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, quando quiser, volte até mim para realizar o QUIZ!"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "13"
+		},
+		{
+			"emit_signal": "bpend3",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647269347.json",
+		"name": "BillPortas-0"
+	}
+}
