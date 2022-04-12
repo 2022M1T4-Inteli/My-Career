@@ -200,13 +200,15 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = -371.46
-margin_top = 98.5683
-margin_right = 766.54
-margin_bottom = 418.568
+margin_left = -399.264
+margin_top = 4.10702
+margin_right = 345.736
+margin_bottom = 324.107
 rect_pivot_offset = Vector2( 292.497, 110.889 )
 custom_fonts/font = ExtResource( 7 )
-text = "Conecte os fios para restabelecer a energia"
+text = "Para restabelecer a energia de todo o prédio da Tesla
+ precisamos que você conecte uma ponta do cabo 
+a outro cabo correspondente."
 __meta__ = {
 "_edit_use_anchors_": false
 }
