@@ -1,0 +1,541 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647134832.cfg"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá [playername]! Eu sou o Elon Musgo e vou te ensinar um pouco dos conceitos teóricos da ENGENHARIA DA COMPUTAÇÃO. \n Após nossa conversa, você passará por um QUIZ para testar seu conhecimento e, caso atinga a nota mínima, poderá ser contratado no prédio da TESLA.\n [playername], a engenharia da computação é conhecida por abordar tanto software quanto hardware, busca relacionar a programação com a elétrica. Um profissional desse curso é capaz de criar programas de computadores e aplicativos para os mais diversos fins, além disso, faz a integração de placas e circuitos eletrônicos.\n Uma das principais funções cobradas por um engenheiro de computação é a automação de processos e robótica, sendo necessário que ele desenvolva robôs e sistemas digitais para fábricas e indústrias.\n Outro tema tratado no curso é a ideia de cidades inteligentes, que consiste em espaços urbanos que alinha o avanço da tecnologia com questões sociais, como por exemplo, uma plataforma que mostra informações sobre eventos locais, notícias da vizinhança, entre outros. \nAlém disso, utilizam diversas tecnologias para coletar dados e estatísticas da população para entender e ter um melhor controle de operações e recursos.\n Um outro tema visto no curso de engenharia da computação, são os sistemas embarcados segundo Kallimani e Rasane (2015), um sistema embarcado é definido como um sistema computacional com um software embarcado em um hardware para executar uma tarefa específica pré-determinada. \nOs exemplos de sistemas embarcados são calculadoras, urnas eletrônicas, entre outros. Esses sistemas embarcados, são necessários para desenvolver o software juntamente do hardware.\n Sendo assim, os engenheiros de computação são responsáveis por planejar, verificar a viabilidade, desenvolver e interligar essas tecnologias com o espaço urbano.\n Algumas das áreas que um engenheiro de computação pode ocupar são: Projetista de equipamentos de informática, Desenvolvedor de sistemas e Responsável por controle e automação."
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[playername], agora que ja te expliquei o básico sobre ENGENHARIA DA COMPUTAÇÃO, você deseja começar o quiz?"
+		},
+		{
+			"choice": "Sim",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas NÃO é uma característica de cidades inteligentes?"
+		},
+		{
+			"choice": " Cidades inteligentes dependem somente de IOT (Internet das coisas) para existir.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647182381-713",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "São voltadas para o aumento da qualidade de vida dos cidadãos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Interferem na mobilidade urbana.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "São planejadas para serem limpas ao ambiente.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Devem promover o desenvolvimento econômico com planos locais para a indústria, inovação e iniciativas empreendedoras.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual das alternativas está correta em relação ao curso de engenharia de computação?\nI. Só trabalha com hardware.\nII. É capaz de construir um robô e programá-lo para funcionar.\nIII. Deve ser capaz de realizar estudos de viabilidade técnico-econômica do projeto."
+		},
+		{
+			"choice": "I,II",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "II,III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1647182381-713",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "I,III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "I,II,III",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual desses exemplos *NÃO* são de sistemas embarcados?"
+		},
+		{
+			"choice": "Roteadores",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Calculadoras",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Smartphones",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1647182381-713",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "Impressoras",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Controle remoto",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qual dessas opções é primordialmente vista em Engenharia da computação, diferentemente de outros cursos?"
+		},
+		{
+			"choice": "Desenvolver um app mobile de entrega de comida.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Aprimorar uma máquina industrial para que ela funcione de forma autônoma",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1647182381-713",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"choice": "Identificar novas oportunidades de negócios e desenvolver soluções inovadoras.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Análise do banco de dados de uma pesquisa de satisfação de uma empresa.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Desenvolvimento de software utilizando blockchain.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "_animation",
+				"target_node_path": "/root/ElonMusgo/Player/CanvasLayer/Reaction/Sprite2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1647182381-713",
+			"event_id": "dialogic_012",
+			"value": "30"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Muito bem [playername]! Você atingiu a nota necessária no QUIZ! Vá até o prédio da TESLA para ter a experiência do curso."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "31"
+		},
+		{
+			"emit_signal": "tsend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "emend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1647182381-713",
+			"event_id": "dialogic_012",
+			"value": "30"
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Que pena[playername]! Parece que você não atingiu a nota mínima no QUIZ. Por favor, tente novamente."
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "11"
+		},
+		{
+			"emit_signal": "emend3",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Não",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647027241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, quando quiser, volte até mim para realizar o QUIZ!"
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "11"
+		},
+		{
+			"emit_signal": "emend3",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647027261.json",
+		"name": "ElonMusgo-0"
+	}
+}
