@@ -1,0 +1,65 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647209349.cfg"
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá [playername], seja bem-vindo à área de experimento da Tesla.\nAqui você passará por um minigame, o qual será seu último desafio nessa sua jornada de ENGENHARIA DA COMPUTAÇÃO."
+		},
+		{
+			"character": "character-1647288409.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Você está pronto para começar o minigame?"
+		},
+		{
+			"choice": "Sim",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1647366069-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "61"
+		},
+		{
+			"emit_signal": "rtend0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "minigame0",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Scenes/MinigameTesla.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Não",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647288050.json",
+		"name": "RecrutadoraTesla-0"
+	}
+}
