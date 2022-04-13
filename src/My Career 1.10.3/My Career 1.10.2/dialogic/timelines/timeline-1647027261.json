@@ -8,7 +8,7 @@
 			"character": "character-1647027241.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá [playername]! Eu sou o Elon Musgo e vou te ensinar um pouco dos conceitos teóricos da ENGENHARIA DA COMPUTAÇÃO. \n Após nossa conversa, você passará por um QUIZ para testar seu conhecimento e, caso atinga a nota mínima, poderá ser contratado no prédio da TESLA.\n [playername], a engenharia da computação é conhecida por abordar tanto software quanto hardware, busca relacionar a programação com a elétrica. Um profissional desse curso é capaz de criar programas de computadores e aplicativos para os mais diversos fins, além disso, faz a integração de placas e circuitos eletrônicos.\n Uma das principais funções cobradas por um engenheiro de computação é a automação de processos e robótica, sendo necessário que ele desenvolva robôs e sistemas digitais para fábricas e indústrias.\n Outro tema tratado no curso é a idéia de cidades inteligentes, que consiste em espaços urbanos que alinha o avanço da tecnologia com questões sociais, como por exemplo, uma plataforma que mostra informações sobre eventos locais, notícias da vizinhança, entre outros. \nAlém disso, utilizam diversas tecnologias para coletar dados e estatísticas da população para entender e ter um melhor controle de operações e recursos.\n Um outro tema visto no curso de engenharia da computação, são os sistemas embarcados, os quais são embutidos e completamente dedicados ao sistema que ele controla, como por exemplo: calculadoras, urnas eletrônicas, entre outros. Esses sistemas embarcados, são necessários para desenvolver o software juntamente do hardware.\n Sendo assim, os engenheiros de computação são responsáveis por planejar, verificar a viabilidade, desenvolver e interligar essas tecnologias com o espaço urbano.\n Algumas das áreas que um engenheiro de computação pode ocupar são: Projetista de equipamentos de informática, Desenvolvedor de sistemas e Responável por controle e automação."
+			"text": "Olá [playername]! Eu sou o Elon Musgo e vou te ensinar um pouco dos conceitos teóricos da ENGENHARIA DA COMPUTAÇÃO. \n Após nossa conversa, você passará por um QUIZ para testar seu conhecimento e, caso atinga a nota mínima, poderá ser contratado no prédio da TESLA.\n [playername], a engenharia da computação é conhecida por abordar tanto software quanto hardware, busca relacionar a programação com a elétrica. Um profissional desse curso é capaz de criar programas de computadores e aplicativos para os mais diversos fins, além disso, faz a integração de placas e circuitos eletrônicos.\n Uma das principais funções cobradas por um engenheiro de computação é a automação de processos e robótica, sendo necessário que ele desenvolva robôs e sistemas digitais para fábricas e indústrias.\n Outro tema tratado no curso é a ideia de cidades inteligentes, que consiste em espaços urbanos que alinha o avanço da tecnologia com questões sociais, como por exemplo, uma plataforma que mostra informações sobre eventos locais, notícias da vizinhança, entre outros. \nAlém disso, utilizam diversas tecnologias para coletar dados e estatísticas da população para entender e ter um melhor controle de operações e recursos.\n Um outro tema visto no curso de engenharia da computação, são os sistemas embarcados segundo Kallimani e Rasane (2015), um sistema embarcado é definido como um sistema computacional com um software embarcado em um hardware para executar uma tarefa específica pré-determinada. \nOs exemplos de sistemas embarcados são calculadoras, urnas eletrônicas, entre outros. Esses sistemas embarcados, são necessários para desenvolver o software juntamente do hardware.\n Sendo assim, os engenheiros de computação são responsáveis por planejar, verificar a viabilidade, desenvolver e interligar essas tecnologias com o espaço urbano.\n Algumas das áreas que um engenheiro de computação pode ocupar são: Projetista de equipamentos de informática, Desenvolvedor de sistemas e Responsável por controle e automação."
 		},
 		{
 			"character": "character-1647027241.json",
@@ -36,7 +36,7 @@
 			"question": "Qual das alternativas NÃO é uma característica de cidades inteligentes?"
 		},
 		{
-			"choice": " Cidades inteligentes dependem somente de IOT (Intenet das coisas) para existir.",
+			"choice": " Cidades inteligentes dependem somente de IOT (Internet das coisas) para existir.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -138,7 +138,7 @@
 
 			],
 			"portrait": "",
-			"question": "Qual das alternativas está correta?\nI. Só trabalha com hardware.\nII. É capaz de construir um robô e programá-lo para funcionar.\nIII. Deve ser capaz de realizar estudos de viabilidade técnico-econômica do projeto."
+			"question": "Qual  das alternativas está correta em relação ao curso de engenharia de computação?\nI. Só trabalha com hardware.\nII. É capaz de construir um robô e programá-lo para funcionar.\nIII. Deve ser capaz de realizar estudos de viabilidade técnico-econômica do projeto."
 		},
 		{
 			"choice": "I,II",
@@ -263,7 +263,7 @@
 			"event_id": "dialogic_042"
 		},
 		{
-			"choice": "Calculadores",
+			"choice": "Calculadoras",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
