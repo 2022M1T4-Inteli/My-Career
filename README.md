@@ -8,20 +8,20 @@
 
 ## High Five
 
-## Integrantes: <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
+## Integrantes: <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Giovanni Andreussi </a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
 <br><br>
 <p align="center">
 <img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/Grupo.jpg?raw=true" width="600" height="600" margin="20"</p>
      
 <p align="center" margin="20"> Grupo High Five </p>
-📜 O nosso projeto é um jogo digital que busca orientar alunos do Inteli e pessoas que pretendem se inserir no mercado da tecnologia através dos bacharéis de tecnologia oferecidos pelo MEC, entretanto não sabem qual dos cursos escolher para seguir sua carreira.
+📜 O nosso projeto é um jogo digital que busca orientar futuros alunos do Instituto de Tecnologia e Liderança (Inteli), alunos já matriculados na instituição e pessoas com interesse em atuar na área de tecnologia sobre quais as diferenças sobre os cursos de Engenharia da Computação, Ciência da Computação, Engenharia de Software e Sistemas de Informação
 <br><br>
 <p align="center">
-<img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/LOGO.png?raw=true" width="1500" height="750" alt="MY CAREER" border="0">
+<img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/Artes/Interface/Desing/Logo%20Completa.png?raw=true" width="1500" height="750" alt="MY CAREER" border="0">
 </p>
 
 
-💡 O My Career é um jogo mobile para sistema operacional android em 2D do gênero RPG e simulação. O My Carrer é um jogo de mundo aberto e multi escolha, onde as decisões do jogador mudam a linearidade da história e desse modo muda o seu fim e sua experiência com o jogo.
+💡 O My Career é um jogo 2D do gênero RPG e simulação, estando disponível para Windows e HTML. O My Carrer é um jogo de mundo aberto e multi escolha, onde as decisões do jogador mudam a linearidade da história e desse modo alteram o seu fim e sua experiência com o jogo.
 
 O jogo se trata basicamente de uma simulação de um jovem que inicia sua carreira na área da tecnologia em uma megalópole cheia de oportunidades, o mesmo personagem não sabe qual área da tecnologia deve seguir e por isso através do tempo ele testa as profissões e vai descobrindo qual o melhor caminho quer seguir, desse modo o jogador passa pela mesma experiência e descobre junto ao seu personagem baseado em suas escolhas qual curso ele deve seguir para melhor atender suas expectativas laborais.
 <br><br>
@@ -36,10 +36,16 @@ O jogo se trata basicamente de uma simulação de um jovem que inicia sua carrei
   &emsp;|GDD.docx ou Documentação.docx<br>
 |-->executáveis<br>
   &emsp;|-->windows<br>
-  &emsp;|-->android<br>
   &emsp;|-->HTML<br>
 |-->imagens<br>
+&emsp;|-->Artes<br>
+&emsp;&emsp;|-->Interface<br>
+&emsp;&emsp;&emsp;|-->Design<br>
+&emsp;&emsp;&emsp;|-->Dialogo<br>
+&emsp;|Foto do grupo
 |-->src<br>
+  &emsp;|-->FirstClass
+  &emsp;|Pastas de todas as versões do game 
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -48,9 +54,9 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 
 Há também 4 pastas que seguem da seguinte forma:
 
-<b>documentos</b>: Aqui estarão todos os documentos do projeto, mas principalmente o <b>GDD (Game Design Document)/Documentação do Sistema</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
+<b>documentos</b>: Aqui estará o <b>GDD (Game Design Document)</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
 
-<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há no mínimo 3 pastas, uma para binários <b>Windows</b>, uma para binários <b>android</b> e uma para a <b>Web/HTML</b>
+<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há 2 pastas, uma para binários <b>Windows</b> e uma para a <b>Web/HTML</b>
 
 <b>imagens</b>: Algumas imagens do jogo/sistema e logos prontos para serem utilizados e visualizados.
 
@@ -58,80 +64,89 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>Windows:</b>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+O usuário deverá baixar e instalar o jogo através do itch.io e executá-lo.
 
 <b>HTML:</b>
 
 Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+Somente é necessário que o jogador abra o link do jogo através do itch.io.
 
 ## 📈 Exemplo de uso
 
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado.
+Nosso jogo pode ser usado por um aluno do ensino médio que gosta de tecnologia mas que ainda não sabe o que irá cursar.
 
-Adicione blocos de códigos e, se necessário, screenshots.
-
-Este modelo pode ser copiado e utilizado à vontade.
-
-Através da cópia/clone/ download do repositório, altere os dados do readme.md e carregue os arquivos de seu projeto.
+Com o jogo, ele poderá saber a diferença de 4 dos principais cursos de tecnologia, facilitando a escolha dele.
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Após instalar a pasta da versão que deseja alterar no projeto, abra o godot, vá em "Import", selecione "Browse", abra a pasta do projeto, selecione o arquivo "project.godot" e, por último, clique em "Import & Edit".
+Agora que o projeto já está no seu Godot, já pode começar a editar
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 1.1 - 17/02/2022
+    * Adição do rascunho do personagem e movimentação.
+*1.2 - 25/02/2022
+    * Adição dos sprites de personagem e primeiro NPC.
+*1.3 - 10/03/2022
+    * Adição dos cenários e outros NPCs.
+*1.5 - 11/03/2022
+    * Foi inserido no projeto as features de menu, dialogo, e loading.
+*1.6 - 12/03/2022
+    * Adição das interações com NPCs e quizzes.
+*1.7 - 18/03/2022
+    * Versão com colisões e protótipo do minigame do Kaique
+*1.8 - 30/03/2022
+    * Versão com todos os Minigames
+* 1.9.8 - 09/04/2022
+    * Versão com todas as funcionalidades no projeto, porém ainda com alguns bugs.
+* 1.10.2 - 12/04/2022
+    * Versão com bugs corrigidos mas com melhorias a fazer no storytelling
+* 1.10.3 - 13/04/2022
+    * Versão final
+
+    
 
 ## 📋 Licença/License
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">INTELI, VICTOR BRUNO ALEXANDER ROSETTI DE QUIROZ</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Giovanni Andreussi </a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://itch.io/game-assets/free/tag-background>
+2. <https://www.kenney.nl/assets/page:10>
+3. <https://pdfs.semanticscholar.org/c290/bd73e1f0f7f20a9f70ccaa324cc333582ec3.pdf>
+4. https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209
+5. https://godotengine.org/
+6. https://docs.godotengine.org/en/latest/index.html
+7. https://www.rpgmakerweb.com/products/rpg-maker-mv
+8. https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209
+9. https://itch.io/game-assets/free/tag-background
+10. https://www.undb.edu.br/blog/as-4-melhores-areas-de-atuacao-do-engenheiro-de-softw
+11. https://www.inteli.edu.br/engenharia-de-software/
+12. https://www.napratica.org.br/profissao-engenheiro-de-software/#:~:text=Desde%20maio%20de%202018%2C%20a,forma%C3%A7%C3%A3o%20em%20Engenharia%20de%20Software
+13. https://www.instagram.com/dafcoding/
+14. https://www.inteli.edu.br/sistemas-de-informacao/
+15. https://www.youtube.com/watch?v=cPLJ-hV1oxU
+16. https://www.infojobs.com.br/vagas-de-emprego-sistemas+informacao.aspx
+17. https://www.instagram.com/acientistadedados/?utm_medium=copy_link
+18. https://www.guiadacarreira.com.br/guia-das-profissoes/ciencia-da-computacao/#:~:text=Al%C3%A9m%20de%20atuar%20como%20desenvolvedor,o%20desenvolvimento%20de%20um%20software
+19. https://www.youtube.com/watch?v=KHQzOQIGMow
+20. https://www.inteli.edu.br/ciencia-da-computacao/
+21. https://www.instagram.com/rafaballerini/?hl=en
+22. https://www.guiadacarreira.com.br/guia-das-profissoes/engenharia-computacao/
+23. https://www.inteli.edu.br/engenharia-da-computacao/
+24. https://www.youtube.com/watch?v=1W5YrYFl_zE
+25. https://www.instagram.com/juliallabs/?utm_medium=copy_link
+26. Músicas por: https://imsobadatnicknames.itch.io/free-retro-cyberpunk-music-pack, todas com Licença CC 0.
