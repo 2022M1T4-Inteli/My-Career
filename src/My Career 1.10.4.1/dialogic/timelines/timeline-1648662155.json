@@ -30,7 +30,7 @@
 			"question": "Qual das alternativas NÃO é uma característica de cidades inteligentes?"
 		},
 		{
-			"choice": " Cidades inteligentes dependem somente de IOT (Intenet das coisas) para existir.",
+			"choice": " Cidades inteligentes dependem somente de IOT (Internet das coisas) para existir.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -132,7 +132,7 @@
 
 			],
 			"portrait": "",
-			"question": "Qual das alternativas está correta?\nI. Só trabalha com hardware.\nII. É capaz de construir um robô e programá-lo para funcionar.\nIII. Deve ser capaz de realizar estudos de viabilidade técnico-econômica do projeto."
+			"question": "Qual  das alternativas está correta em relação ao curso de engenharia de computação?\nI. Só trabalha com hardware.\nII. É capaz de construir um robô e programá-lo para funcionar.\nIII. Deve ser capaz de realizar estudos de viabilidade técnico-econômica do projeto."
 		},
 		{
 			"choice": "I,II",
@@ -257,7 +257,7 @@
 			"event_id": "dialogic_042"
 		},
 		{
-			"choice": "Calculadores",
+			"choice": "Calculadoras",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
