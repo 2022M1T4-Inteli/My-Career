@@ -1,7 +1,7 @@
 extends Node2D
 
 var score
-var PONTOS_MAX = 120
+var scoreMax = 120
 
 func _ready():
 	GameManager.libraryHelp = false
@@ -14,7 +14,7 @@ func _process(delta):
 	var qzsi = float(Dialogic.get_variable("siqzpoints"))
 	var expsi = float(Dialogic.get_variable("sixppoints"))
 	var divisaosi
-	divisaosi = (qzsi + expsi) / PONTOS_MAX * 100
+	divisaosi = (qzsi + expsi) / scoreMax * 100
 	$LabelGeralSI.text = str(stepify(divisaosi,0.01)) + "%"
 
 	$LabelQZCC.text = str(Dialogic.get_variable("ccqzpoints"))
@@ -22,7 +22,7 @@ func _process(delta):
 	var qzcc = float(Dialogic.get_variable("ccqzpoints"))
 	var expcc = float(Dialogic.get_variable("ccxppoints"))
 	var divisaocc
-	divisaocc = (qzcc + expcc) / PONTOS_MAX * 100
+	divisaocc = (qzcc + expcc) / scoreMax * 100
 	$LabelGeralCC.text = str(stepify(divisaocc,0.01)) + "%"
 	
 	$LabelQZEC.text = str(Dialogic.get_variable("ecqzpoints"))
@@ -30,7 +30,7 @@ func _process(delta):
 	var qzec = float(Dialogic.get_variable("ecqzpoints"))
 	var expec = float(Dialogic.get_variable("ecxppoints"))
 	var divisaoec
-	divisaoec = (qzec + expec) / PONTOS_MAX * 100
+	divisaoec = (qzec + expec) / scoreMax * 100
 	$LabelGeralEC.text = str(stepify(divisaoec,0.01)) + "%"
 	
 	$LabelQZES.text = str(Dialogic.get_variable("esqzpoints"))
@@ -38,7 +38,7 @@ func _process(delta):
 	var  qzes = float(Dialogic.get_variable("esqzpoints"))
 	var  expes = float(Dialogic.get_variable("esxppoints"))
 	var divisaoes
-	divisaoes = (qzes + expes) / PONTOS_MAX * 100
+	divisaoes = (qzes + expes) / scoreMax * 100
 	$LabelGeralES.text = str(stepify(divisaoes,0.01)) + "%"
 	
 

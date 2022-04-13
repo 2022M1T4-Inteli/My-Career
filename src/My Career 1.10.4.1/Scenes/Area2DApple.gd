@@ -1,6 +1,6 @@
 extends Area2D
 
-func _ElevadorEnable():
+func _elevatorEnable():
 	$CollisionShape2D.disabled = false
 
 func _ready():
