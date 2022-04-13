@@ -3,9 +3,7 @@
 [ext_resource path="res://Fonts/fonteES.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Scenes/MinigameApple.gd" type="Script" id=2]
 [ext_resource path="res://Sprites/SpritesMinigame/MinigameApple/fundoapple.png" type="Texture" id=3]
-
-[sub_resource type="StreamTexture" id=15]
-load_path = "res://.import/CaixacONCLUIR.png-7e9c514c6d2f80185adea1d90a7b3e36.stex"
+[ext_resource path="res://Sprites/Interface/Dialogo/CaixaConcluir.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 136, 72 )
@@ -325,7 +323,7 @@ __meta__ = {
 [node name="CaixaEscolhas" type="Sprite" parent="."]
 position = Vector2( 887.065, 565.792 )
 scale = Vector2( 0.119373, 0.139076 )
-texture = SubResource( 15 )
+texture = ExtResource( 4 )
 
 [node name="Buttonconcluir" type="Button" parent="CaixaEscolhas"]
 margin_left = -975.0
