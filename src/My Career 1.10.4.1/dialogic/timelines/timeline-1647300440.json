@@ -36,7 +36,7 @@
 				"arguments": [
 
 				],
-				"method_name": "_ElevadorEnable",
+				"method_name": "_elevatorEnable",
 				"target_node_path": "/root/TerreoMicrosoft/Interior/Area2DMicrosoft"
 			},
 			"event_id": "dialogic_042"
