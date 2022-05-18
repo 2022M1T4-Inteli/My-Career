@@ -8,10 +8,16 @@
 
 ## High Five
 
-## Integrantes: <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>, <a href="https://www.linkedin.com/in/victorbarq/">Giovanni Andreussi </a>, <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>, <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>, <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>, <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
+## Integrantes: 
+- <a href="https://www.linkedin.com/in/gabriel-caetano-nhoncanse-6344ab231/">Gabriel Caetano Nhoncanse</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Giovanni Andreussi </a>
+- <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a>, <a href="https://www.linkedin.com/in/larissa-carvalho-0564ab231/">Larissa Gouveia de Carvalho</a>
+- <a href="https://www.linkedin.com/in/luca-giberti-63a4ab231/">Luca Sarhan Giberti</a>
+- <a href="https://www.linkedin.com/in/luisa-silva-681443230">Luísa Vitória Leite Silva</a>
+- <a href="https://www.linkedin.com/in/luiz-granville-898780209/">Luiz Francisco Granville Gonçalves</a>
 <br><br>
 <p align="center">
-<img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/Grupo.jpg?raw=true" width="600" height="600" margin="20"</p>
+<img src="https://github.com/2022M1T4/Projeto5/blob/main/imagens/Grupo.jpg?raw=true" width="600" height="600" margin="20"></p>
      
 <p align="center" margin="20"> Grupo High Five </p>
 📜 O nosso projeto é um jogo digital que busca orientar futuros alunos do Instituto de Tecnologia e Liderança (Inteli), alunos já matriculados na instituição e pessoas com interesse em atuar na área de tecnologia sobre quais as diferenças sobre os cursos de Engenharia da Computação, Ciência da Computação, Engenharia de Software e Sistemas de Informação
@@ -33,45 +39,55 @@ O jogo se trata basicamente de uma simulação de um jovem que inicia sua carrei
 |<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
-  &emsp;|GDD.docx ou Documentação.docx<br>
+  &emsp;| GDD_T4_M1_G3_High_five_Projeto_Inteli_MyCareer_v_1_0.pdf<br>
+  &emsp;| apresentação do pitch.pdf<br>
+  &emsp;| mini trailer jogo.mp4<br>
 |-->executáveis<br>
-  &emsp;|-->windows<br>
+  &emsp;|-->Windows<br>
   &emsp;|-->HTML<br>
 |-->imagens<br>
-&emsp;|-->Artes<br>
-&emsp;&emsp;|-->Interface<br>
-&emsp;&emsp;&emsp;|-->Design<br>
-&emsp;&emsp;&emsp;|-->Dialogo<br>
-&emsp;|Foto do grupo
+  &emsp;|-->Artes<br>
+  &emsp;|-->Imagens<br>
 |-->src<br>
-  &emsp;|-->FirstClass
-  &emsp;|Pastas de todas as versões do game 
-|readme.md<br>
+  &emsp;|--> My Career 1.10.4.1 <br>
+|--> readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+A pasta raiz contém um arquivo principal:
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+- <b>readme.md</b>, que consiste em um guia geral sobre o projeto.
 
-Há também 4 pastas que seguem da seguinte forma:
+E, também, 4 subpastas que se organizam da seguinte forma:
 
-<b>documentos</b>: Aqui estará o <b>GDD (Game Design Document)</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
+- <b>documentos</b>, ondem encontram-se todos os documentos relacionados ao projeto, sobretudo o Game Design Document (GDD), com uma subpasta <b>antigos</b> que armazena versões anteriores dos mesmos.
 
-<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há 2 pastas, uma para binários <b>Windows</b> e uma para a <b>Web/HTML</b>
+- <b>executáveis</b>, ondem encontram-se todos os executáveis do jogo, prontos para rodar, com 2 pastas: uma para binários windows e uma para a web.
 
-<b>imagens</b>: Algumas imagens do jogo/sistema e logos prontos para serem utilizados e visualizados.
+- <b>imagens</b>, ondem encontram-se algumas imagens relacionadas ao jogo, sistema e logos, prontos para serem utilizados e visualizados.
 
-<b>src</b>: Nesta pasta irá todo o código fonte do jogo/sistema, pronto para para ser baixado e modificado.
+- <b>src</b>, onde encontra-se todo o código fonte do jogo/sistema, pronto para para ser baixado e modificado.
+
 
 ## 🛠 Instalação
 
 <b>Windows:</b>
 
-O usuário deverá baixar e instalar o jogo através do itch.io e executá-lo.
+Não há instalação, apenas executável. Baixe os arquivos disponíveis em https://github.com/2022M1T4/Projeto5/tree/main/execut%C3%A1veis/Windows/MyCareer%201.8 e execute "MyCareer.exe" como qualquer outro programa.
+
+```
+Observe que é necessário que o arquivo "MyCareer.pck" esteja
+no mesmo diretório que "MyCareer.exe" para que o jogo inicie
+corretamente.
+```
 
 <b>HTML:</b>
 
-Não há instalação!
-Somente é necessário que o jogador abra o link do jogo através do itch.io.
+Não há instalação! Baixe os arquivos disponíveis em https://github.com/2022M1T4/Projeto3/tree/main/execut%C3%A1veis/HTML e execute-o como uma página da web (através de algum navegador).
+
+```sh
+Dependendo de suas configurações de firewall, talvez seja necessário
+instaurar um web service como xampp ou wampp para que o jogo rode lo-
+calmente.
+```
 
 ## 📈 Exemplo de uso
 
